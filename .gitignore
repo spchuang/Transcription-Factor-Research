@@ -15,5 +15,8 @@
 
 #large datafile
 data/*
+*.swp
+*.cpp~
+
 =======
 >>>>>>> 210ecb530e478e433d6729d852615413b3b250ef
