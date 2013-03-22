@@ -1,5 +1,4 @@
 //this code matches footprints to predefined template profiles (a few ways to generate this)
-
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -19,46 +18,68 @@ using namespace std;
 
 
 
-void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, bool getCons);
+void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, string cellType);
 void print_frame(float Sig[]);
 
 int main(){
+	struct stat st = {0};
+	
 
-  //parameters: window size, frame size, chromosomes, fos lower bound, 
-struct stat st = {0};
-  //create directory if it doesn't exists
-
-
-  vector<centroid> C;
-  generateTemplate(C, 1, 7, 17);
-  //generateCentroids(C, 0);
-  reduceVector(C,100);
-  //vector<centroid> C2;
-  //generateCentroids(C2, 0);
-  /*for(int i=0; i<C.size(); i++){
-    print_frame(C[i].signal);
- 
-  }
-  exit(1);*/
-  cout <<"template size: " << C.size()<<endl;
-  vector<fpSignalFrame>* fpF = new vector<fpSignalFrame>;
+	string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
+  
+  
   string chromosomes[] = {"chr1","chr2","chr3","chr4","chr5","chr6","chr7","chr8","chr9",
                            "chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20",
                            "chr21", "chr22","chrX"};
-  //cout <<"[DEBUG]start getting footprint data"<<endl;
-  /*for(int i=0; i<C.size(); i++){
-         cout <<"\"[DEBUG]index " << i <<" centroid... \"\n";
-         for(int j=0; j<WINDOW_SIZE; j++){
-            cout <<j <<" "<<C[i].signal[j] << endl;
-          }
-
-       } */
   //23
-  int max = 23;
-  for(int i=0; i<max; i++){
-     getFootPrint("K562", "K562Sig_filter", chromosomes[i], (*fpF), 0, true);
+  int maxChr = 23;
+  //33
+  int maxCellNum = 33;
+  cout <<"\n------------------------------------------------------------\n\n" ;
 
+  cout <<"[DEBUG]Create template signals"<<endl;                  
+  vector<centroid> C;
+  vector<fpSignalFrame>* fpF = new vector<fpSignalFrame>;
+  //generateTemplate(C, 1, 6, 21);
+  //generateTemplate(C, 1, 8, 15);
+  generateTemplate(C, 1, 9 , 13);
+
+  reduceVector(C,3);
+  //print the centroid
+  /*for(int i=0; i<C.size(); i++){
+     cout <<"\"[DEBUG]index " << i <<" centroid... \"\n";
+     for(int j=0; j<WINDOW_SIZE; j++){
+        cout <<j <<" "<<C[i].signal[j] << endl;
+      }
+
+   }*/
+  	//creat tmp folder
+  	if (stat("../tmp", &st) == -1) {
+		if(mkdir("../tmp", 0700) == -1){
+			cout <<"[DEBUG]Error creating tmp folder" <<endl;
+		}
+		
+	}
+  	//create directory if it doesn't exists
+  	
+	if (stat("../tmp/template_assign_full", &st) == -1) {
+		if(mkdir("../tmp/template_assign_full", 0700) == -1){
+			cout <<"[DEBUG]Error creating assignment folder" <<endl;
+		}
+		
+	}
+	
+  for(int i=0; i<maxCellNum; i++){
+	 cout <<"\n------------------------------------------------------------\n\n" ;
+  	cout <<"[DEBUG]Analyzing cell type: " << cellTypes[i] <<endl;
+  	for(int j=22; j<maxChr; j++){
+		getFootPrint(cellTypes[i], chromosomes[j], (*fpF), 0, true);
+	
+	}
+	fpMatch(C, fpF, cellTypes[i]);
+  
   }
+  
   /*for(int i=0; i<fpF->size(); i++){
     cout << "foot print start: " << (*fpF)[i].fpStart <<endl;
     for(int j=0; j<FRAME_SIZE; j++){
@@ -67,51 +88,9 @@ struct stat st = {0};
     
   
   }*/
-  //exit(1);
-  fpMatch(C, fpF, true);
   
-  /*
-  ofstream outputFile("tmp/test_data_cluster_new_result_allChr_factor");
-   for(int i=0; i<C.size(); i++){
-      outputFile << "[START] Centroid : " << i <<endl;
-      for(int j=0; j< fpF->size(); j++){
-      
-            if((*fpF)[j].clusterAssigned == i){
-               
-               outputFile <<"-----------------------" <<endl;
-               outputFile << "window start at: " << (*fpF)[j].startSeq <<endl;
-               outputFile << "fpStartIndex: " << (*fpF)[j].fpStartIndex <<endl;
-               outputFile << "contain footPrint:";
-
-               outputFile << "footprint start: " << (*fpF)[j].fpStart <<endl;
-               outputFile << "footprint length: " << (*fpF)[j].fpLength <<endl;
-               for(int z=0; z<FRAME_SIZE; z++){
-    
-                  if(z>=(*fpF)[j].fpStartIndex && z<(*fpF)[j].fpStartIndex+WINDOW_SIZE)
-                     outputFile <<"* (" << z-(*fpF)[j].fpStartIndex<<")";
-                  if(z<10)
-                     outputFile <<" ";
-                  outputFile << (*fpF)[j].startSeq+z <<" : " << (*fpF)[j].signal[z] ;
-                  if(z>=(*fpF)[j].fpStart-(*fpF)[j].startSeq && z<(*fpF)[j].fpStart+(*fpF)[j].fpLength-(*fpF)[j].startSeq)
-                     outputFile<<" @ |";
-                  else 
-                     outputFile<<"   |";
-                     
-                  //print a pseudo graph
-                  if(z>=(*fpF)[j].fpStartIndex && z<(*fpF)[j].fpStartIndex+WINDOW_SIZE)
-                  {
-                     for(int h=0; h<(*fpF)[j].signal[z]; h++){
-                        outputFile <<"-" ; 
-                     }
-                  }
-                  outputFile <<endl;
-               }
-               outputFile <<"-----------------------" <<endl<<endl;
-            }
-         }
-   
-   }*/
-
+  
+ 
 }
 
 void print_frame(float Sig[])
@@ -129,12 +108,13 @@ void print_frame(float Sig[])
 //2 peaks
 
 
-void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, bool getCons ){
-   cout <<"[DEBUG]Assignment fps " <<endl;
+void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, string cellType){
+ 
   int fpSize = f->size();
   //match each footprint to a template structure
 
-  cout <<fpSize <<endl;
+  cout <<"[DEBUG]Total footprints " <<fpSize <<endl;
+  cout <<"[DEBUG]Assigning footprints..." <<endl;
   for(int i=0; i<fpSize; i++){
     //cout << "counting for " << i << " / "<< fpSize <<endl;
     int shiftTo = (*f)[i].fpStartIndex;
@@ -225,7 +205,7 @@ void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, bool getCons ){
     temp_C.push_back(s);
     ptCount.push_back(0);
   }
-      
+  cout <<"[DEBUG]average centroids" <<endl;
       
   //step 2. reposition each centroid to the average of all the points assigned to iterate
   for(int i=0; i<fpSize; i++){
@@ -259,7 +239,7 @@ void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, bool getCons ){
   
   }
   //remove centroid with empty assignments..
-  cout << "pre size: " << temp_C.size() <<endl;
+  cout << "[DEBUG]pre size: " << temp_C.size() <<endl;
   for(int i=0; i<temp_C.size(); i++){
     if(ptCount[i] == 0){
       //remove it
@@ -269,7 +249,7 @@ void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, bool getCons ){
       i--;
     }
   }
-  cout << "after size: " << temp_C.size() <<endl;
+  cout << "[DEUBG]after size: " << temp_C.size() <<endl;
   //average the signals and reposition the centroid
   for(int i=0; i<temp_C.size(); i++){
     //cout <<"index " << i <<" point count: " << ptCount[i]<<endl;
@@ -281,119 +261,51 @@ void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, bool getCons ){
   
   //calculate confidence interval for the conservation level
   //calculate sum of (Xi - X bar)^2
- /* for(int i=0; i<fpSize; i++){
-    int clusterIndex = (*f)[i].clusterAssigned;
-    int fpIndex      = (*f)[i].fpStartIndex;
-    float flip_consSignal[FRAME_SIZE];
-    
-    if((*f)[i].flip){
-      //get flipped signal from (*f)[i]
-      int zz=FRAME_SIZE-1;
-      for(int z=0; z<FRAME_SIZE; z++){
-        
-        flip_consSignal[z] = (*f)[i].con_level[zz];
-        zz--;
-      }
-    }
-    for(int j=0; j<WINDOW_SIZE; j++){
-      if((*f)[i].flip){
-        temp_C[clusterIndex].cons_CI[j] += (float)(flip_consSignal[j+fpIndex]-(float)temp_C[clusterIndex].cons_signal[j])*
-                                           (float)(flip_consSignal[j+fpIndex]-(float)temp_C[clusterIndex].cons_signal[j]);
-      }else{
-        temp_C[clusterIndex].cons_CI[j] += (float)((*f)[i].con_level[j+fpIndex]-(float)temp_C[clusterIndex].cons_signal[j])*
-                                           (float)((*f)[i].con_level[j+fpIndex]-(float)temp_C[clusterIndex].cons_signal[j]);
-      }
-    }
-    
-  }*/
-  //finish the CI: caluclaute division by (N-1) and square root
-  /*for(int i=0; i<temp_C.size(); i++){
-    //cout <<"index " << i <<" point count: " << ptCount[i]<<endl;
-    for(int j=0; j<WINDOW_SIZE; j++){
-      temp_C[i].cons_CI[j] =  sqrt(temp_C[i].cons_CI[j]/(ptCount[i]-1));
-    }
-  }*/
+ 
     
 
   //print the signals out to data
   cout <<"[DEBUG]output result" <<endl;
   struct stat st = {0};
   //create directory if it doesn't exists
-  if (stat("tmp/test_template", &st) == -1) {
-    mkdir("tmp/test_template", 0700);
+  string dirname = "../tmp/template_assign_full/"+cellType;
+  if (stat(dirname.c_str(), &st) == -1) {
+    mkdir(dirname.c_str(), 0700);
   }
-  ofstream outputFile("tmp/test_template/testing_flip_fpsig", ios_base::trunc );
-  ofstream consFile("tmp/test_template/testing_flip_consSig", ios_base::trunc );
-  ofstream tempFile("tmp/test_template/testing_filp_temp", ios_base::trunc );
-  ofstream anticFile("tmp/test_template/anticorrelation_lv.txt", ios_base::trunc );
-  ofstream countFile("tmp/test_template/count.txt", ios_base::trunc );
-  //ofstream CIFile("tmp/test_template/cons_CI.txt", ios_base::trunc );
+  string filename = dirname+"/fpsig";
+  ofstream outputFile(filename.c_str(), ios_base::trunc );
+  filename = dirname+"/consSig";
+  ofstream consFile(filename.c_str(), ios_base::trunc );
+  filename = dirname+"/templateSignal";
+  ofstream tempFile(filename.c_str(), ios_base::trunc );
+  filename = dirname+"/"+cellType+".count";
+  ofstream countFile(filename.c_str(), ios_base::trunc );
+  cout.precision(10);
   for(int i=0; i<temp_C.size(); i++){
     outputFile <<"\"[DEBUG]index " << i <<" centroid... \"\n";
     tempFile <<"\"[DEBUG]index " << i <<" centroid... \"\n";
-    //CIFile <<"\"[DEBUG]index " << i <<" centroid... \"\n";
+    consFile <<"\"[DEBUG]index " << i <<" centroid... \"\n";
 
-    if(getCons){
-      consFile <<"\"[DEBUG]index " << i <<" centroid... \"\n";
-              
-    }
     for(int j=0; j<WINDOW_SIZE; j++){
       outputFile <<j <<" "<<temp_C[i].signal[j] << endl;
-      
-      //CI range
-      //CIFile <<j <<" "<<temp_C[i].cons_signal[j]-1.96*temp_C[i].cons_CI[j] 
-      //       << " ~ " <<temp_C[i].cons_signal[j]+1.96*temp_C[i].cons_CI[j] << endl;
-      
-      if(getCons){
-        consFile <<j <<" "<<temp_C[i].cons_signal[j] << endl;
-              
-      }
+      consFile <<j <<" "<<temp_C[i].cons_signal[j] << endl;
       tempFile <<j <<" "<<C[i].signal[j] << endl;
     }
   } 
   //print centroid count
+  cout.precision(2);
   for(int i=0; i<ptCount.size(); i++){
-    countFile <<i<<": " << ptCount[i]<<endl;
+  	
+    countFile <<i<<": " << 100.0*(float)ptCount[i]/(float)fpSize<<endl;
   }
-  
-
-  
+/*
   //calculate anticorrelation
+  ofstream anticFile("tmp/template_assign/anticorrelation_lv.txt", ios_base::trunc );
   anticFile <<"correlation level (red against blue): " << endl;
   for(int i=0; i<temp_C.size(); i++){
     float d = correlation(temp_C[i].signal, 0, temp_C[i].cons_signal);
     anticFile << i <<" : " << d << endl;
   } 
-       
-       /*
-       cout <<"conservational data for each cluster: " <<endl<<endl;
-      //print conservational average for each cluster
-      for(int i=0; i<C.size(); i++){
-         centroid s;
-         int assigned = 0;
-         for(int j=0 ; j<WINDOW_SIZE; j++){
-            s.signal[j] = 0;
-         }
-         
-         for(int j=0; j< domainSize; j++){
-            if((*f)[j].clusterAssigned == i){
-               assigned ++;
-               int fpIndex = (*f)[j].fpStartIndex;
-               for(int z=0; z<WINDOW_SIZE; z++){
-                  s.signal[z] += (*f)[j].con_level[z+fpIndex];
-               }   
-            }
-         }
-         for(int j=0; j<WINDOW_SIZE; j++){
-            s.signal[j] = s.signal[j]/(float)assigned;
-         
-         }
-         
-         //print out this data
-         cout <<"\"index " << i <<" centroid...conser \"\n";
-         print_frame(s.signal);
-         cout <<"\n\n\n";
-      }*/
-       
-        C = temp_C;
+       */
+   C = temp_C;
 }

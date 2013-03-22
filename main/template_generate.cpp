@@ -20,6 +20,7 @@ void reduceVector(vector<centroid> &S, int n){
    /* cout <<endl<<endl<<endl;
     cout << count <<endl;
     cout << S.size() <<" , " <<R.size()<<endl;*/
+    cout << "[DEBUG]creating: "<<count <<endl;
     vector<float> tracker;
    
     for(int i=0; i<S.size(); i++){
@@ -86,7 +87,9 @@ void generateTemplate(vector<centroid> &S, int n, int start, int length){
         if(i==length && next_val!=0) continue;
         ss.signal[i+start]= next_val;
         number++;
+       // cout <<"pushing: " <<S.capacity()<< ", " <<S.size() <<endl;
         S.push_back(ss);
+        
       }
     }
     
@@ -94,14 +97,17 @@ void generateTemplate(vector<centroid> &S, int n, int start, int length){
     for(int t=0; t<number; t++){
       S[t] = S[size+t];
     }
+    //cout <<"before: " <<S.capacity()<< ", " <<S.size() <<endl;
     while(S.size() > number){
       S.pop_back();
     }
-    S.shrink_to_fit();
+    
+   // cout <<"after: " <<S.capacity()<< ", " << S.size() <<endl;
+
     
   }
   
-  cout <<"size: " << S.size()<<endl;
+  cout <<"[DEBUG}Total template size: " << S.size()<<endl;
   /*for(int i=0; 3; i++){
     bool test = true;
     

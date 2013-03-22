@@ -82,6 +82,20 @@ pass: BqHg2Kxm
 
 scp [source file] [user name]@[host]:[destination]
 
+sending jobs to the cluster
+job.q -t 23 -d 4000 -n 1 progname.sh
+
+Here -t is the number of hours you request (23), -d is the amount of memory in MB (4 GB here), and -n is the number of CPU's (1). Just put all the things you want to run in a shell script called progname.sh (or pick a better name :). Once you submit it you can check the status with qstat | grep "your-user-name"
+
+documentations: http://ccn.ucla.edu/wiki/index.php/Hoffman2:Submitting_Jobs
+
+
+using "screen" to leave process running even after ssh logout
+1)ssh into your remote box. type screen Then start the process you want.
+2)Press Ctrl-A then Ctrl-D. This will "detach" your screen session but leave your processes running. You can now log out of the remote box.
+3)If you want to come back later, log on again and type "screen -r" This will "resume" your screen session, and you can see the output of your process.
+
+note: tmux is also an alternative solution
 -------------------------------------------------------------------------------------------------
 (footprints: 41 cell types): 
 (if yes means we have signals data for this cell type)

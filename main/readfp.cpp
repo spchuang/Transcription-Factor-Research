@@ -14,7 +14,7 @@
 #include "struct.h"
 using namespace std;
 
-void getFootPrint(string cell, string signalFile, string chromosome, vector<fpSignalFrame> &f, double score, bool getCons);
+void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f, double score, bool getCons);
 void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignalFrame> &f);
 void printFPsignals(fpSignalFrame *fp);
 
@@ -23,13 +23,14 @@ void printFPsignals(fpSignalFrame *fp);
 void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignalFrame> &f)
 {
    cout <<"[DEBUG]reading conservation data for " << chr <<endl;
-   string cons_file = "cons_data/"+chr+".phyloP46way.placental.wigFix";
+   string cons_file = "../data/cons_data/"+chr+".phyloP46way.placental.wigFix";
    ifstream Cinfile(cons_file.c_str());
    string a;
    string ss;
    int start;
    Cinfile >> a>> a >> ss >> a;
-   
+   cout <<"test1"<<endl;
+   cout << ss << endl;
    start = atoi(ss.substr(6).c_str());
    start--;
    //cout << "cons start at " << start <<endl;
@@ -45,6 +46,7 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
         //cout <<"hit new start: " << start << endl;
         
         Cinfile >> a >> ss >> a;
+        cout <<"test2"<<endl;
         int new_start = atoi(ss.substr(6).c_str());
         new_start--;
         // <<"new start is ... " << new_start <<endl;
@@ -104,9 +106,10 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
 
 
 //read the footprint file for foorprint sequences
-void getFootPrint(string cell, string signalFile, string chromosome, vector<fpSignalFrame> &f,double score, bool getCons)
+void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f,double score, bool getCons)
 {
-   string FPfile = "chr.footprints/"+chromosome+".footprints";
+	//current directory is "main"
+   string FPfile = "../data/chr.footprints/"+chromosome+".footprints";
    //temporarily holding the fp data
    vector<fpSignalFrame> temp_f;
    vector<fpSignalFrame> temp_con_f;
@@ -114,7 +117,7 @@ void getFootPrint(string cell, string signalFile, string chromosome, vector<fpSi
    int s, e;   //start sequence, end sequence
    double fos; //footprint occupancy score
    string chr, ctype; //chromosome number, cell type
-   cout <<"[DEBUG] " << chromosome<<", "<<cell<<endl;
+   cout <<"[DEBUG]reading in " << chromosome <<endl;
 
    ifstream FPinfile(FPfile.c_str());
    while(FPinfile >> chr >> s >> e >> ctype >> fos){
@@ -141,7 +144,8 @@ void getFootPrint(string cell, string signalFile, string chromosome, vector<fpSi
    //READ FP signals
    int START,signal;
    bool first = false;
-   string sFile = signalFile+"/"+chromosome+"."+signalFile;
+   //string sFile = signalFile+"/"+chromosome+"."+signalFile;
+   string sFile = "../data/signals/"+cell+"_split/"+chromosome+"."+cell;
    ifstream singalinfile(sFile.c_str());
    int remove =0;
    int size = temp_f.size();
