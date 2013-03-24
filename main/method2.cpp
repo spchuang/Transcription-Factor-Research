@@ -41,10 +41,10 @@ int main(){
   vector<centroid> C;
   vector<fpSignalFrame>* fpF = new vector<fpSignalFrame>;
   //generateTemplate(C, 1, 6, 21);
-  //generateTemplate(C, 1, 8, 15);
-  generateTemplate(C, 1, 9 , 13);
+  generateTemplate(C, 1, 8, 15);
+  //generateTemplate(C, 1, 9 , 13);
 
-  reduceVector(C,3);
+  reduceVector(C,40);
   //print the centroid
   /*for(int i=0; i<C.size(); i++){
      cout <<"\"[DEBUG]index " << i <<" centroid... \"\n";
@@ -62,8 +62,9 @@ int main(){
 	}
   	//create directory if it doesn't exists
   	
-	if (stat("../tmp/template_assign_full", &st) == -1) {
-		if(mkdir("../tmp/template_assign_full", 0700) == -1){
+	if (stat("../tmp/template_assign4", &
+	st) == -1) {
+		if(mkdir("../tmp/template_assign4", 0700) == -1){
 			cout <<"[DEBUG]Error creating assignment folder" <<endl;
 		}
 		
@@ -72,7 +73,7 @@ int main(){
   for(int i=0; i<maxCellNum; i++){
 	 cout <<"\n------------------------------------------------------------\n\n" ;
   	cout <<"[DEBUG]Analyzing cell type: " << cellTypes[i] <<endl;
-  	for(int j=22; j<maxChr; j++){
+  	for(int j=0; j<maxChr; j++){
 		getFootPrint(cellTypes[i], chromosomes[j], (*fpF), 0, true);
 	
 	}
@@ -261,14 +262,13 @@ void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, string cellType){
   
   //calculate confidence interval for the conservation level
   //calculate sum of (Xi - X bar)^2
- 
-    
+
 
   //print the signals out to data
   cout <<"[DEBUG]output result" <<endl;
   struct stat st = {0};
   //create directory if it doesn't exists
-  string dirname = "../tmp/template_assign_full/"+cellType;
+  string dirname = "../tmp/template_assign4/"+cellType;
   if (stat(dirname.c_str(), &st) == -1) {
     mkdir(dirname.c_str(), 0700);
   }

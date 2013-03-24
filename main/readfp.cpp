@@ -29,7 +29,7 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
    string ss;
    int start;
    Cinfile >> a>> a >> ss >> a;
-   cout <<"test1"<<endl;
+   //cout <<"test1"<<endl;
    cout << ss << endl;
    start = atoi(ss.substr(6).c_str());
    start--;
@@ -46,7 +46,7 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
         //cout <<"hit new start: " << start << endl;
         
         Cinfile >> a >> ss >> a;
-        cout <<"test2"<<endl;
+        //cout <<"test2"<<endl;
         int new_start = atoi(ss.substr(6).c_str());
         new_start--;
         // <<"new start is ... " << new_start <<endl;
