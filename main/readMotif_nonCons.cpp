@@ -54,7 +54,7 @@ int main(){
 
   int max = 23;
   for(int i=0; i<max; i++){
-     getMotifSignal("K562", "K562Sig_filter", chromosomes[i], (*mt), 0);
+     getMotifSignal("AG10803", "K562Sig_filter", chromosomes[i], (*mt), 0);
 
   }
   cout <<"post read signal size: " <<(*mt).size()<<endl;
@@ -106,7 +106,7 @@ int main(){
 void getMotifConsLevel(string chr, vector<MotifSignalFrame> &temp_con_f, vector<MotifSignalFrame> &f)
 {
    cout <<"[DEBUG]reading conservation data for " << chr <<endl;
-   string cons_file = "cons_data/"+chr+".phyloP46way.placental.wigFix";
+   string cons_file = "../data/cons_data/"+chr+".phyloP46way.placental.wigFix";
    ifstream Cinfile(cons_file.c_str());
    string a;
    string ss;
@@ -188,7 +188,7 @@ void getMotifConsLevel(string chr, vector<MotifSignalFrame> &temp_con_f, vector<
 //read the footprint file for foorprint sequences
 void getMotifSignal(string cell, string signalFile, string chromosome, vector<MotifSignalFrame> &f,double score)
 {
-   string motifFIle = "motif_non_consbased/"+chromosome+".motif";
+   string motifFIle = "../data/motif_non_consbased/"+chromosome+".motif";
    vector<MotifSignalFrame> temp_m;
    int s, e;   //start sequence, end sequence
    string chr, mname, strand; //chromosome number, motif name
@@ -225,7 +225,8 @@ void getMotifSignal(string cell, string signalFile, string chromosome, vector<Mo
    cout <<"[DEBUG] motif instance size for this chromosome.." << temp_m.size()<<endl;
    total_motif+=temp_m.size();
    MTinFile.close();
-   string FPfile = "chr.footprints/"+chromosome+".footprints";
+   string FPfile = "../data/chr.footprints/"+chromosome+".footprints";
+   //string FPfile = "../data/signals/"+cell+"_split/"+chromosome+"."+cell;
    //temporarily holding the fp data
    vector<fpSignalFrame> temp_f;
    vector<MotifSignalFrame> temp_con_f;
@@ -293,7 +294,8 @@ void getMotifSignal(string cell, string signalFile, string chromosome, vector<Mo
    //READ FP signals
    int START,signal;
    bool first = false;
-   string sFile = signalFile+"/"+chromosome+"."+signalFile;
+   //string sFile = signalFile+"/"+chromosome+"."+signalFile;
+   string sFile = "../data/signals/"+cell+"_split/"+chromosome+"."+cell;
    ifstream singalinfile(sFile.c_str());
    
    /*for(int i=0; i<real_m.size();i++){
