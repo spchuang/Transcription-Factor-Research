@@ -1,0 +1,14 @@
+UGE job for mp2template.o built Sun May 19 03:23:03 PDT 2013
+
+  mp2template.o directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 1144949, queue: eeskin_pod.q, sub: Sun May 19 03:23:05 2013
+  SCRATCH directory:
+    /work/1144949.1.eeskin_pod.q
+
+mp2template.o started on:   n7237
+mp2template.o started at:   Sun May 19 03:23:41 PDT 2013
+
+mp2template.o  >& mp2template.o.output.1144949
+

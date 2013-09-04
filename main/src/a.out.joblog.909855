@@ -1,0 +1,21 @@
+UGE job for a.out built Sun May  5 06:00:40 PDT 2013
+
+  a.out directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 909855, queue: c2.q, sub: Sun May 5 06:00:41 2013
+  SCRATCH directory:
+    /work/909855.1.c2.q
+
+a.out started on:   n9763
+a.out started at:   Sun May 5 06:01:09 PDT 2013
+
+a.out  >& a.out.output.909855
+
+Bus error (core dumped)
+7458.922u 7.310s 2:04:49.69 99.6%	0+0k 320+6592312io 2pf+0w
+
+a.out finished at:  Sun May 5 08:05:59 PDT 2013
+
+Scratch files in /work/909855.1.c2.q deleted:
+total 0

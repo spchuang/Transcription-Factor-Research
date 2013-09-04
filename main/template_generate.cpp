@@ -6,6 +6,7 @@
 
 #include "readfp.cpp"
 using namespace std;
+
 //reduce the vector S into a most represented subset of size n
 void reduceVector(vector<centroid> &S, int n){
 
@@ -103,8 +104,6 @@ void generateTemplate(vector<centroid> &S, int n, int start, int length){
     }
     
    // cout <<"after: " <<S.capacity()<< ", " << S.size() <<endl;
-
-    
   }
   
   cout <<"[DEBUG}Total template size: " << S.size()<<endl;

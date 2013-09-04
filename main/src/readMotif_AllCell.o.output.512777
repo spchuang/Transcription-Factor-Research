@@ -1,0 +1,4657 @@
+[DEBUG] get motif instance for chr1
+[DEBUG] motif instance size for this chromosome..2700213
+[DEBUG] get fp for chr1, AoAF
+[DEBUG]fp size for this chromosome..150299
+[DEBUG]Total motif size that include fp: 64582
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+42000
+43000
+44000
+45000
+46000
+47000
+0 left overs...
+reach the end when reading signal: 0
+[DEBUG]reading conservation data for chr1
+before return: 47886
+[DEBUG] get motif instance for chr2
+[DEBUG] motif instance size for this chromosome..2971150
+[DEBUG] get fp for chr2, AoAF
+[DEBUG]fp size for this chromosome..135906
+[DEBUG]Total motif size that include fp: 55976
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+0 left overs...
+reach the end when reading signal: 47886
+[DEBUG]reading conservation data for chr2
+before return: 89528
+[DEBUG] get motif instance for chr3
+[DEBUG] motif instance size for this chromosome..2319133
+[DEBUG] get fp for chr3, AoAF
+[DEBUG]fp size for this chromosome..108488
+[DEBUG]Total motif size that include fp: 44692
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+0 left overs...
+reach the end when reading signal: 89528
+[DEBUG]reading conservation data for chr3
+before return: 122762
+[DEBUG] get motif instance for chr4
+[DEBUG] motif instance size for this chromosome..2205358
+[DEBUG] get fp for chr4, AoAF
+[DEBUG]fp size for this chromosome..78932
+[DEBUG]Total motif size that include fp: 31388
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+0 left overs...
+reach the end when reading signal: 122762
+[DEBUG]reading conservation data for chr4
+before return: 145997
+[DEBUG] get motif instance for chr5
+[DEBUG] motif instance size for this chromosome..2134142
+[DEBUG] get fp for chr5, AoAF
+[DEBUG]fp size for this chromosome..92818
+[DEBUG]Total motif size that include fp: 37639
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+0 left overs...
+reach the end when reading signal: 145997
+[DEBUG]reading conservation data for chr5
+before return: 173976
+[DEBUG] get motif instance for chr6
+[DEBUG] motif instance size for this chromosome..2052746
+[DEBUG] get fp for chr6, AoAF
+[DEBUG]fp size for this chromosome..101079
+[DEBUG]Total motif size that include fp: 42908
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+0 left overs...
+reach the end when reading signal: 173976
+[DEBUG]reading conservation data for chr6
+before return: 205928
+[DEBUG] get motif instance for chr7
+[DEBUG] motif instance size for this chromosome..1892975
+[DEBUG] get fp for chr7, AoAF
+[DEBUG]fp size for this chromosome..76385
+[DEBUG]Total motif size that include fp: 32612
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+0 left overs...
+reach the end when reading signal: 205928
+[DEBUG]reading conservation data for chr7
+before return: 230003
+[DEBUG] get motif instance for chr8
+[DEBUG] motif instance size for this chromosome..1756651
+[DEBUG] get fp for chr8, AoAF
+[DEBUG]fp size for this chromosome..76456
+[DEBUG]Total motif size that include fp: 32769
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+0 left overs...
+reach the end when reading signal: 230003
+[DEBUG]reading conservation data for chr8
+before return: 254434
+[DEBUG] get motif instance for chr9
+[DEBUG] motif instance size for this chromosome..1474941
+[DEBUG] get fp for chr9, AoAF
+[DEBUG]fp size for this chromosome..70745
+[DEBUG]Total motif size that include fp: 30333
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+0 left overs...
+reach the end when reading signal: 254434
+[DEBUG]reading conservation data for chr9
+before return: 277055
+[DEBUG] get motif instance for chr10
+[DEBUG] motif instance size for this chromosome..1666407
+[DEBUG] get fp for chr10, AoAF
+[DEBUG]fp size for this chromosome..79486
+[DEBUG]Total motif size that include fp: 34572
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+0 left overs...
+reach the end when reading signal: 277055
+[DEBUG]reading conservation data for chr10
+before return: 302929
+[DEBUG] get motif instance for chr11
+[DEBUG] motif instance size for this chromosome..1617883
+[DEBUG] get fp for chr11, AoAF
+[DEBUG]fp size for this chromosome..79020
+[DEBUG]Total motif size that include fp: 37719
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+0 left overs...
+reach the end when reading signal: 302929
+[DEBUG]reading conservation data for chr11
+before return: 330668
+[DEBUG] get motif instance for chr12
+[DEBUG] motif instance size for this chromosome..1559123
+[DEBUG] get fp for chr12, AoAF
+[DEBUG]fp size for this chromosome..83280
+[DEBUG]Total motif size that include fp: 37577
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+0 left overs...
+reach the end when reading signal: 330668
+[DEBUG]reading conservation data for chr12
+before return: 358414
+[DEBUG] get motif instance for chr13
+[DEBUG] motif instance size for this chromosome..1206383
+[DEBUG] get fp for chr13, AoAF
+[DEBUG]fp size for this chromosome..39010
+[DEBUG]Total motif size that include fp: 15854
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+0 left overs...
+reach the end when reading signal: 358414
+[DEBUG]reading conservation data for chr13
+before return: 370242
+[DEBUG] get motif instance for chr14
+[DEBUG] motif instance size for this chromosome..1106718
+[DEBUG] get fp for chr14, AoAF
+[DEBUG]fp size for this chromosome..46350
+[DEBUG]Total motif size that include fp: 22012
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+0 left overs...
+reach the end when reading signal: 370242
+[DEBUG]reading conservation data for chr14
+before return: 386532
+[DEBUG] get motif instance for chr15
+[DEBUG] motif instance size for this chromosome..1039064
+[DEBUG] get fp for chr15, AoAF
+[DEBUG]fp size for this chromosome..54425
+[DEBUG]Total motif size that include fp: 24418
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+0 left overs...
+reach the end when reading signal: 386532
+[DEBUG]reading conservation data for chr15
+before return: 404438
+[DEBUG] get motif instance for chr16
+[DEBUG] motif instance size for this chromosome..1017229
+[DEBUG] get fp for chr16, AoAF
+[DEBUG]fp size for this chromosome..42437
+[DEBUG]Total motif size that include fp: 23072
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+0 left overs...
+reach the end when reading signal: 404438
+[DEBUG]reading conservation data for chr16
+before return: 421127
+[DEBUG] get motif instance for chr17
+[DEBUG] motif instance size for this chromosome..1046432
+[DEBUG] get fp for chr17, AoAF
+[DEBUG]fp size for this chromosome..61363
+[DEBUG]Total motif size that include fp: 32083
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+0 left overs...
+reach the end when reading signal: 421127
+[DEBUG]reading conservation data for chr17
+before return: 444497
+[DEBUG] get motif instance for chr18
+[DEBUG] motif instance size for this chromosome..973761
+[DEBUG] get fp for chr18, AoAF
+[DEBUG]fp size for this chromosome..33973
+[DEBUG]Total motif size that include fp: 14437
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 444497
+[DEBUG]reading conservation data for chr18
+before return: 455313
+[DEBUG] get motif instance for chr19
+[DEBUG] motif instance size for this chromosome..676576
+[DEBUG] get fp for chr19, AoAF
+[DEBUG]fp size for this chromosome..45659
+[DEBUG]Total motif size that include fp: 32902
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+0 left overs...
+reach the end when reading signal: 455313
+[DEBUG]reading conservation data for chr19
+before return: 478433
+[DEBUG] get motif instance for chr20
+[DEBUG] motif instance size for this chromosome..748768
+[DEBUG] get fp for chr20, AoAF
+[DEBUG]fp size for this chromosome..34542
+[DEBUG]Total motif size that include fp: 15571
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+0 left overs...
+reach the end when reading signal: 478433
+[DEBUG]reading conservation data for chr20
+before return: 489735
+[DEBUG] get motif instance for chr21
+[DEBUG] motif instance size for this chromosome..450452
+[DEBUG] get fp for chr21, AoAF
+[DEBUG]fp size for this chromosome..19876
+[DEBUG]Total motif size that include fp: 8538
+1000
+2000
+3000
+4000
+5000
+6000
+0 left overs...
+reach the end when reading signal: 489735
+[DEBUG]reading conservation data for chr21
+before return: 496122
+[DEBUG] get motif instance for chr22
+[DEBUG] motif instance size for this chromosome..474090
+[DEBUG] get fp for chr22, AoAF
+[DEBUG]fp size for this chromosome..23631
+[DEBUG]Total motif size that include fp: 12170
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 496122
+[DEBUG]reading conservation data for chr22
+before return: 504962
+[DEBUG] get motif instance for chrX
+[DEBUG] motif instance size for this chromosome..1395896
+[DEBUG] get fp for chrX, AoAF
+[DEBUG]fp size for this chromosome..32010
+[DEBUG]Total motif size that include fp: 15005
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 504962
+[DEBUG]reading conservation data for chrX
+before return: 515826
+post read signal size: 515826
+TOTAL: 34486091
+real: 698829
+Percent: 0
+incoming size: 515826
+0 : HDAC2_disc6_8mer
+1 : BDP1_disc1_8mer
+2 : ATF3_disc2_8mer
+3 : ATF3_known8_8mer
+4 : ATF3_known1_8mer
+5 : AP-1_disc1_8mer
+6 : TATA_disc2_8mer
+7 : TATA_disc8_8mer
+8 : E2F_disc1_8mer
+9 : HEY1_disc1_8mer
+10 : ATF3_known7_8mer
+11 : ATF3_known6_8mer
+12 : Foxa_known2_8mer
+13 : Foxa_known3_8mer
+14 : NF-kappaB_known4_8mer
+15 : p300_known1_8mer
+16 : KAP1_disc2_8mer
+17 : GR_known10_8mer
+18 : Mef2_known6_8mer
+19 : AP-2_known2_8mer
+20 : BHLHE40_disc2_8mer
+21 : YY1_disc4_8mer
+22 : BCL_disc9_8mer
+23 : Ets_disc7_8mer
+24 : TATA_disc10_8mer
+25 : E2F_disc8_8mer
+26 : AP-2_known1_8mer
+27 : ELF1_disc3_8mer
+28 : Sin3Ak-20_disc6_8mer
+29 : BATF_disc1_8mer
+30 : AP-1_known1_8mer
+31 : AP-2_known6_8mer
+32 : AP-2_known3_8mer
+33 : NF-Y_known1_8mer
+34 : NF-Y_disc1_8mer
+35 : SP1_disc1_8mer
+36 : Egr-1_known5_8mer
+37 : Nanog_disc3_8mer
+38 : Myc_disc2_8mer
+39 : Myc_known4_8mer
+40 : Myc_known7_8mer
+41 : RXRA_known4_8mer
+42 : Irf_known11_8mer
+43 : SRF_known1_8mer
+44 : SRF_known6_8mer
+45 : CTCFL_disc1_8mer
+46 : Irf_disc4_8mer
+47 : Irf_disc1_8mer
+48 : E2F_disc4_8mer
+49 : Rad21_disc8_8mer
+50 : BCL_disc6_8mer
+51 : ATF3_known5_8mer
+52 : STAT_known10_8mer
+53 : STAT_known12_8mer
+54 : STAT_disc1_8mer
+55 : Pou2f2_disc1_8mer
+56 : NRSF_disc5_8mer
+57 : BCL_disc8_8mer
+58 : ERalpha-a_disc4_8mer
+59 : TATA_disc7_8mer
+60 : Egr-1_known2_8mer
+61 : YY1_disc3_8mer
+62 : CTCF_known1_8mer
+63 : RXRA_disc2_8mer
+64 : Znf143_known1_8mer
+65 : SP1_known3_8mer
+66 : p300_disc3_8mer
+67 : NRSF_disc4_8mer
+68 : GATA_disc3_8mer
+69 : CTCF_disc5_8mer
+70 : SP1_disc3_8mer
+71 : p300_disc9_8mer
+72 : Pou2f2_disc2_8mer
+73 : Rad21_disc10_8mer
+74 : NRSF_known1_8mer
+75 : Sin3Ak-20_disc1_8mer
+76 : Sin3Ak-20_disc5_8mer
+77 : YY1_disc1_8mer
+78 : THAP1_disc1_8mer
+79 : ELF1_disc2_8mer
+80 : Myc_known6_8mer
+81 : NF-E2_disc2_8mer
+82 : Mxi1_known1_8mer
+83 : NF-E2_disc3_8mer
+84 : SP2_disc1_8mer
+85 : RFX5_disc2_8mer
+86 : Pbx3_disc1_8mer
+87 : NRSF_disc8_8mer
+88 : Nrf1_disc1_8mer
+89 : p300_disc8_8mer
+90 : ATF3_known4_8mer
+91 : TCF12_known1_8mer
+92 : p300_disc7_8mer
+93 : E2F_known7_8mer
+94 : Mxi1_disc2_8mer
+95 : NF-kappaB_known5_8mer
+96 : NF-kappaB_disc4_8mer
+97 : Pax-5_known1_8mer
+98 : Pax-5_disc1_8mer
+99 : RXRA_known3_8mer
+100 : Ets_known7_8mer
+101 : TATA_disc3_8mer
+102 : GR_disc2_8mer
+103 : PRDM1_disc2_8mer
+104 : HNF4_known4_8mer
+105 : Egr-1_disc2_8mer
+106 : Ets_known5_8mer
+107 : HEY1_disc2_8mer
+108 : Myc_disc8_8mer
+109 : SRF_disc2_8mer
+110 : Znf143_disc4_8mer
+111 : Ets_known4_8mer
+112 : TATA_disc6_8mer
+113 : Egr-1_disc6_8mer
+114 : SMC3_disc1_8mer
+115 : EBF_known2_8mer
+116 : Myc_disc10_8mer
+117 : Ets_known3_8mer
+118 : CTCF_disc1_8mer
+119 : CHD2_disc3_8mer
+120 : Egr-1_disc5_8mer
+121 : AP-1_disc10_8mer
+122 : AP-2_known5_8mer
+123 : PU.1_disc3_8mer
+124 : AP-1_disc7_8mer
+125 : STAT_disc7_8mer
+126 : Myc_disc9_8mer
+127 : Myc_known5_8mer
+128 : Sin3Ak-20_disc2_8mer
+129 : TAL1_known2_8mer
+130 : Irf_known7_8mer
+131 : Irf_known6_8mer
+132 : Rad21_disc2_8mer
+133 : CEBPB_known4_8mer
+134 : PRDM1_disc1_8mer
+135 : TCF12_disc6_8mer
+136 : NRSF_disc9_8mer
+137 : NRSF_known2_8mer
+138 : GATA_disc5_8mer
+139 : GR_disc5_8mer
+140 : Foxa_disc3_8mer
+141 : TCF12_disc5_8mer
+142 : SIX5_disc4_8mer
+143 : Ets_known9_8mer
+144 : Ets_disc4_8mer
+145 : SIX5_disc3_8mer
+146 : SETDB1_disc1_8mer
+147 : Egr-1_disc4_8mer
+148 : SMC3_disc3_8mer
+149 : BCL_disc1_8mer
+150 : TR4_disc1_8mer
+151 : SP2_disc2_8mer
+152 : Pbx3_disc3_8mer
+153 : SP1_known4_8mer
+154 : ELF1_disc1_8mer
+155 : Ets_disc2_8mer
+156 : RXRA_known1_8mer
+157 : HNF4_known1_8mer
+158 : HNF4_known8_8mer
+159 : ATF3_disc3_8mer
+160 : Nrf1_disc3_8mer
+161 : Ets_disc9_8mer
+162 : Znf143_disc3_8mer
+163 : ZBTB33_disc2_8mer
+164 : BRCA1_disc1_8mer
+165 : SREBP_disc1_8mer
+166 : ATF3_disc4_8mer
+167 : E2F_disc3_8mer
+168 : NF-E2_disc4_8mer
+169 : Rad21_disc7_8mer
+170 : YY1_known5_8mer
+171 : p300_disc2_8mer
+172 : ZNF263_disc1_8mer
+173 : Irf_disc5_8mer
+174 : Ets_disc6_8mer
+175 : E2F_disc2_8mer
+176 : SETDB1_disc2_8mer
+177 : Egr-1_disc3_8mer
+178 : Pax-5_disc5_8mer
+179 : Irf_known2_8mer
+180 : Irf_known3_8mer
+181 : Myc_known1_8mer
+182 : Nrf1_known1_8mer
+183 : Egr-1_disc1_8mer
+184 : SP1_known2_8mer
+185 : STAT_known7_8mer
+186 : STAT_known11_8mer
+187 : Sin3Ak-20_disc7_8mer
+188 : TAL1_known1_8mer
+189 : ELF1_known1_8mer
+190 : NF-E2_disc1_8mer
+191 : TCF4_disc1_8mer
+192 : AP-1_known4_8mer
+193 : Myc_disc3_8mer
+194 : Mef2_disc3_8mer
+195 : HMGN3_disc1_8mer
+196 : SP1_known1_8mer
+197 : CCNT2_disc2_8mer
+198 : Rad21_disc1_8mer
+199 : CTCF_disc7_8mer
+200 : SMC3_disc2_8mer
+201 : Pou2f2_known9_8mer
+202 : CEBPB_known5_8mer
+203 : Maf_known2_8mer
+204 : GR_known3_8mer
+205 : CEBPB_known2_8mer
+206 : TATA_disc9_8mer
+207 : Pou2f2_known2_8mer
+208 : Pou5f1_known1_8mer
+209 : Pou5f1_disc1_8mer
+210 : ZEB1_known2_8mer
+211 : CEBPB_known1_8mer
+212 : CEBPB_known6_8mer
+213 : ERalpha-a_known1_8mer
+214 : NRSF_disc3_8mer
+215 : p300_disc5_8mer
+216 : Nanog_disc2_8mer
+217 : Irf_known9_8mer
+218 : NF-kappaB_known2_8mer
+219 : Egr-1_disc7_8mer
+220 : Myc_disc5_8mer
+221 : E2F_disc7_8mer
+222 : HDAC2_disc3_8mer
+223 : NF-E2_known1_8mer
+224 : YY1_disc5_8mer
+225 : HNF4_disc5_8mer
+226 : BCL_disc5_8mer
+227 : NRSF_known3_8mer
+228 : BCL_disc7_8mer
+229 : Ets_known6_8mer
+230 : BDP1_disc3_8mer
+231 : Egr-1_known4_8mer
+232 : CTCF_disc8_8mer
+233 : TATA_disc5_8mer
+234 : Mxi1_disc1_8mer
+235 : ZBTB7A_disc2_8mer
+236 : SP2_disc3_8mer
+237 : RXRA_disc5_8mer
+238 : Ets_known1_8mer
+239 : Pax-5_disc4_8mer
+240 : TCF4_known3_8mer
+241 : Mef2_known1_8mer
+242 : ZBTB33_disc3_8mer
+243 : CEBPB_known3_8mer
+244 : STAT_known13_8mer
+245 : TCF12_disc1_8mer
+246 : RFX5_known3_8mer
+247 : Pax-5_known2_8mer
+248 : STAT_disc4_8mer
+249 : Rad21_disc5_8mer
+250 : STAT_known15_8mer
+251 : Pax-5_disc3_8mer
+252 : RXRA_disc4_8mer
+253 : Foxa_known1_8mer
+254 : E2F_disc6_8mer
+255 : Nrf1_known2_8mer
+256 : Ets_known8_8mer
+257 : GR_disc6_8mer
+258 : Foxa_disc5_8mer
+259 : ZBTB7A_known1_8mer
+260 : BCL_disc10_8mer
+261 : Nanog_known1_8mer
+262 : Pax-5_known3_8mer
+263 : Irf_known1_8mer
+264 : TATA_known1_8mer
+265 : AP-1_disc4_8mer
+266 : ZBTB33_disc4_8mer
+267 : Maf_disc2_8mer
+268 : Mef2_disc1_8mer
+269 : SP1_disc2_8mer
+270 : Pax-5_known4_8mer
+271 : Myc_known9_8mer
+272 : Maf_disc1_8mer
+273 : KAP1_disc1_8mer
+274 : BAF155_disc1_8mer
+275 : AP-2_disc1_8mer
+276 : AP-1_disc5_8mer
+277 : Irf_known10_8mer
+278 : Mef2_known5_8mer
+279 : Mef2_known3_8mer
+280 : PRDM1_known1_8mer
+281 : GR_disc1_8mer
+282 : Pou5f1_known2_8mer
+283 : YY1_known6_8mer
+284 : GATA_disc2_8mer
+285 : GATA_disc6_8mer
+286 : Mef2_known4_8mer
+287 : GR_known4_8mer
+288 : GATA_known8_8mer
+289 : AP-1_disc9_8mer
+290 : ERalpha-a_disc3_8mer
+291 : GATA_known3_8mer
+292 : E2F_known1_8mer
+293 : GATA_known10_8mer
+294 : GATA_disc1_8mer
+295 : GR_known6_8mer
+296 : HNF4_disc1_8mer
+297 : Nrf1_disc2_8mer
+298 : NF-kappaB_disc1_8mer
+299 : ATF3_known9_8mer
+300 : Hsf_known3_8mer
+301 : RFX5_known4_8mer
+302 : Ets_disc1_8mer
+303 : GATA_known1_8mer
+304 : AP-1_disc2_8mer
+305 : Myc_disc1_8mer
+306 : ATF3_disc1_8mer
+307 : E2F_known2_8mer
+308 : Foxa_known4_8mer
+309 : NF-kappaB_disc2_8mer
+310 : NF-kappaB_known3_8mer
+311 : BATF_disc2_8mer
+312 : Pou2f2_known1_8mer
+313 : Pou2f2_known10_8mer
+314 : Nanog_disc1_8mer
+315 : STAT_known14_8mer
+316 : Hsf_known1_8mer
+317 : Foxa_disc4_8mer
+318 : STAT_disc5_8mer
+319 : ZBTB7A_disc1_8mer
+320 : GATA_known11_8mer
+321 : E2F_known6_8mer
+322 : Sin3Ak-20_disc4_8mer
+323 : Pax-5_disc2_8mer
+324 : Ets_disc5_8mer
+325 : Irf_disc6_8mer
+326 : Foxa_disc2_8mer
+327 : E2F_known3_8mer
+328 : STAT_known6_8mer
+329 : GR_known9_8mer
+330 : Irf_disc2_8mer
+331 : AP-1_known3_8mer
+332 : NRSF_disc1_8mer
+333 : AP-2_known4_8mer
+334 : RFX5_known2_8mer
+335 : SRF_known3_8mer
+336 : Irf_disc3_8mer
+337 : Mef2_known2_8mer
+338 : TATA_known4_8mer
+339 : SRF_known2_8mer
+340 : HNF4_disc2_8mer
+341 : HNF4_disc3_8mer
+342 : THAP1_disc2_8mer
+343 : Irf_known8_8mer
+344 : NF-kappaB_known1_8mer
+345 : NF-kappaB_known6_8mer
+346 : Egr-1_known1_8mer
+347 : Mef2_disc2_8mer
+348 : Maf_known4_8mer
+349 : Maf_known3_8mer
+350 : GATA_known4_8mer
+351 : Pou2f2_known4_8mer
+352 : AP-1_disc8_8mer
+353 : GR_known2_8mer
+354 : TCF4_disc2_8mer
+355 : Ets_disc8_8mer
+356 : Maf_known1_8mer
+357 : PU.1_disc1_8mer
+358 : RFX5_disc3_8mer
+359 : Pou2f2_known11_8mer
+360 : p300_disc1_8mer
+361 : p300_disc6_8mer
+362 : GATA_known14_8mer
+363 : TAL1_disc1_8mer
+364 : TCF4_known2_8mer
+365 : ATF3_known3_8mer
+366 : Myc_known8_8mer
+367 : STAT_disc2_8mer
+368 : SREBP_known4_8mer
+369 : Pou5f1_disc2_8mer
+370 : TCF4_known1_8mer
+371 : SMC3_disc4_8mer
+372 : Hsf_known2_8mer
+373 : GATA_known2_8mer
+374 : Foxa_disc1_8mer
+375 : CEBPB_disc1_8mer
+376 : Hsf_disc1_8mer
+377 : BRCA1_known2_8mer
+378 : TATA_known3_8mer
+379 : E2F_known9_8mer
+380 : SIX5_disc1_8mer
+381 : p300_disc10_8mer
+382 : AP-1_disc3_8mer
+383 : RXRA_disc3_8mer
+384 : BCL_disc2_8mer
+385 : CCNT2_disc1_8mer
+386 : TCF12_disc2_8mer
+387 : PU.1_disc2_8mer
+388 : GATA_known12_8mer
+389 : HMGN3_disc2_8mer
+390 : YY1_disc2_8mer
+391 : Irf_known5_8mer
+392 : TAL1_disc2_8mer
+393 : HDAC2_disc2_8mer
+394 : Pou2f2_known3_8mer
+395 : Sin3Ak-20_disc3_8mer
+396 : ERalpha-a_disc2_8mer
+397 : RXRA_disc1_8mer
+398 : GATA_disc4_8mer
+399 : GR_known1_8mer
+400 : GR_known8_8mer
+401 : BHLHE40_known1_8mer
+402 : HDAC2_disc1_8mer
+403 : Rad21_disc3_8mer
+404 : Pou2f2_known7_8mer
+405 : ZBTB7A_known2_8mer
+406 : TATA_known5_8mer
+407 : HNF4_known2_8mer
+408 : HDAC2_disc5_8mer
+409 : GATA_known13_8mer
+410 : STAT_disc6_8mer
+411 : RXRA_known6_8mer
+412 : ZEB1_known5_8mer
+413 : Myc_disc7_8mer
+414 : HNF4_disc4_8mer
+415 : NR4A_known1_8mer
+416 : Pou2f2_known8_8mer
+417 : Pbx3_known1_8mer
+418 : RXRA_known7_8mer
+419 : AP-1_disc6_8mer
+420 : Nanog_disc4_8mer
+421 : Pbx3_disc2_8mer
+422 : SRF_known5_8mer
+423 : SRF_disc1_8mer
+424 : YY1_known2_8mer
+425 : ZBTB33_known1_8mer
+426 : TR4_disc3_8mer
+427 : SIX5_known1_8mer
+428 : Pou2f2_known5_8mer
+429 : NRSF_disc2_8mer
+430 : BCL_disc3_8mer
+431 : Pou2f2_known6_8mer
+432 : NRSF_disc6_8mer
+433 : GATA_known9_8mer
+434 : GR_disc4_8mer
+435 : SREBP_known1_8mer
+436 : RXRA_known5_8mer
+437 : TR4_disc2_8mer
+438 : ERalpha-a_disc1_8mer
+439 : NF-Y_known3_8mer
+440 : CEBPB_disc2_8mer
+441 : SREBP_known3_8mer
+442 : BCL_disc4_8mer
+443 : CTCF_disc10_8mer
+444 : RFX5_known1_8mer
+445 : Myc_disc4_8mer
+446 : Rad21_disc4_8mer
+447 : GATA_known6_8mer
+448 : NF-Y_known2_8mer
+449 : BHLHE40_known2_8mer
+450 : NRSF_disc10_8mer
+451 : Egr-1_known3_8mer
+452 : TATA_disc1_8mer
+453 : YY1_known4_8mer
+454 : Ets_known2_8mer
+455 : YY1_known3_8mer
+456 : Znf143_disc2_8mer
+457 : BAF155_disc2_8mer
+458 : GR_known5_8mer
+459 : HDAC2_disc4_8mer
+460 : TATA_disc4_8mer
+461 : SIX5_known2_8mer
+462 : BATF_disc3_8mer
+463 : EBF_known1_8mer
+464 : CTCF_disc2_8mer
+465 : SIRT6_disc1_8mer
+466 : NF-kappaB_disc3_8mer
+467 : STAT_disc3_8mer
+468 : CTCF_disc6_8mer
+469 : HNF4_known5_8mer
+470 : GR_known7_8mer
+471 : ZEB1_known4_8mer
+472 : Myc_disc6_8mer
+473 : ZEB1_disc1_8mer
+474 : RFX5_known5_8mer
+475 : CTCF_disc3_8mer
+476 : HNF4_known3_8mer
+477 : BDP1_disc2_8mer
+478 : TCF12_disc4_8mer
+479 : Rad21_disc9_8mer
+480 : RFX5_disc1_8mer
+481 : CHD2_disc2_8mer
+482 : SIX5_disc2_8mer
+483 : Znf143_disc1_8mer
+484 : E2F_disc5_8mer
+485 : EBF_disc1_8mer
+486 : p300_disc4_8mer
+487 : ZEB1_known3_8mer
+488 : SRF_known4_8mer
+489 : TCF12_disc3_8mer
+490 : BHLHE40_disc1_8mer
+491 : NRSF_disc7_8mer
+492 : ZBTB33_disc1_8mer
+493 : Ets_disc3_8mer
+494 : CHD2_disc1_8mer
+495 : GR_disc3_8mer
+496 : GATA_known7_8mer
+497 : E2F_known5_8mer
+number of motif: 498
+[DEBUG]aggregate signal and conservation signals
+[DEBUG]average the aggregation
+[DEBUG]sort
+498 , 515826
+[DEBUG]output result
+[DEBUG]output direcotry:../tmp/test_mp_result2/AoAF
+[DEBUG] get motif instance for chr1
+[DEBUG] motif instance size for this chromosome..2700213
+[DEBUG] get fp for chr1, CD20+
+[DEBUG]fp size for this chromosome..59813
+[DEBUG]Total motif size that include fp: 42598
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+0 left overs...
+reach the end when reading signal: 0
+[DEBUG]reading conservation data for chr1
+before return: 31407
+[DEBUG] get motif instance for chr2
+[DEBUG] motif instance size for this chromosome..2971150
+[DEBUG] get fp for chr2, CD20+
+[DEBUG]fp size for this chromosome..40587
+[DEBUG]Total motif size that include fp: 28854
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+0 left overs...
+reach the end when reading signal: 31407
+[DEBUG]reading conservation data for chr2
+before return: 52706
+[DEBUG] get motif instance for chr3
+[DEBUG] motif instance size for this chromosome..2319133
+[DEBUG] get fp for chr3, CD20+
+[DEBUG]fp size for this chromosome..31829
+[DEBUG]Total motif size that include fp: 22040
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+0 left overs...
+reach the end when reading signal: 52706
+[DEBUG]reading conservation data for chr3
+before return: 68931
+[DEBUG] get motif instance for chr4
+[DEBUG] motif instance size for this chromosome..2205358
+[DEBUG] get fp for chr4, CD20+
+[DEBUG]fp size for this chromosome..20169
+[DEBUG]Total motif size that include fp: 14460
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 68931
+[DEBUG]reading conservation data for chr4
+before return: 79509
+[DEBUG] get motif instance for chr5
+[DEBUG] motif instance size for this chromosome..2134142
+[DEBUG] get fp for chr5, CD20+
+[DEBUG]fp size for this chromosome..26567
+[DEBUG]Total motif size that include fp: 18667
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 79509
+[DEBUG]reading conservation data for chr5
+before return: 93387
+[DEBUG] get motif instance for chr6
+[DEBUG] motif instance size for this chromosome..2052746
+[DEBUG] get fp for chr6, CD20+
+[DEBUG]fp size for this chromosome..37073
+[DEBUG]Total motif size that include fp: 24686
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+0 left overs...
+reach the end when reading signal: 93387
+[DEBUG]reading conservation data for chr6
+before return: 111634
+[DEBUG] get motif instance for chr7
+[DEBUG] motif instance size for this chromosome..1892975
+[DEBUG] get fp for chr7, CD20+
+[DEBUG]fp size for this chromosome..27116
+[DEBUG]Total motif size that include fp: 20219
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+0 left overs...
+reach the end when reading signal: 111634
+[DEBUG]reading conservation data for chr7
+before return: 126484
+[DEBUG] get motif instance for chr8
+[DEBUG] motif instance size for this chromosome..1756651
+[DEBUG] get fp for chr8, CD20+
+[DEBUG]fp size for this chromosome..21904
+[DEBUG]Total motif size that include fp: 17172
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 126484
+[DEBUG]reading conservation data for chr8
+before return: 139355
+[DEBUG] get motif instance for chr9
+[DEBUG] motif instance size for this chromosome..1474941
+[DEBUG] get fp for chr9, CD20+
+[DEBUG]fp size for this chromosome..23945
+[DEBUG]Total motif size that include fp: 17946
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 139355
+[DEBUG]reading conservation data for chr9
+before return: 152598
+[DEBUG] get motif instance for chr10
+[DEBUG] motif instance size for this chromosome..1666407
+[DEBUG] get fp for chr10, CD20+
+[DEBUG]fp size for this chromosome..25033
+[DEBUG]Total motif size that include fp: 18252
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 152598
+[DEBUG]reading conservation data for chr10
+before return: 166223
+[DEBUG] get motif instance for chr11
+[DEBUG] motif instance size for this chromosome..1617883
+[DEBUG] get fp for chr11, CD20+
+[DEBUG]fp size for this chromosome..32157
+[DEBUG]Total motif size that include fp: 25578
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+0 left overs...
+reach the end when reading signal: 166223
+[DEBUG]reading conservation data for chr11
+before return: 185079
+[DEBUG] get motif instance for chr12
+[DEBUG] motif instance size for this chromosome..1559123
+[DEBUG] get fp for chr12, CD20+
+[DEBUG]fp size for this chromosome..31426
+[DEBUG]Total motif size that include fp: 24789
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+0 left overs...
+reach the end when reading signal: 185079
+[DEBUG]reading conservation data for chr12
+before return: 203447
+[DEBUG] get motif instance for chr13
+[DEBUG] motif instance size for this chromosome..1206383
+[DEBUG] get fp for chr13, CD20+
+[DEBUG]fp size for this chromosome..10958
+[DEBUG]Total motif size that include fp: 7666
+1000
+2000
+3000
+4000
+5000
+0 left overs...
+reach the end when reading signal: 203447
+[DEBUG]reading conservation data for chr13
+before return: 209175
+[DEBUG] get motif instance for chr14
+[DEBUG] motif instance size for this chromosome..1106718
+[DEBUG] get fp for chr14, CD20+
+[DEBUG]fp size for this chromosome..20768
+[DEBUG]Total motif size that include fp: 16326
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 209175
+[DEBUG]reading conservation data for chr14
+before return: 221298
+[DEBUG] get motif instance for chr15
+[DEBUG] motif instance size for this chromosome..1039064
+[DEBUG] get fp for chr15, CD20+
+[DEBUG]fp size for this chromosome..18850
+[DEBUG]Total motif size that include fp: 14316
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 221298
+[DEBUG]reading conservation data for chr15
+before return: 231889
+[DEBUG] get motif instance for chr16
+[DEBUG] motif instance size for this chromosome..1017229
+[DEBUG] get fp for chr16, CD20+
+[DEBUG]fp size for this chromosome..26229
+[DEBUG]Total motif size that include fp: 21657
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+0 left overs...
+reach the end when reading signal: 231889
+[DEBUG]reading conservation data for chr16
+before return: 247656
+[DEBUG] get motif instance for chr17
+[DEBUG] motif instance size for this chromosome..1046432
+[DEBUG] get fp for chr17, CD20+
+[DEBUG]fp size for this chromosome..38683
+[DEBUG]Total motif size that include fp: 31147
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+0 left overs...
+reach the end when reading signal: 247656
+[DEBUG]reading conservation data for chr17
+before return: 270355
+[DEBUG] get motif instance for chr18
+[DEBUG] motif instance size for this chromosome..973761
+[DEBUG] get fp for chr18, CD20+
+[DEBUG]fp size for this chromosome..8999
+[DEBUG]Total motif size that include fp: 6908
+1000
+2000
+3000
+4000
+5000
+0 left overs...
+reach the end when reading signal: 270355
+[DEBUG]reading conservation data for chr18
+before return: 275504
+[DEBUG] get motif instance for chr19
+[DEBUG] motif instance size for this chromosome..676576
+[DEBUG] get fp for chr19, CD20+
+[DEBUG]fp size for this chromosome..48824
+[DEBUG]Total motif size that include fp: 40848
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+0 left overs...
+reach the end when reading signal: 275504
+[DEBUG]reading conservation data for chr19
+before return: 305301
+[DEBUG] get motif instance for chr20
+[DEBUG] motif instance size for this chromosome..748768
+[DEBUG] get fp for chr20, CD20+
+[DEBUG]fp size for this chromosome..16295
+[DEBUG]Total motif size that include fp: 12327
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 305301
+[DEBUG]reading conservation data for chr20
+before return: 314316
+[DEBUG] get motif instance for chr21
+[DEBUG] motif instance size for this chromosome..450452
+[DEBUG] get fp for chr21, CD20+
+[DEBUG]fp size for this chromosome..7089
+[DEBUG]Total motif size that include fp: 4962
+1000
+2000
+3000
+0 left overs...
+reach the end when reading signal: 314316
+[DEBUG]reading conservation data for chr21
+before return: 318013
+[DEBUG] get motif instance for chr22
+[DEBUG] motif instance size for this chromosome..474090
+[DEBUG] get fp for chr22, CD20+
+[DEBUG]fp size for this chromosome..15520
+[DEBUG]Total motif size that include fp: 11674
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 318013
+[DEBUG]reading conservation data for chr22
+before return: 326355
+[DEBUG] get motif instance for chrX
+[DEBUG] motif instance size for this chromosome..1395896
+[DEBUG] get fp for chrX, CD20+
+[DEBUG]fp size for this chromosome..13356
+[DEBUG]Total motif size that include fp: 10717
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 326355
+[DEBUG]reading conservation data for chrX
+before return: 334134
+post read signal size: 334134
+TOTAL: 68972182
+real: 1152638
+Percent: 0
+incoming size: 334134
+0 : BDP1_disc1_8mer
+1 : ATF3_disc2_8mer
+2 : ATF3_known7_8mer
+3 : NF-Y_known1_8mer
+4 : NF-Y_disc1_8mer
+5 : SP1_disc1_8mer
+6 : TCF12_disc5_8mer
+7 : SP1_known4_8mer
+8 : Ets_disc7_8mer
+9 : Pou2f2_disc2_8mer
+10 : Znf143_disc3_8mer
+11 : CHD2_disc3_8mer
+12 : Ets_disc9_8mer
+13 : ELF1_disc2_8mer
+14 : BCL_disc9_8mer
+15 : RXRA_disc2_8mer
+16 : CTCF_disc1_8mer
+17 : Pax-5_disc5_8mer
+18 : BCL_disc8_8mer
+19 : NRSF_disc9_8mer
+20 : Sin3Ak-20_disc5_8mer
+21 : ZBTB7A_known1_8mer
+22 : GATA_known8_8mer
+23 : AP-2_known5_8mer
+24 : AP-2_known6_8mer
+25 : RXRA_known4_8mer
+26 : GR_known10_8mer
+27 : Mef2_known6_8mer
+28 : CTCF_known1_8mer
+29 : Pax-5_disc1_8mer
+30 : NRSF_disc8_8mer
+31 : Sin3Ak-20_disc7_8mer
+32 : YY1_disc4_8mer
+33 : E2F_disc8_8mer
+34 : TATA_disc10_8mer
+35 : NF-kappaB_known6_8mer
+36 : YY1_disc5_8mer
+37 : BCL_disc10_8mer
+38 : NRSF_disc6_8mer
+39 : p300_known1_8mer
+40 : Pou2f2_known4_8mer
+41 : Egr-1_known3_8mer
+42 : NF-E2_disc4_8mer
+43 : ELF1_disc3_8mer
+44 : p300_disc9_8mer
+45 : CCNT2_disc2_8mer
+46 : BHLHE40_disc2_8mer
+47 : AP-2_known2_8mer
+48 : Pax-5_known3_8mer
+49 : E2F_disc3_8mer
+50 : HDAC2_disc4_8mer
+51 : SP1_disc3_8mer
+52 : Irf_disc4_8mer
+53 : HEY1_disc2_8mer
+54 : YY1_disc3_8mer
+55 : p300_disc8_8mer
+56 : TATA_disc8_8mer
+57 : CTCF_disc5_8mer
+58 : AP-2_known1_8mer
+59 : STAT_disc7_8mer
+60 : EBF_known2_8mer
+61 : Rad21_disc7_8mer
+62 : TAL1_known1_8mer
+63 : Myc_disc10_8mer
+64 : Egr-1_disc6_8mer
+65 : AP-2_known3_8mer
+66 : SP1_known2_8mer
+67 : ATF3_disc4_8mer
+68 : NRSF_disc3_8mer
+69 : NRSF_disc4_8mer
+70 : E2F_known3_8mer
+71 : SRF_disc2_8mer
+72 : SMC3_disc2_8mer
+73 : RFX5_known1_8mer
+74 : ATF3_known4_8mer
+75 : Myc_disc2_8mer
+76 : Myc_known4_8mer
+77 : Myc_known7_8mer
+78 : Rad21_disc5_8mer
+79 : Egr-1_known2_8mer
+80 : Znf143_disc4_8mer
+81 : SP1_known1_8mer
+82 : BCL_disc6_8mer
+83 : SMC3_disc1_8mer
+84 : Ets_disc6_8mer
+85 : Irf_known11_8mer
+86 : SRF_known1_8mer
+87 : SRF_known6_8mer
+88 : Sin3Ak-20_disc6_8mer
+89 : ATF3_known8_8mer
+90 : Irf_disc1_8mer
+91 : E2F_disc4_8mer
+92 : CTCF_disc8_8mer
+93 : GR_disc6_8mer
+94 : SP2_disc3_8mer
+95 : ERalpha-a_disc4_8mer
+96 : Nrf1_disc3_8mer
+97 : Egr-1_known5_8mer
+98 : Egr-1_disc1_8mer
+99 : TATA_disc4_8mer
+100 : ATF3_known9_8mer
+101 : ATF3_known1_8mer
+102 : ATF3_known5_8mer
+103 : STAT_known10_8mer
+104 : STAT_known12_8mer
+105 : STAT_disc1_8mer
+106 : Pou2f2_disc1_8mer
+107 : Nanog_known1_8mer
+108 : Pou2f2_known1_8mer
+109 : Pou2f2_known10_8mer
+110 : Nanog_disc1_8mer
+111 : Pbx3_disc2_8mer
+112 : Myc_disc8_8mer
+113 : EBF_known1_8mer
+114 : TATA_disc7_8mer
+115 : SMC3_disc3_8mer
+116 : BDP1_disc3_8mer
+117 : Sin3Ak-20_disc4_8mer
+118 : NF-kappaB_disc4_8mer
+119 : E2F_disc7_8mer
+120 : ZNF263_disc1_8mer
+121 : SMC3_disc4_8mer
+122 : AP-1_disc10_8mer
+123 : HDAC2_disc3_8mer
+124 : ZEB1_known5_8mer
+125 : AP-1_disc5_8mer
+126 : Mxi1_disc1_8mer
+127 : SREBP_disc1_8mer
+128 : Rad21_disc10_8mer
+129 : NRSF_disc5_8mer
+130 : NF-kappaB_known1_8mer
+131 : Pbx3_disc3_8mer
+132 : GATA_disc6_8mer
+133 : RXRA_disc5_8mer
+134 : Sin3Ak-20_disc1_8mer
+135 : Rad21_disc4_8mer
+136 : RFX5_known5_8mer
+137 : GATA_disc3_8mer
+138 : TCF12_disc3_8mer
+139 : HNF4_known4_8mer
+140 : ZBTB7A_disc2_8mer
+141 : AP-1_disc6_8mer
+142 : ATF3_disc3_8mer
+143 : ZBTB7A_known2_8mer
+144 : Myc_disc9_8mer
+145 : HNF4_disc3_8mer
+146 : STAT_known6_8mer
+147 : STAT_known7_8mer
+148 : ELF1_known1_8mer
+149 : Ets_known8_8mer
+150 : Egr-1_disc2_8mer
+151 : Pax-5_disc4_8mer
+152 : RFX5_disc1_8mer
+153 : ZEB1_known3_8mer
+154 : Mef2_disc1_8mer
+155 : EBF_disc1_8mer
+156 : PU.1_disc1_8mer
+157 : HNF4_known1_8mer
+158 : Nanog_disc2_8mer
+159 : Pax-5_known1_8mer
+160 : Znf143_known1_8mer
+161 : CTCF_disc7_8mer
+162 : Maf_known1_8mer
+163 : NF-E2_disc1_8mer
+164 : GR_disc2_8mer
+165 : AP-2_disc1_8mer
+166 : HMGN3_disc1_8mer
+167 : RXRA_known6_8mer
+168 : THAP1_disc1_8mer
+169 : Rad21_disc8_8mer
+170 : PU.1_disc3_8mer
+171 : NRSF_known1_8mer
+172 : Egr-1_known1_8mer
+173 : YY1_disc1_8mer
+174 : Myc_known5_8mer
+175 : Myc_known6_8mer
+176 : NF-E2_disc2_8mer
+177 : Mxi1_known1_8mer
+178 : NF-E2_disc3_8mer
+179 : Nrf1_disc1_8mer
+180 : GR_known3_8mer
+181 : GR_disc1_8mer
+182 : RXRA_known5_8mer
+183 : Nanog_disc3_8mer
+184 : ZEB1_disc1_8mer
+185 : BCL_disc1_8mer
+186 : Ets_known5_8mer
+187 : CEBPB_disc1_8mer
+188 : Hsf_disc1_8mer
+189 : Ets_known4_8mer
+190 : Ets_known7_8mer
+191 : TATA_disc3_8mer
+192 : TATA_disc6_8mer
+193 : NRSF_disc1_8mer
+194 : Ets_known3_8mer
+195 : Ets_known9_8mer
+196 : Ets_disc4_8mer
+197 : SIX5_disc4_8mer
+198 : SIX5_disc3_8mer
+199 : SETDB1_disc1_8mer
+200 : Egr-1_disc4_8mer
+201 : Ets_disc2_8mer
+202 : HDAC2_disc6_8mer
+203 : p300_disc5_8mer
+204 : Hsf_known1_8mer
+205 : SP2_disc2_8mer
+206 : Irf_known5_8mer
+207 : ELF1_disc1_8mer
+208 : TR4_disc1_8mer
+209 : Egr-1_disc7_8mer
+210 : ZBTB33_disc2_8mer
+211 : BRCA1_disc1_8mer
+212 : GR_disc4_8mer
+213 : YY1_known3_8mer
+214 : TATA_disc1_8mer
+215 : TCF12_known1_8mer
+216 : E2F_disc2_8mer
+217 : SETDB1_disc2_8mer
+218 : Egr-1_disc3_8mer
+219 : NF-kappaB_disc2_8mer
+220 : SP1_known3_8mer
+221 : RXRA_known1_8mer
+222 : CTCFL_disc1_8mer
+223 : NRSF_disc7_8mer
+224 : Rad21_disc1_8mer
+225 : GATA_known11_8mer
+226 : BCL_disc4_8mer
+227 : Myc_known1_8mer
+228 : Irf_known6_8mer
+229 : Irf_known8_8mer
+230 : Pou2f2_known2_8mer
+231 : Pou5f1_known1_8mer
+232 : Pou5f1_disc1_8mer
+233 : Irf_known3_8mer
+234 : CEBPB_known1_8mer
+235 : CEBPB_known6_8mer
+236 : STAT_disc4_8mer
+237 : ERalpha-a_disc1_8mer
+238 : YY1_known5_8mer
+239 : NF-kappaB_known2_8mer
+240 : GR_known1_8mer
+241 : Myc_disc5_8mer
+242 : ATF3_known6_8mer
+243 : AP-1_disc2_8mer
+244 : YY1_known2_8mer
+245 : GR_disc5_8mer
+246 : Irf_disc6_8mer
+247 : Foxa_known2_8mer
+248 : TATA_known5_8mer
+249 : HNF4_disc5_8mer
+250 : PRDM1_disc1_8mer
+251 : AP-2_known4_8mer
+252 : CTCF_disc3_8mer
+253 : BCL_disc7_8mer
+254 : HNF4_disc1_8mer
+255 : HNF4_known2_8mer
+256 : HDAC2_disc5_8mer
+257 : STAT_disc6_8mer
+258 : AP-1_disc7_8mer
+259 : Myc_known8_8mer
+260 : Mxi1_disc2_8mer
+261 : KAP1_disc2_8mer
+262 : BCL_disc5_8mer
+263 : Ets_known1_8mer
+264 : CEBPB_known3_8mer
+265 : STAT_known13_8mer
+266 : Maf_known2_8mer
+267 : ERalpha-a_disc3_8mer
+268 : BHLHE40_disc1_8mer
+269 : NRSF_known3_8mer
+270 : STAT_known15_8mer
+271 : Pax-5_disc3_8mer
+272 : RXRA_disc4_8mer
+273 : Foxa_known1_8mer
+274 : Irf_known7_8mer
+275 : Mef2_disc3_8mer
+276 : GATA_known6_8mer
+277 : ATF3_known3_8mer
+278 : NF-E2_known1_8mer
+279 : BHLHE40_known1_8mer
+280 : p300_disc10_8mer
+281 : TCF12_disc1_8mer
+282 : Ets_known6_8mer
+283 : NRSF_known2_8mer
+284 : Pax-5_disc2_8mer
+285 : Egr-1_known4_8mer
+286 : RFX5_disc3_8mer
+287 : E2F_known5_8mer
+288 : ZEB1_known4_8mer
+289 : GATA_known12_8mer
+290 : ZBTB7A_disc1_8mer
+291 : Irf_disc3_8mer
+292 : Irf_disc5_8mer
+293 : Irf_known1_8mer
+294 : Irf_known9_8mer
+295 : RXRA_known3_8mer
+296 : Ets_disc8_8mer
+297 : SRF_known5_8mer
+298 : SREBP_known1_8mer
+299 : GATA_known13_8mer
+300 : GATA_disc1_8mer
+301 : NF-kappaB_disc3_8mer
+302 : GR_disc3_8mer
+303 : Nrf1_known1_8mer
+304 : HNF4_known5_8mer
+305 : NF-kappaB_known3_8mer
+306 : TATA_disc2_8mer
+307 : RFX5_known4_8mer
+308 : Foxa_known3_8mer
+309 : Foxa_disc1_8mer
+310 : TCF12_disc2_8mer
+311 : Pax-5_known2_8mer
+312 : CEBPB_disc2_8mer
+313 : Ets_disc1_8mer
+314 : Pax-5_known4_8mer
+315 : NF-kappaB_known5_8mer
+316 : NF-kappaB_disc1_8mer
+317 : GATA_disc2_8mer
+318 : NF-Y_known3_8mer
+319 : NF-kappaB_known4_8mer
+320 : CTCF_disc10_8mer
+321 : Myc_disc1_8mer
+322 : ATF3_disc1_8mer
+323 : E2F_known2_8mer
+324 : E2F_known1_8mer
+325 : TAL1_disc1_8mer
+326 : CEBPB_known4_8mer
+327 : Pou2f2_known6_8mer
+328 : TR4_disc2_8mer
+329 : YY1_known6_8mer
+330 : p300_disc7_8mer
+331 : TATA_disc9_8mer
+332 : STAT_disc5_8mer
+333 : CTCF_disc6_8mer
+334 : ZBTB33_disc1_8mer
+335 : Ets_disc3_8mer
+336 : CHD2_disc1_8mer
+337 : E2F_known6_8mer
+338 : CEBPB_known5_8mer
+339 : CTCF_disc2_8mer
+340 : TATA_known1_8mer
+341 : BATF_disc2_8mer
+342 : Hsf_known2_8mer
+343 : Hsf_known3_8mer
+344 : Foxa_disc2_8mer
+345 : Egr-1_disc5_8mer
+346 : ZBTB33_disc4_8mer
+347 : Mef2_known2_8mer
+348 : TATA_known4_8mer
+349 : AP-1_known4_8mer
+350 : TCF4_disc1_8mer
+351 : BAF155_disc1_8mer
+352 : KAP1_disc1_8mer
+353 : TAL1_disc2_8mer
+354 : BRCA1_known2_8mer
+355 : SP1_disc2_8mer
+356 : PRDM1_known1_8mer
+357 : Sin3Ak-20_disc2_8mer
+358 : TCF4_known1_8mer
+359 : TCF4_known3_8mer
+360 : AP-1_disc8_8mer
+361 : ERalpha-a_known1_8mer
+362 : ZEB1_known2_8mer
+363 : Nrf1_known2_8mer
+364 : Mef2_known1_8mer
+365 : Mef2_known3_8mer
+366 : E2F_known9_8mer
+367 : Rad21_disc9_8mer
+368 : NR4A_known1_8mer
+369 : RXRA_disc1_8mer
+370 : Irf_known10_8mer
+371 : AP-1_known1_8mer
+372 : p300_disc2_8mer
+373 : PU.1_disc2_8mer
+374 : STAT_disc3_8mer
+375 : Mef2_known4_8mer
+376 : p300_disc6_8mer
+377 : BATF_disc1_8mer
+378 : AP-1_disc3_8mer
+379 : STAT_disc2_8mer
+380 : PRDM1_disc2_8mer
+381 : SIX5_known1_8mer
+382 : Foxa_disc4_8mer
+383 : GR_known9_8mer
+384 : Pbx3_disc1_8mer
+385 : CCNT2_disc1_8mer
+386 : AP-1_disc4_8mer
+387 : RFX5_known2_8mer
+388 : YY1_disc2_8mer
+389 : BHLHE40_known2_8mer
+390 : ERalpha-a_disc2_8mer
+391 : Maf_known4_8mer
+392 : ZBTB33_known1_8mer
+393 : YY1_known4_8mer
+394 : GATA_known10_8mer
+395 : GATA_known3_8mer
+396 : Ets_known2_8mer
+397 : SREBP_known4_8mer
+398 : Maf_disc2_8mer
+399 : SIX5_known2_8mer
+400 : Pou2f2_known3_8mer
+401 : Mef2_known5_8mer
+402 : Irf_known2_8mer
+403 : SP2_disc1_8mer
+404 : RFX5_disc2_8mer
+405 : Rad21_disc3_8mer
+406 : SRF_known4_8mer
+407 : TR4_disc3_8mer
+408 : Pou2f2_known7_8mer
+409 : TAL1_known2_8mer
+410 : THAP1_disc2_8mer
+411 : SIRT6_disc1_8mer
+412 : Pou5f1_known2_8mer
+413 : Maf_known3_8mer
+414 : STAT_known11_8mer
+415 : HEY1_disc1_8mer
+416 : Znf143_disc2_8mer
+417 : HDAC2_disc2_8mer
+418 : SRF_known2_8mer
+419 : p300_disc1_8mer
+420 : BCL_disc2_8mer
+421 : Myc_disc3_8mer
+422 : RXRA_disc3_8mer
+423 : AP-1_known3_8mer
+424 : Maf_disc1_8mer
+425 : HDAC2_disc1_8mer
+426 : Myc_disc6_8mer
+427 : Nanog_disc4_8mer
+428 : Pou2f2_known11_8mer
+429 : GR_known4_8mer
+430 : Mef2_disc2_8mer
+431 : HNF4_disc4_8mer
+432 : GATA_known14_8mer
+433 : TATA_known3_8mer
+434 : GATA_known7_8mer
+435 : NRSF_disc10_8mer
+436 : Sin3Ak-20_disc3_8mer
+437 : E2F_disc1_8mer
+438 : ZBTB33_disc3_8mer
+439 : TATA_disc5_8mer
+440 : Nrf1_disc2_8mer
+441 : RFX5_known3_8mer
+442 : GR_known2_8mer
+443 : AP-1_disc1_8mer
+444 : SIX5_disc1_8mer
+445 : BAF155_disc2_8mer
+446 : GATA_known9_8mer
+447 : NF-Y_known2_8mer
+448 : TCF12_disc4_8mer
+449 : STAT_known14_8mer
+450 : GATA_disc4_8mer
+451 : Irf_disc2_8mer
+452 : SRF_known3_8mer
+453 : BCL_disc3_8mer
+454 : E2F_disc5_8mer
+455 : Foxa_disc5_8mer
+456 : Ets_disc5_8mer
+457 : RXRA_known7_8mer
+458 : TCF4_disc2_8mer
+459 : GATA_known1_8mer
+460 : GATA_known4_8mer
+461 : HNF4_known3_8mer
+462 : SIX5_disc2_8mer
+463 : Znf143_disc1_8mer
+464 : Myc_disc4_8mer
+465 : Foxa_known4_8mer
+466 : GATA_disc5_8mer
+467 : Myc_disc7_8mer
+468 : TCF12_disc6_8mer
+469 : GATA_known2_8mer
+470 : BATF_disc3_8mer
+471 : Pou2f2_known9_8mer
+472 : E2F_disc6_8mer
+473 : TCF4_known2_8mer
+474 : HNF4_disc2_8mer
+475 : CHD2_disc2_8mer
+476 : GR_known7_8mer
+477 : SREBP_known3_8mer
+478 : AP-1_disc9_8mer
+479 : GR_known8_8mer
+480 : GR_known5_8mer
+481 : E2F_known7_8mer
+482 : p300_disc4_8mer
+483 : CEBPB_known2_8mer
+484 : Pou2f2_known8_8mer
+485 : Foxa_disc3_8mer
+486 : Rad21_disc2_8mer
+487 : HNF4_known8_8mer
+488 : Myc_known9_8mer
+489 : p300_disc3_8mer
+490 : Pbx3_known1_8mer
+491 : GR_known6_8mer
+492 : Pou5f1_disc2_8mer
+493 : Pou2f2_known5_8mer
+494 : NRSF_disc2_8mer
+495 : BDP1_disc2_8mer
+496 : HMGN3_disc2_8mer
+497 : SRF_disc1_8mer
+number of motif: 498
+[DEBUG]aggregate signal and conservation signals
+[DEBUG]average the aggregation
+[DEBUG]sort
+498 , 334134
+[DEBUG]output result
+[DEBUG]output direcotry:../tmp/test_mp_result2/CD20+
+[DEBUG] get motif instance for chr1
+[DEBUG] motif instance size for this chromosome..2700213
+[DEBUG] get fp for chr1, GM06990
+[DEBUG]fp size for this chromosome..42139
+[DEBUG]Total motif size that include fp: 29130
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+0 left overs...
+reach the end when reading signal: 0
+[DEBUG]reading conservation data for chr1
+before return: 21205
+[DEBUG] get motif instance for chr2
+[DEBUG] motif instance size for this chromosome..2971150
+[DEBUG] get fp for chr2, GM06990
+[DEBUG]fp size for this chromosome..30078
+[DEBUG]Total motif size that include fp: 20652
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+0 left overs...
+reach the end when reading signal: 21205
+[DEBUG]reading conservation data for chr2
+before return: 36258
+[DEBUG] get motif instance for chr3
+[DEBUG] motif instance size for this chromosome..2319133
+[DEBUG] get fp for chr3, GM06990
+[DEBUG]fp size for this chromosome..24303
+[DEBUG]Total motif size that include fp: 15917
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+0 left overs...
+reach the end when reading signal: 36258
+[DEBUG]reading conservation data for chr3
+before return: 47837
+[DEBUG] get motif instance for chr4
+[DEBUG] motif instance size for this chromosome..2205358
+[DEBUG] get fp for chr4, GM06990
+[DEBUG]fp size for this chromosome..15578
+[DEBUG]Total motif size that include fp: 10696
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 47837
+[DEBUG]reading conservation data for chr4
+before return: 55624
+[DEBUG] get motif instance for chr5
+[DEBUG] motif instance size for this chromosome..2134142
+[DEBUG] get fp for chr5, GM06990
+[DEBUG]fp size for this chromosome..20604
+[DEBUG]Total motif size that include fp: 14424
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 55624
+[DEBUG]reading conservation data for chr5
+before return: 66126
+[DEBUG] get motif instance for chr6
+[DEBUG] motif instance size for this chromosome..2052746
+[DEBUG] get fp for chr6, GM06990
+[DEBUG]fp size for this chromosome..26855
+[DEBUG]Total motif size that include fp: 17981
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 66126
+[DEBUG]reading conservation data for chr6
+before return: 79104
+[DEBUG] get motif instance for chr7
+[DEBUG] motif instance size for this chromosome..1892975
+[DEBUG] get fp for chr7, GM06990
+[DEBUG]fp size for this chromosome..19966
+[DEBUG]Total motif size that include fp: 14577
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 79104
+[DEBUG]reading conservation data for chr7
+before return: 89751
+[DEBUG] get motif instance for chr8
+[DEBUG] motif instance size for this chromosome..1756651
+[DEBUG] get fp for chr8, GM06990
+[DEBUG]fp size for this chromosome..15931
+[DEBUG]Total motif size that include fp: 12772
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 89751
+[DEBUG]reading conservation data for chr8
+before return: 99036
+[DEBUG] get motif instance for chr9
+[DEBUG] motif instance size for this chromosome..1474941
+[DEBUG] get fp for chr9, GM06990
+[DEBUG]fp size for this chromosome..16660
+[DEBUG]Total motif size that include fp: 12040
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 99036
+[DEBUG]reading conservation data for chr9
+before return: 107854
+[DEBUG] get motif instance for chr10
+[DEBUG] motif instance size for this chromosome..1666407
+[DEBUG] get fp for chr10, GM06990
+[DEBUG]fp size for this chromosome..18011
+[DEBUG]Total motif size that include fp: 13602
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 107854
+[DEBUG]reading conservation data for chr10
+before return: 117721
+[DEBUG] get motif instance for chr11
+[DEBUG] motif instance size for this chromosome..1617883
+[DEBUG] get fp for chr11, GM06990
+[DEBUG]fp size for this chromosome..21800
+[DEBUG]Total motif size that include fp: 17877
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 117721
+[DEBUG]reading conservation data for chr11
+before return: 130721
+[DEBUG] get motif instance for chr12
+[DEBUG] motif instance size for this chromosome..1559123
+[DEBUG] get fp for chr12, GM06990
+[DEBUG]fp size for this chromosome..22127
+[DEBUG]Total motif size that include fp: 17344
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 130721
+[DEBUG]reading conservation data for chr12
+before return: 143335
+[DEBUG] get motif instance for chr13
+[DEBUG] motif instance size for this chromosome..1206383
+[DEBUG] get fp for chr13, GM06990
+[DEBUG]fp size for this chromosome..8392
+[DEBUG]Total motif size that include fp: 5982
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 143335
+[DEBUG]reading conservation data for chr13
+before return: 147754
+[DEBUG] get motif instance for chr14
+[DEBUG] motif instance size for this chromosome..1106718
+[DEBUG] get fp for chr14, GM06990
+[DEBUG]fp size for this chromosome..14845
+[DEBUG]Total motif size that include fp: 11344
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 147754
+[DEBUG]reading conservation data for chr14
+before return: 156040
+[DEBUG] get motif instance for chr15
+[DEBUG] motif instance size for this chromosome..1039064
+[DEBUG] get fp for chr15, GM06990
+[DEBUG]fp size for this chromosome..13956
+[DEBUG]Total motif size that include fp: 10422
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 156040
+[DEBUG]reading conservation data for chr15
+before return: 163668
+[DEBUG] get motif instance for chr16
+[DEBUG] motif instance size for this chromosome..1017229
+[DEBUG] get fp for chr16, GM06990
+[DEBUG]fp size for this chromosome..19356
+[DEBUG]Total motif size that include fp: 15836
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+0 left overs...
+reach the end when reading signal: 163668
+[DEBUG]reading conservation data for chr16
+before return: 175211
+[DEBUG] get motif instance for chr17
+[DEBUG] motif instance size for this chromosome..1046432
+[DEBUG] get fp for chr17, GM06990
+[DEBUG]fp size for this chromosome..26566
+[DEBUG]Total motif size that include fp: 21464
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+0 left overs...
+reach the end when reading signal: 175211
+[DEBUG]reading conservation data for chr17
+before return: 190724
+[DEBUG] get motif instance for chr18
+[DEBUG] motif instance size for this chromosome..973761
+[DEBUG] get fp for chr18, GM06990
+[DEBUG]fp size for this chromosome..6580
+[DEBUG]Total motif size that include fp: 5175
+1000
+2000
+3000
+0 left overs...
+reach the end when reading signal: 190724
+[DEBUG]reading conservation data for chr18
+before return: 194526
+[DEBUG] get motif instance for chr19
+[DEBUG] motif instance size for this chromosome..676576
+[DEBUG] get fp for chr19, GM06990
+[DEBUG]fp size for this chromosome..34389
+[DEBUG]Total motif size that include fp: 29910
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+0 left overs...
+reach the end when reading signal: 194526
+[DEBUG]reading conservation data for chr19
+before return: 216025
+[DEBUG] get motif instance for chr20
+[DEBUG] motif instance size for this chromosome..748768
+[DEBUG] get fp for chr20, GM06990
+[DEBUG]fp size for this chromosome..11431
+[DEBUG]Total motif size that include fp: 8416
+1000
+2000
+3000
+4000
+5000
+6000
+0 left overs...
+reach the end when reading signal: 216025
+[DEBUG]reading conservation data for chr20
+before return: 222182
+[DEBUG] get motif instance for chr21
+[DEBUG] motif instance size for this chromosome..450452
+[DEBUG] get fp for chr21, GM06990
+[DEBUG]fp size for this chromosome..5001
+[DEBUG]Total motif size that include fp: 3338
+1000
+2000
+0 left overs...
+reach the end when reading signal: 222182
+[DEBUG]reading conservation data for chr21
+before return: 224588
+[DEBUG] get motif instance for chr22
+[DEBUG] motif instance size for this chromosome..474090
+[DEBUG] get fp for chr22, GM06990
+[DEBUG]fp size for this chromosome..10473
+[DEBUG]Total motif size that include fp: 7834
+1000
+2000
+3000
+4000
+5000
+0 left overs...
+reach the end when reading signal: 224588
+[DEBUG]reading conservation data for chr22
+before return: 230212
+[DEBUG] get motif instance for chrX
+[DEBUG] motif instance size for this chromosome..1395896
+[DEBUG] get fp for chrX, GM06990
+[DEBUG]fp size for this chromosome..9520
+[DEBUG]Total motif size that include fp: 7224
+1000
+2000
+3000
+4000
+5000
+0 left overs...
+reach the end when reading signal: 230212
+[DEBUG]reading conservation data for chrX
+before return: 235482
+post read signal size: 235482
+TOTAL: 103458273
+real: 1476595
+Percent: 0
+incoming size: 235482
+0 : BDP1_disc1_8mer
+1 : ATF3_disc2_8mer
+2 : ATF3_known7_8mer
+3 : NF-Y_known1_8mer
+4 : NF-Y_disc1_8mer
+5 : SP1_disc1_8mer
+6 : BHLHE40_disc2_8mer
+7 : Egr-1_known3_8mer
+8 : p300_disc9_8mer
+9 : HNF4_disc5_8mer
+10 : Irf_disc4_8mer
+11 : HDAC2_disc5_8mer
+12 : Rad21_disc1_8mer
+13 : RXRA_disc2_8mer
+14 : CTCF_known1_8mer
+15 : SMC3_disc1_8mer
+16 : NRSF_disc9_8mer
+17 : BCL_disc8_8mer
+18 : Pax-5_disc1_8mer
+19 : Pax-5_known3_8mer
+20 : HDAC2_disc4_8mer
+21 : SP1_disc3_8mer
+22 : SP1_known2_8mer
+23 : YY1_disc4_8mer
+24 : ZBTB33_disc2_8mer
+25 : HEY1_disc2_8mer
+26 : TATA_disc4_8mer
+27 : AP-1_known1_8mer
+28 : Nanog_disc3_8mer
+29 : Myc_disc2_8mer
+30 : Myc_known4_8mer
+31 : Myc_known7_8mer
+32 : RXRA_known4_8mer
+33 : Irf_disc3_8mer
+34 : Irf_known11_8mer
+35 : Irf_known7_8mer
+36 : Irf_known6_8mer
+37 : Irf_known1_8mer
+38 : Irf_known9_8mer
+39 : SRF_known1_8mer
+40 : SRF_known6_8mer
+41 : SMC3_disc4_8mer
+42 : NRSF_disc8_8mer
+43 : ZBTB7A_disc1_8mer
+44 : Irf_disc1_8mer
+45 : E2F_disc4_8mer
+46 : GR_disc6_8mer
+47 : TCF12_disc6_8mer
+48 : E2F_disc3_8mer
+49 : SP1_known4_8mer
+50 : ATF3_disc4_8mer
+51 : AP-2_known1_8mer
+52 : ATF3_known8_8mer
+53 : ATF3_known9_8mer
+54 : ATF3_known5_8mer
+55 : Pou2f2_disc1_8mer
+56 : Nanog_known1_8mer
+57 : Pou2f2_known1_8mer
+58 : Pou2f2_known10_8mer
+59 : Nanog_disc1_8mer
+60 : Pbx3_disc2_8mer
+61 : CHD2_disc3_8mer
+62 : ZEB1_known3_8mer
+63 : Sin3Ak-20_disc4_8mer
+64 : AP-2_known2_8mer
+65 : E2F_disc8_8mer
+66 : p300_disc8_8mer
+67 : Nrf1_disc3_8mer
+68 : CTCF_disc8_8mer
+69 : BCL_disc9_8mer
+70 : Znf143_disc4_8mer
+71 : Sin3Ak-20_disc5_8mer
+72 : SMC3_disc3_8mer
+73 : HDAC2_disc3_8mer
+74 : Znf143_disc3_8mer
+75 : Maf_known2_8mer
+76 : Mxi1_disc1_8mer
+77 : SREBP_disc1_8mer
+78 : Pou2f2_disc2_8mer
+79 : Rad21_disc10_8mer
+80 : TATA_disc7_8mer
+81 : YY1_disc3_8mer
+82 : NRSF_known2_8mer
+83 : Mxi1_known1_8mer
+84 : NF-kappaB_known6_8mer
+85 : HNF4_disc3_8mer
+86 : HEY1_disc1_8mer
+87 : STAT_known10_8mer
+88 : GR_known10_8mer
+89 : Ets_known8_8mer
+90 : Ets_known9_8mer
+91 : NRSF_disc4_8mer
+92 : ERalpha-a_disc4_8mer
+93 : ELF1_disc3_8mer
+94 : PU.1_disc1_8mer
+95 : Znf143_known1_8mer
+96 : ATF3_known4_8mer
+97 : Myc_disc9_8mer
+98 : YY1_disc1_8mer
+99 : THAP1_disc1_8mer
+100 : AP-2_known3_8mer
+101 : Nrf1_disc1_8mer
+102 : Ets_known7_8mer
+103 : TATA_disc3_8mer
+104 : Egr-1_known2_8mer
+105 : Ets_disc7_8mer
+106 : HNF4_known4_8mer
+107 : BCL_disc1_8mer
+108 : Egr-1_disc2_8mer
+109 : Ets_known5_8mer
+110 : EBF_disc1_8mer
+111 : CEBPB_disc1_8mer
+112 : Hsf_disc1_8mer
+113 : TATA_disc10_8mer
+114 : ELF1_disc2_8mer
+115 : Nrf1_known1_8mer
+116 : CTCF_disc5_8mer
+117 : NF-E2_disc3_8mer
+118 : Mxi1_disc2_8mer
+119 : Myc_known6_8mer
+120 : Myc_known8_8mer
+121 : Egr-1_disc6_8mer
+122 : Myc_disc10_8mer
+123 : NRSF_disc1_8mer
+124 : Pax-5_disc5_8mer
+125 : STAT_disc7_8mer
+126 : EBF_known1_8mer
+127 : Sin3Ak-20_disc6_8mer
+128 : EBF_known2_8mer
+129 : Ets_known4_8mer
+130 : Rad21_disc8_8mer
+131 : Ets_disc4_8mer
+132 : SIX5_disc4_8mer
+133 : SIX5_disc3_8mer
+134 : SETDB1_disc1_8mer
+135 : Egr-1_disc4_8mer
+136 : TR4_disc1_8mer
+137 : NF-E2_disc4_8mer
+138 : SP2_disc2_8mer
+139 : Rad21_disc7_8mer
+140 : Ets_known3_8mer
+141 : ELF1_disc1_8mer
+142 : Ets_disc2_8mer
+143 : SRF_disc2_8mer
+144 : Ets_disc9_8mer
+145 : AP-2_known4_8mer
+146 : BRCA1_disc1_8mer
+147 : AP-1_disc5_8mer
+148 : Ets_disc6_8mer
+149 : E2F_known3_8mer
+150 : GR_disc4_8mer
+151 : YY1_known3_8mer
+152 : TATA_disc1_8mer
+153 : YY1_known2_8mer
+154 : NRSF_known1_8mer
+155 : AP-1_disc6_8mer
+156 : PU.1_disc3_8mer
+157 : Znf143_disc2_8mer
+158 : BAF155_disc2_8mer
+159 : NF-kappaB_disc2_8mer
+160 : SP1_known3_8mer
+161 : Rad21_disc4_8mer
+162 : ELF1_known1_8mer
+163 : ZBTB7A_disc2_8mer
+164 : Pbx3_disc3_8mer
+165 : TCF4_known3_8mer
+166 : RXRA_known1_8mer
+167 : Egr-1_disc1_8mer
+168 : YY1_disc5_8mer
+169 : CTCF_disc7_8mer
+170 : SMC3_disc2_8mer
+171 : GATA_known11_8mer
+172 : Myc_known1_8mer
+173 : ZEB1_disc1_8mer
+174 : Irf_known8_8mer
+175 : Sin3Ak-20_disc7_8mer
+176 : Pou5f1_known1_8mer
+177 : Pou5f1_disc1_8mer
+178 : TATA_disc9_8mer
+179 : Pou2f2_known2_8mer
+180 : Pou2f2_known6_8mer
+181 : ZEB1_known2_8mer
+182 : Irf_known3_8mer
+183 : CEBPB_known1_8mer
+184 : STAT_disc4_8mer
+185 : ERalpha-a_known1_8mer
+186 : Mef2_known4_8mer
+187 : ERalpha-a_disc1_8mer
+188 : HNF4_disc1_8mer
+189 : GATA_disc3_8mer
+190 : TATA_disc5_8mer
+191 : Nrf1_disc2_8mer
+192 : SP1_known1_8mer
+193 : BCL_disc10_8mer
+194 : NF-kappaB_known2_8mer
+195 : Egr-1_disc7_8mer
+196 : SP1_disc2_8mer
+197 : NF-E2_disc1_8mer
+198 : ATF3_known6_8mer
+199 : RFX5_disc1_8mer
+200 : NF-Y_known2_8mer
+201 : AP-2_known5_8mer
+202 : Foxa_known2_8mer
+203 : Pax-5_known1_8mer
+204 : NRSF_disc5_8mer
+205 : HNF4_known2_8mer
+206 : NF-kappaB_known5_8mer
+207 : STAT_disc6_8mer
+208 : BDP1_disc3_8mer
+209 : Egr-1_known4_8mer
+210 : STAT_known7_8mer
+211 : STAT_disc1_8mer
+212 : Pax-5_disc3_8mer
+213 : RXRA_disc4_8mer
+214 : Foxa_known1_8mer
+215 : Hsf_known2_8mer
+216 : PU.1_disc2_8mer
+217 : Pax-5_disc4_8mer
+218 : Mef2_disc3_8mer
+219 : Irf_disc5_8mer
+220 : Foxa_disc1_8mer
+221 : BHLHE40_known1_8mer
+222 : ATF3_disc1_8mer
+223 : AP-1_disc10_8mer
+224 : ZBTB7A_known1_8mer
+225 : RFX5_disc3_8mer
+226 : NRSF_disc3_8mer
+227 : NRSF_disc6_8mer
+228 : TCF12_disc1_8mer
+229 : GR_disc1_8mer
+230 : HMGN3_disc1_8mer
+231 : ZNF263_disc1_8mer
+232 : STAT_known15_8mer
+233 : TCF12_disc5_8mer
+234 : ATF3_known3_8mer
+235 : STAT_known12_8mer
+236 : RXRA_known3_8mer
+237 : Ets_disc8_8mer
+238 : Egr-1_disc5_8mer
+239 : Rad21_disc5_8mer
+240 : Ets_known1_8mer
+241 : NF-kappaB_known1_8mer
+242 : RFX5_known4_8mer
+243 : p300_disc5_8mer
+244 : p300_known1_8mer
+245 : Pax-5_known2_8mer
+246 : E2F_disc7_8mer
+247 : Ets_disc1_8mer
+248 : Egr-1_known1_8mer
+249 : CHD2_disc2_8mer
+250 : Mef2_known6_8mer
+251 : STAT_disc3_8mer
+252 : BCL_disc4_8mer
+253 : Pou2f2_known8_8mer
+254 : Pou2f2_known7_8mer
+255 : Irf_disc6_8mer
+256 : GR_known1_8mer
+257 : GR_known7_8mer
+258 : NF-kappaB_disc3_8mer
+259 : NF-kappaB_disc1_8mer
+260 : SREBP_known1_8mer
+261 : NF-kappaB_known3_8mer
+262 : BCL_disc6_8mer
+263 : NRSF_known3_8mer
+264 : Nanog_disc2_8mer
+265 : CEBPB_known2_8mer
+266 : NF-Y_known3_8mer
+267 : TCF4_known2_8mer
+268 : TATA_disc8_8mer
+269 : E2F_disc2_8mer
+270 : SETDB1_disc2_8mer
+271 : Egr-1_disc3_8mer
+272 : RXRA_known5_8mer
+273 : CTCF_disc10_8mer
+274 : RFX5_disc2_8mer
+275 : CEBPB_disc2_8mer
+276 : Myc_disc1_8mer
+277 : NF-E2_disc2_8mer
+278 : GR_known4_8mer
+279 : Sin3Ak-20_disc1_8mer
+280 : GATA_known8_8mer
+281 : Pbx3_disc1_8mer
+282 : KAP1_disc2_8mer
+283 : Irf_known2_8mer
+284 : Ets_known2_8mer
+285 : HDAC2_disc6_8mer
+286 : E2F_known6_8mer
+287 : CCNT2_disc2_8mer
+288 : CEBPB_known5_8mer
+289 : PRDM1_known1_8mer
+290 : NF-kappaB_known4_8mer
+291 : Hsf_known3_8mer
+292 : STAT_known6_8mer
+293 : Foxa_disc5_8mer
+294 : HNF4_known3_8mer
+295 : AP-2_known6_8mer
+296 : RFX5_known3_8mer
+297 : CTCF_disc6_8mer
+298 : Mef2_known2_8mer
+299 : AP-2_disc1_8mer
+300 : TCF4_disc1_8mer
+301 : GR_disc2_8mer
+302 : KAP1_disc1_8mer
+303 : TAL1_disc2_8mer
+304 : Egr-1_known5_8mer
+305 : THAP1_disc2_8mer
+306 : E2F_known1_8mer
+307 : Pax-5_disc2_8mer
+308 : BCL_disc7_8mer
+309 : ZEB1_known5_8mer
+310 : AP-1_disc4_8mer
+311 : AP-1_disc7_8mer
+312 : Sin3Ak-20_disc2_8mer
+313 : NF-kappaB_disc4_8mer
+314 : Mef2_known3_8mer
+315 : E2F_known9_8mer
+316 : SP2_disc3_8mer
+317 : SRF_known2_8mer
+318 : SRF_known3_8mer
+319 : SRF_known5_8mer
+320 : BATF_disc1_8mer
+321 : GR_disc5_8mer
+322 : Foxa_disc3_8mer
+323 : Pou2f2_known4_8mer
+324 : p300_disc2_8mer
+325 : AP-1_disc8_8mer
+326 : p300_disc3_8mer
+327 : Foxa_known4_8mer
+328 : Irf_disc2_8mer
+329 : TCF12_disc2_8mer
+330 : Irf_known5_8mer
+331 : Maf_known3_8mer
+332 : p300_disc6_8mer
+333 : Pbx3_known1_8mer
+334 : AP-1_disc3_8mer
+335 : STAT_disc2_8mer
+336 : BAF155_disc1_8mer
+337 : PRDM1_disc2_8mer
+338 : RXRA_known6_8mer
+339 : BHLHE40_disc1_8mer
+340 : ERalpha-a_disc3_8mer
+341 : SIX5_known1_8mer
+342 : Rad21_disc2_8mer
+343 : TCF4_known1_8mer
+344 : Mef2_disc1_8mer
+345 : NRSF_disc2_8mer
+346 : Sin3Ak-20_disc3_8mer
+347 : Pou2f2_known9_8mer
+348 : Hsf_known1_8mer
+349 : RXRA_disc1_8mer
+350 : TCF12_known1_8mer
+351 : TAL1_known1_8mer
+352 : BHLHE40_known2_8mer
+353 : Myc_known5_8mer
+354 : p300_disc10_8mer
+355 : NRSF_disc10_8mer
+356 : BCL_disc3_8mer
+357 : TATA_known1_8mer
+358 : CTCFL_disc1_8mer
+359 : YY1_known4_8mer
+360 : Znf143_disc1_8mer
+361 : Ets_known6_8mer
+362 : TR4_disc2_8mer
+363 : SREBP_known4_8mer
+364 : CTCF_disc1_8mer
+365 : RFX5_known2_8mer
+366 : SIX5_disc1_8mer
+367 : Pou5f1_known2_8mer
+368 : TATA_known5_8mer
+369 : HNF4_known1_8mer
+370 : Mef2_known5_8mer
+371 : SP2_disc1_8mer
+372 : Irf_known10_8mer
+373 : GATA_known13_8mer
+374 : RXRA_disc3_8mer
+375 : AP-1_known3_8mer
+376 : CTCF_disc2_8mer
+377 : Rad21_disc3_8mer
+378 : RXRA_disc5_8mer
+379 : STAT_known11_8mer
+380 : AP-1_known4_8mer
+381 : YY1_known5_8mer
+382 : SIRT6_disc1_8mer
+383 : Maf_disc2_8mer
+384 : Foxa_known3_8mer
+385 : HDAC2_disc2_8mer
+386 : HNF4_disc2_8mer
+387 : GR_known2_8mer
+388 : p300_disc1_8mer
+389 : BCL_disc2_8mer
+390 : Myc_disc3_8mer
+391 : NF-E2_known1_8mer
+392 : ZBTB33_known1_8mer
+393 : HNF4_known8_8mer
+394 : ZEB1_known4_8mer
+395 : TCF4_disc2_8mer
+396 : HDAC2_disc1_8mer
+397 : Pax-5_known4_8mer
+398 : STAT_known14_8mer
+399 : Mef2_disc2_8mer
+400 : GATA_disc6_8mer
+401 : YY1_known6_8mer
+402 : HNF4_disc4_8mer
+403 : GATA_disc2_8mer
+404 : GATA_known14_8mer
+405 : CCNT2_disc1_8mer
+406 : GATA_known2_8mer
+407 : GATA_known10_8mer
+408 : BCL_disc5_8mer
+409 : GATA_known7_8mer
+410 : ATF3_disc3_8mer
+411 : AP-1_disc1_8mer
+412 : HNF4_known5_8mer
+413 : STAT_disc5_8mer
+414 : GATA_known1_8mer
+415 : GR_known8_8mer
+416 : E2F_disc1_8mer
+417 : NR4A_known1_8mer
+418 : E2F_disc5_8mer
+419 : AP-1_disc2_8mer
+420 : TCF12_disc4_8mer
+421 : Myc_known9_8mer
+422 : p300_disc7_8mer
+423 : PRDM1_disc1_8mer
+424 : SIX5_disc2_8mer
+425 : Ets_disc5_8mer
+426 : Maf_known1_8mer
+427 : Nrf1_known2_8mer
+428 : CEBPB_known4_8mer
+429 : ERalpha-a_disc2_8mer
+430 : TCF12_disc3_8mer
+431 : TAL1_disc1_8mer
+432 : STAT_known13_8mer
+433 : BATF_disc2_8mer
+434 : E2F_known2_8mer
+435 : SREBP_known3_8mer
+436 : RXRA_known7_8mer
+437 : BDP1_disc2_8mer
+438 : Myc_disc4_8mer
+439 : BRCA1_known2_8mer
+440 : BATF_disc3_8mer
+441 : ZBTB7A_known2_8mer
+442 : GATA_disc5_8mer
+443 : E2F_disc6_8mer
+444 : TATA_known3_8mer
+445 : GATA_known9_8mer
+446 : TR4_disc3_8mer
+447 : GATA_known12_8mer
+448 : ZBTB33_disc3_8mer
+449 : CEBPB_known6_8mer
+450 : GR_known5_8mer
+451 : GATA_known4_8mer
+452 : Maf_disc1_8mer
+453 : NRSF_disc7_8mer
+454 : AP-1_disc9_8mer
+455 : Myc_disc5_8mer
+456 : TATA_disc6_8mer
+457 : ATF3_known1_8mer
+458 : ZBTB33_disc1_8mer
+459 : Ets_disc3_8mer
+460 : CHD2_disc1_8mer
+461 : GR_disc3_8mer
+462 : Myc_disc8_8mer
+463 : RFX5_known1_8mer
+464 : GR_known9_8mer
+465 : Mef2_known1_8mer
+466 : SIX5_known2_8mer
+467 : TATA_disc2_8mer
+468 : RFX5_known5_8mer
+469 : p300_disc4_8mer
+470 : Pou2f2_known11_8mer
+471 : Rad21_disc9_8mer
+472 : GATA_known3_8mer
+473 : TATA_known4_8mer
+474 : Foxa_disc4_8mer
+475 : TAL1_known2_8mer
+476 : ZBTB33_disc4_8mer
+477 : Pou2f2_known5_8mer
+478 : Myc_disc6_8mer
+479 : GR_known6_8mer
+480 : YY1_disc2_8mer
+481 : Maf_known4_8mer
+482 : Myc_disc7_8mer
+483 : GR_known3_8mer
+484 : E2F_known7_8mer
+485 : Nanog_disc4_8mer
+486 : SRF_disc1_8mer
+487 : HMGN3_disc2_8mer
+488 : CEBPB_known3_8mer
+489 : Pou5f1_disc2_8mer
+490 : Pou2f2_known3_8mer
+491 : Foxa_disc2_8mer
+492 : GATA_known6_8mer
+493 : GATA_disc4_8mer
+494 : GATA_disc1_8mer
+495 : CTCF_disc3_8mer
+496 : SRF_known4_8mer
+497 : E2F_known5_8mer
+number of motif: 498
+[DEBUG]aggregate signal and conservation signals
+[DEBUG]average the aggregation
+[DEBUG]sort
+498 , 235482
+[DEBUG]output result
+[DEBUG]output direcotry:../tmp/test_mp_result2/GM06990
+[DEBUG] get motif instance for chr1
+[DEBUG] motif instance size for this chromosome..2700213
+[DEBUG] get fp for chr1, GM12865
+[DEBUG]fp size for this chromosome..78657
+[DEBUG]Total motif size that include fp: 46452
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+0 left overs...
+reach the end when reading signal: 0
+[DEBUG]reading conservation data for chr1
+before return: 33551
+[DEBUG] get motif instance for chr2
+[DEBUG] motif instance size for this chromosome..2971150
+[DEBUG] get fp for chr2, GM12865
+[DEBUG]fp size for this chromosome..58509
+[DEBUG]Total motif size that include fp: 34684
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+0 left overs...
+reach the end when reading signal: 33551
+[DEBUG]reading conservation data for chr2
+before return: 58570
+[DEBUG] get motif instance for chr3
+[DEBUG] motif instance size for this chromosome..2319133
+[DEBUG] get fp for chr3, GM12865
+[DEBUG]fp size for this chromosome..48657
+[DEBUG]Total motif size that include fp: 26725
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+0 left overs...
+reach the end when reading signal: 58570
+[DEBUG]reading conservation data for chr3
+before return: 77849
+[DEBUG] get motif instance for chr4
+[DEBUG] motif instance size for this chromosome..2205358
+[DEBUG] get fp for chr4, GM12865
+[DEBUG]fp size for this chromosome..31663
+[DEBUG]Total motif size that include fp: 17457
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 77849
+[DEBUG]reading conservation data for chr4
+before return: 90434
+[DEBUG] get motif instance for chr5
+[DEBUG] motif instance size for this chromosome..2134142
+[DEBUG] get fp for chr5, GM12865
+[DEBUG]fp size for this chromosome..41247
+[DEBUG]Total motif size that include fp: 23598
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+0 left overs...
+reach the end when reading signal: 90434
+[DEBUG]reading conservation data for chr5
+before return: 107517
+[DEBUG] get motif instance for chr6
+[DEBUG] motif instance size for this chromosome..2052746
+[DEBUG] get fp for chr6, GM12865
+[DEBUG]fp size for this chromosome..53532
+[DEBUG]Total motif size that include fp: 30271
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+0 left overs...
+reach the end when reading signal: 107517
+[DEBUG]reading conservation data for chr6
+before return: 129351
+[DEBUG] get motif instance for chr7
+[DEBUG] motif instance size for this chromosome..1892975
+[DEBUG] get fp for chr7, GM12865
+[DEBUG]fp size for this chromosome..37688
+[DEBUG]Total motif size that include fp: 22791
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+0 left overs...
+reach the end when reading signal: 129351
+[DEBUG]reading conservation data for chr7
+before return: 145740
+[DEBUG] get motif instance for chr8
+[DEBUG] motif instance size for this chromosome..1756651
+[DEBUG] get fp for chr8, GM12865
+[DEBUG]fp size for this chromosome..31668
+[DEBUG]Total motif size that include fp: 20113
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+0 left overs...
+reach the end when reading signal: 145740
+[DEBUG]reading conservation data for chr8
+before return: 160282
+[DEBUG] get motif instance for chr9
+[DEBUG] motif instance size for this chromosome..1474941
+[DEBUG] get fp for chr9, GM12865
+[DEBUG]fp size for this chromosome..31396
+[DEBUG]Total motif size that include fp: 19378
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 160282
+[DEBUG]reading conservation data for chr9
+before return: 174256
+[DEBUG] get motif instance for chr10
+[DEBUG] motif instance size for this chromosome..1666407
+[DEBUG] get fp for chr10, GM12865
+[DEBUG]fp size for this chromosome..36004
+[DEBUG]Total motif size that include fp: 22105
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+0 left overs...
+reach the end when reading signal: 174256
+[DEBUG]reading conservation data for chr10
+before return: 190238
+[DEBUG] get motif instance for chr11
+[DEBUG] motif instance size for this chromosome..1617883
+[DEBUG] get fp for chr11, GM12865
+[DEBUG]fp size for this chromosome..39710
+[DEBUG]Total motif size that include fp: 26840
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+0 left overs...
+reach the end when reading signal: 190238
+[DEBUG]reading conservation data for chr11
+before return: 209668
+[DEBUG] get motif instance for chr12
+[DEBUG] motif instance size for this chromosome..1559123
+[DEBUG] get fp for chr12, GM12865
+[DEBUG]fp size for this chromosome..42538
+[DEBUG]Total motif size that include fp: 26672
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+0 left overs...
+reach the end when reading signal: 209668
+[DEBUG]reading conservation data for chr12
+before return: 228985
+[DEBUG] get motif instance for chr13
+[DEBUG] motif instance size for this chromosome..1206383
+[DEBUG] get fp for chr13, GM12865
+[DEBUG]fp size for this chromosome..17748
+[DEBUG]Total motif size that include fp: 10427
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 228985
+[DEBUG]reading conservation data for chr13
+before return: 236464
+[DEBUG] get motif instance for chr14
+[DEBUG] motif instance size for this chromosome..1106718
+[DEBUG] get fp for chr14, GM12865
+[DEBUG]fp size for this chromosome..29116
+[DEBUG]Total motif size that include fp: 18084
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 236464
+[DEBUG]reading conservation data for chr14
+before return: 249595
+[DEBUG] get motif instance for chr15
+[DEBUG] motif instance size for this chromosome..1039064
+[DEBUG] get fp for chr15, GM12865
+[DEBUG]fp size for this chromosome..28591
+[DEBUG]Total motif size that include fp: 17257
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 249595
+[DEBUG]reading conservation data for chr15
+before return: 262034
+[DEBUG] get motif instance for chr16
+[DEBUG] motif instance size for this chromosome..1017229
+[DEBUG] get fp for chr16, GM12865
+[DEBUG]fp size for this chromosome..32040
+[DEBUG]Total motif size that include fp: 22014
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+0 left overs...
+reach the end when reading signal: 262034
+[DEBUG]reading conservation data for chr16
+before return: 277871
+[DEBUG] get motif instance for chr17
+[DEBUG] motif instance size for this chromosome..1046432
+[DEBUG] get fp for chr17, GM12865
+[DEBUG]fp size for this chromosome..44825
+[DEBUG]Total motif size that include fp: 30475
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+0 left overs...
+reach the end when reading signal: 277871
+[DEBUG]reading conservation data for chr17
+before return: 299973
+[DEBUG] get motif instance for chr18
+[DEBUG] motif instance size for this chromosome..973761
+[DEBUG] get fp for chr18, GM12865
+[DEBUG]fp size for this chromosome..14516
+[DEBUG]Total motif size that include fp: 8744
+1000
+2000
+3000
+4000
+5000
+6000
+0 left overs...
+reach the end when reading signal: 299973
+[DEBUG]reading conservation data for chr18
+before return: 306318
+[DEBUG] get motif instance for chr19
+[DEBUG] motif instance size for this chromosome..676576
+[DEBUG] get fp for chr19, GM12865
+[DEBUG]fp size for this chromosome..47331
+[DEBUG]Total motif size that include fp: 37540
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+0 left overs...
+reach the end when reading signal: 306318
+[DEBUG]reading conservation data for chr19
+before return: 333028
+[DEBUG] get motif instance for chr20
+[DEBUG] motif instance size for this chromosome..748768
+[DEBUG] get fp for chr20, GM12865
+[DEBUG]fp size for this chromosome..21229
+[DEBUG]Total motif size that include fp: 13047
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 333028
+[DEBUG]reading conservation data for chr20
+before return: 342465
+[DEBUG] get motif instance for chr21
+[DEBUG] motif instance size for this chromosome..450452
+[DEBUG] get fp for chr21, GM12865
+[DEBUG]fp size for this chromosome..9685
+[DEBUG]Total motif size that include fp: 5545
+1000
+2000
+3000
+0 left overs...
+reach the end when reading signal: 342465
+[DEBUG]reading conservation data for chr21
+before return: 346441
+[DEBUG] get motif instance for chr22
+[DEBUG] motif instance size for this chromosome..474090
+[DEBUG] get fp for chr22, GM12865
+[DEBUG]fp size for this chromosome..18003
+[DEBUG]Total motif size that include fp: 11524
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 346441
+[DEBUG]reading conservation data for chr22
+before return: 354621
+[DEBUG] get motif instance for chrX
+[DEBUG] motif instance size for this chromosome..1395896
+[DEBUG] get fp for chrX, GM12865
+[DEBUG]fp size for this chromosome..17021
+[DEBUG]Total motif size that include fp: 11649
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 354621
+[DEBUG]reading conservation data for chrX
+before return: 362839
+post read signal size: 362839
+TOTAL: 137944364
+real: 1979987
+Percent: 0
+incoming size: 362839
+0 : BDP1_disc1_8mer
+1 : ATF3_disc2_8mer
+2 : E2F_disc1_8mer
+3 : HEY1_disc1_8mer
+4 : ATF3_known1_8mer
+5 : AP-1_disc1_8mer
+6 : TATA_disc2_8mer
+7 : ATF3_known5_8mer
+8 : Ets_disc9_8mer
+9 : NF-kappaB_known6_8mer
+10 : NF-kappaB_known1_8mer
+11 : AP-2_known6_8mer
+12 : HDAC2_disc5_8mer
+13 : Pax-5_disc1_8mer
+14 : Ets_disc7_8mer
+15 : HDAC2_disc4_8mer
+16 : SP1_disc3_8mer
+17 : Irf_disc4_8mer
+18 : YY1_disc4_8mer
+19 : HEY1_disc2_8mer
+20 : YY1_disc3_8mer
+21 : TATA_disc4_8mer
+22 : BATF_disc1_8mer
+23 : AP-1_known1_8mer
+24 : AP-2_known3_8mer
+25 : E2F_known3_8mer
+26 : Sin3Ak-20_disc7_8mer
+27 : SRF_disc2_8mer
+28 : RFX5_known1_8mer
+29 : Myc_disc2_8mer
+30 : Myc_known4_8mer
+31 : Myc_known7_8mer
+32 : E2F_disc3_8mer
+33 : RXRA_disc2_8mer
+34 : CTCF_known1_8mer
+35 : SMC3_disc1_8mer
+36 : Rad21_disc7_8mer
+37 : EBF_known2_8mer
+38 : Ets_disc6_8mer
+39 : Irf_disc3_8mer
+40 : Irf_known11_8mer
+41 : SRF_known1_8mer
+42 : SRF_known6_8mer
+43 : SMC3_disc4_8mer
+44 : CTCFL_disc1_8mer
+45 : Sin3Ak-20_disc6_8mer
+46 : ATF3_known8_8mer
+47 : TCF12_disc5_8mer
+48 : ZBTB7A_disc1_8mer
+49 : Irf_disc1_8mer
+50 : E2F_disc4_8mer
+51 : Egr-1_known2_8mer
+52 : GR_disc6_8mer
+53 : TATA_disc7_8mer
+54 : BHLHE40_disc2_8mer
+55 : TATA_disc8_8mer
+56 : p300_disc9_8mer
+57 : Mef2_disc1_8mer
+58 : Pax-5_known3_8mer
+59 : Egr-1_known5_8mer
+60 : Egr-1_disc1_8mer
+61 : AP-2_known1_8mer
+62 : ATF3_known9_8mer
+63 : ATF3_known7_8mer
+64 : STAT_known10_8mer
+65 : STAT_known12_8mer
+66 : STAT_disc1_8mer
+67 : Pou2f2_disc1_8mer
+68 : Nanog_known1_8mer
+69 : Pou2f2_known1_8mer
+70 : Pou2f2_known10_8mer
+71 : Nanog_disc1_8mer
+72 : Pbx3_disc2_8mer
+73 : SP1_known2_8mer
+74 : Sin3Ak-20_disc4_8mer
+75 : AP-2_known2_8mer
+76 : p300_disc8_8mer
+77 : E2F_disc7_8mer
+78 : Nrf1_disc3_8mer
+79 : AP-1_disc10_8mer
+80 : Pou2f2_disc2_8mer
+81 : Znf143_disc4_8mer
+82 : Sin3Ak-20_disc5_8mer
+83 : SP1_known1_8mer
+84 : Myc_disc10_8mer
+85 : Egr-1_disc6_8mer
+86 : Znf143_disc3_8mer
+87 : Egr-1_known3_8mer
+88 : Mxi1_disc1_8mer
+89 : SREBP_disc1_8mer
+90 : E2F_disc8_8mer
+91 : BCL_disc8_8mer
+92 : ERalpha-a_disc4_8mer
+93 : ELF1_disc2_8mer
+94 : BCL_disc9_8mer
+95 : CTCF_disc8_8mer
+96 : HNF4_disc3_8mer
+97 : STAT_known6_8mer
+98 : STAT_known7_8mer
+99 : YY1_disc5_8mer
+100 : ELF1_known1_8mer
+101 : Ets_known8_8mer
+102 : Ets_known9_8mer
+103 : NRSF_disc4_8mer
+104 : GATA_disc3_8mer
+105 : CTCF_disc5_8mer
+106 : PU.1_disc1_8mer
+107 : HNF4_known1_8mer
+108 : Nanog_disc2_8mer
+109 : ATF3_known4_8mer
+110 : YY1_disc1_8mer
+111 : THAP1_disc1_8mer
+112 : NF-Y_disc1_8mer
+113 : Myc_known5_8mer
+114 : Myc_known6_8mer
+115 : NF-E2_disc2_8mer
+116 : Mxi1_known1_8mer
+117 : NF-E2_disc3_8mer
+118 : SP1_disc1_8mer
+119 : NF-Y_known1_8mer
+120 : NRSF_disc8_8mer
+121 : Nrf1_disc1_8mer
+122 : GR_known3_8mer
+123 : ZEB1_disc1_8mer
+124 : Ets_known7_8mer
+125 : TATA_disc3_8mer
+126 : STAT_disc7_8mer
+127 : Rad21_disc8_8mer
+128 : Rad21_disc5_8mer
+129 : HNF4_known4_8mer
+130 : BCL_disc1_8mer
+131 : Egr-1_disc2_8mer
+132 : Ets_known5_8mer
+133 : EBF_disc1_8mer
+134 : CEBPB_disc1_8mer
+135 : Hsf_disc1_8mer
+136 : p300_known1_8mer
+137 : TATA_disc10_8mer
+138 : Myc_disc8_8mer
+139 : E2F_disc2_8mer
+140 : SETDB1_disc2_8mer
+141 : Egr-1_disc3_8mer
+142 : Nrf1_known1_8mer
+143 : Myc_known8_8mer
+144 : Sin3Ak-20_disc2_8mer
+145 : ZNF263_disc1_8mer
+146 : Ets_known4_8mer
+147 : TATA_disc6_8mer
+148 : ATF3_disc4_8mer
+149 : Sin3Ak-20_disc1_8mer
+150 : NRSF_disc1_8mer
+151 : Pax-5_disc5_8mer
+152 : CTCF_disc1_8mer
+153 : Ets_disc4_8mer
+154 : SIX5_disc4_8mer
+155 : SIX5_disc3_8mer
+156 : SETDB1_disc1_8mer
+157 : Egr-1_disc4_8mer
+158 : SMC3_disc3_8mer
+159 : Ets_disc2_8mer
+160 : TR4_disc1_8mer
+161 : HDAC2_disc6_8mer
+162 : p300_disc5_8mer
+163 : NF-E2_disc4_8mer
+164 : ELF1_disc3_8mer
+165 : SP2_disc2_8mer
+166 : Pbx3_disc3_8mer
+167 : Ets_known3_8mer
+168 : ELF1_disc1_8mer
+169 : HNF4_known8_8mer
+170 : NRSF_known1_8mer
+171 : AP-1_known4_8mer
+172 : NF-kappaB_disc3_8mer
+173 : ATF3_disc3_8mer
+174 : SP1_known4_8mer
+175 : ZBTB33_disc2_8mer
+176 : BRCA1_disc1_8mer
+177 : GR_disc4_8mer
+178 : YY1_known3_8mer
+179 : TATA_disc1_8mer
+180 : YY1_known2_8mer
+181 : NRSF_disc5_8mer
+182 : PU.1_disc3_8mer
+183 : AP-1_disc6_8mer
+184 : Znf143_disc2_8mer
+185 : BAF155_disc2_8mer
+186 : NF-kappaB_disc2_8mer
+187 : SP1_known3_8mer
+188 : Rad21_disc4_8mer
+189 : TCF12_disc1_8mer
+190 : Irf_known9_8mer
+191 : BCL_disc4_8mer
+192 : Pax-5_disc3_8mer
+193 : ZBTB7A_disc2_8mer
+194 : Egr-1_disc7_8mer
+195 : RXRA_known1_8mer
+196 : NRSF_disc7_8mer
+197 : CCNT2_disc2_8mer
+198 : Nanog_disc3_8mer
+199 : Rad21_disc1_8mer
+200 : CTCF_disc7_8mer
+201 : SMC3_disc2_8mer
+202 : NRSF_disc9_8mer
+203 : Foxa_known3_8mer
+204 : Mef2_known6_8mer
+205 : GATA_known11_8mer
+206 : Myc_known1_8mer
+207 : Myc_disc9_8mer
+208 : AP-1_disc5_8mer
+209 : Mxi1_disc2_8mer
+210 : BCL_disc10_8mer
+211 : Irf_known6_8mer
+212 : Irf_known8_8mer
+213 : TATA_disc9_8mer
+214 : Pou2f2_known2_8mer
+215 : Pou2f2_known6_8mer
+216 : Pou5f1_known1_8mer
+217 : Pou5f1_disc1_8mer
+218 : ZEB1_known2_8mer
+219 : STAT_disc4_8mer
+220 : ERalpha-a_known1_8mer
+221 : SREBP_known1_8mer
+222 : Irf_known1_8mer
+223 : Pou2f2_known8_8mer
+224 : ERalpha-a_disc1_8mer
+225 : Myc_disc5_8mer
+226 : TAL1_known2_8mer
+227 : GR_known9_8mer
+228 : RXRA_known4_8mer
+229 : NF-kappaB_known2_8mer
+230 : SP1_disc2_8mer
+231 : GR_known1_8mer
+232 : ERalpha-a_disc3_8mer
+233 : CTCF_disc10_8mer
+234 : ATF3_known6_8mer
+235 : Irf_disc6_8mer
+236 : Irf_known10_8mer
+237 : Foxa_known2_8mer
+238 : NRSF_known3_8mer
+239 : E2F_known1_8mer
+240 : Pax-5_known1_8mer
+241 : BCL_disc7_8mer
+242 : Rad21_disc10_8mer
+243 : BDP1_disc3_8mer
+244 : SREBP_known3_8mer
+245 : Egr-1_known4_8mer
+246 : SP2_disc3_8mer
+247 : CEBPB_known3_8mer
+248 : Pax-5_known2_8mer
+249 : NF-kappaB_known4_8mer
+250 : GR_disc5_8mer
+251 : STAT_known15_8mer
+252 : RXRA_disc4_8mer
+253 : Foxa_known1_8mer
+254 : EBF_known1_8mer
+255 : Irf_known7_8mer
+256 : E2F_disc6_8mer
+257 : Hsf_known2_8mer
+258 : PU.1_disc2_8mer
+259 : Pax-5_disc4_8mer
+260 : AP-2_known4_8mer
+261 : Ets_known6_8mer
+262 : ZBTB7A_known1_8mer
+263 : GR_disc1_8mer
+264 : Ets_known1_8mer
+265 : PRDM1_known1_8mer
+266 : PRDM1_disc1_8mer
+267 : Irf_known3_8mer
+268 : NF-kappaB_known5_8mer
+269 : KAP1_disc2_8mer
+270 : ATF3_known3_8mer
+271 : GATA_known14_8mer
+272 : TAL1_disc1_8mer
+273 : CCNT2_disc1_8mer
+274 : BCL_disc6_8mer
+275 : Ets_disc8_8mer
+276 : SRF_known5_8mer
+277 : STAT_known11_8mer
+278 : GATA_known13_8mer
+279 : GATA_disc1_8mer
+280 : CHD2_disc3_8mer
+281 : RFX5_known4_8mer
+282 : Znf143_known1_8mer
+283 : Ets_disc1_8mer
+284 : Egr-1_known1_8mer
+285 : CHD2_disc2_8mer
+286 : GR_disc3_8mer
+287 : Pou2f2_known7_8mer
+288 : Irf_known2_8mer
+289 : RXRA_known6_8mer
+290 : GR_known5_8mer
+291 : GR_known7_8mer
+292 : NF-kappaB_disc1_8mer
+293 : HMGN3_disc1_8mer
+294 : NRSF_known2_8mer
+295 : GR_disc2_8mer
+296 : BAF155_disc1_8mer
+297 : GATA_disc2_8mer
+298 : Sin3Ak-20_disc3_8mer
+299 : Maf_known4_8mer
+300 : ERalpha-a_disc2_8mer
+301 : RXRA_disc1_8mer
+302 : TCF4_known1_8mer
+303 : RFX5_disc2_8mer
+304 : AP-1_disc2_8mer
+305 : Myc_disc1_8mer
+306 : ATF3_disc1_8mer
+307 : GR_known4_8mer
+308 : E2F_known2_8mer
+309 : Irf_known5_8mer
+310 : GATA_known8_8mer
+311 : GR_known10_8mer
+312 : GR_known8_8mer
+313 : NF-kappaB_known3_8mer
+314 : CEBPB_known4_8mer
+315 : Ets_known2_8mer
+316 : HNF4_disc1_8mer
+317 : p300_disc7_8mer
+318 : E2F_known6_8mer
+319 : CEBPB_known5_8mer
+320 : TATA_known1_8mer
+321 : STAT_disc3_8mer
+322 : BATF_disc2_8mer
+323 : TCF12_known1_8mer
+324 : TR4_disc2_8mer
+325 : Foxa_disc2_8mer
+326 : TCF4_known2_8mer
+327 : AP-2_known5_8mer
+328 : Pou2f2_known11_8mer
+329 : Egr-1_disc5_8mer
+330 : CTCF_disc6_8mer
+331 : Mef2_known2_8mer
+332 : TATA_known4_8mer
+333 : NF-E2_disc1_8mer
+334 : AP-2_disc1_8mer
+335 : TCF4_disc1_8mer
+336 : KAP1_disc1_8mer
+337 : TAL1_disc2_8mer
+338 : Mef2_disc2_8mer
+339 : CEBPB_known6_8mer
+340 : Pax-5_disc2_8mer
+341 : NF-Y_known3_8mer
+342 : GR_known6_8mer
+343 : RXRA_known3_8mer
+344 : Rad21_disc9_8mer
+345 : Irf_disc2_8mer
+346 : Mef2_disc3_8mer
+347 : Pou5f1_known2_8mer
+348 : AP-1_disc4_8mer
+349 : RFX5_disc3_8mer
+350 : AP-1_disc7_8mer
+351 : Maf_known1_8mer
+352 : AP-1_known3_8mer
+353 : Maf_disc1_8mer
+354 : TCF4_known3_8mer
+355 : AP-1_disc8_8mer
+356 : Ets_disc5_8mer
+357 : NF-kappaB_disc4_8mer
+358 : Hsf_known1_8mer
+359 : Nrf1_known2_8mer
+360 : Mef2_known3_8mer
+361 : E2F_known9_8mer
+362 : Foxa_known4_8mer
+363 : SRF_known2_8mer
+364 : SRF_known3_8mer
+365 : NF-Y_known2_8mer
+366 : p300_disc2_8mer
+367 : SIX5_known2_8mer
+368 : p300_disc3_8mer
+369 : Myc_disc3_8mer
+370 : GATA_known9_8mer
+371 : p300_disc10_8mer
+372 : Pax-5_known4_8mer
+373 : ZBTB33_known1_8mer
+374 : STAT_disc2_8mer
+375 : BCL_disc2_8mer
+376 : Maf_known3_8mer
+377 : HNF4_disc4_8mer
+378 : STAT_disc6_8mer
+379 : Mef2_known4_8mer
+380 : TCF12_disc2_8mer
+381 : STAT_known14_8mer
+382 : Nanog_disc4_8mer
+383 : BHLHE40_disc1_8mer
+384 : Irf_disc5_8mer
+385 : Rad21_disc2_8mer
+386 : TATA_known5_8mer
+387 : Foxa_disc4_8mer
+388 : BRCA1_known2_8mer
+389 : SRF_known4_8mer
+390 : RXRA_known5_8mer
+391 : HNF4_known5_8mer
+392 : NF-E2_known1_8mer
+393 : GATA_disc5_8mer
+394 : Pou2f2_known9_8mer
+395 : Maf_disc2_8mer
+396 : NRSF_disc6_8mer
+397 : YY1_known4_8mer
+398 : TCF12_disc3_8mer
+399 : TATA_disc5_8mer
+400 : Nrf1_disc2_8mer
+401 : RFX5_known2_8mer
+402 : TAL1_known1_8mer
+403 : SP2_disc1_8mer
+404 : BHLHE40_known2_8mer
+405 : CEBPB_disc2_8mer
+406 : BCL_disc3_8mer
+407 : GATA_known2_8mer
+408 : ZBTB7A_known2_8mer
+409 : ZEB1_known5_8mer
+410 : CTCF_disc3_8mer
+411 : HDAC2_disc3_8mer
+412 : Foxa_disc3_8mer
+413 : Znf143_disc1_8mer
+414 : Myc_disc4_8mer
+415 : BHLHE40_known1_8mer
+416 : SREBP_known4_8mer
+417 : SIX5_disc1_8mer
+418 : ZBTB33_disc4_8mer
+419 : HNF4_known3_8mer
+420 : AP-1_disc3_8mer
+421 : PRDM1_disc2_8mer
+422 : AP-1_disc9_8mer
+423 : Pou2f2_known3_8mer
+424 : TCF4_disc2_8mer
+425 : Myc_known9_8mer
+426 : CTCF_disc2_8mer
+427 : GATA_known10_8mer
+428 : GATA_known3_8mer
+429 : RXRA_disc5_8mer
+430 : YY1_known5_8mer
+431 : THAP1_disc2_8mer
+432 : SIRT6_disc1_8mer
+433 : RFX5_disc1_8mer
+434 : BATF_disc3_8mer
+435 : HDAC2_disc2_8mer
+436 : HMGN3_disc2_8mer
+437 : BCL_disc5_8mer
+438 : Maf_known2_8mer
+439 : p300_disc1_8mer
+440 : RXRA_disc3_8mer
+441 : Myc_disc7_8mer
+442 : HDAC2_disc1_8mer
+443 : HNF4_disc5_8mer
+444 : Mef2_known5_8mer
+445 : NRSF_disc3_8mer
+446 : CEBPB_known2_8mer
+447 : Pbx3_disc1_8mer
+448 : GATA_disc6_8mer
+449 : YY1_known6_8mer
+450 : Pbx3_known1_8mer
+451 : TCF12_disc4_8mer
+452 : GATA_known12_8mer
+453 : SIX5_known1_8mer
+454 : Pou2f2_known5_8mer
+455 : HNF4_disc2_8mer
+456 : STAT_disc5_8mer
+457 : RFX5_known3_8mer
+458 : ZEB1_known3_8mer
+459 : Foxa_disc1_8mer
+460 : ZEB1_known4_8mer
+461 : TCF12_disc6_8mer
+462 : GATA_known1_8mer
+463 : STAT_known13_8mer
+464 : HNF4_known2_8mer
+465 : Rad21_disc3_8mer
+466 : NRSF_disc10_8mer
+467 : E2F_disc5_8mer
+468 : Foxa_disc5_8mer
+469 : GATA_known4_8mer
+470 : TR4_disc3_8mer
+471 : Pou2f2_known4_8mer
+472 : Mef2_known1_8mer
+473 : NR4A_known1_8mer
+474 : GATA_disc4_8mer
+475 : RFX5_known5_8mer
+476 : GR_known2_8mer
+477 : TATA_known3_8mer
+478 : SIX5_disc2_8mer
+479 : NRSF_disc2_8mer
+480 : ZBTB33_disc3_8mer
+481 : E2F_known7_8mer
+482 : p300_disc4_8mer
+483 : CEBPB_known1_8mer
+484 : Pou5f1_disc2_8mer
+485 : Hsf_known3_8mer
+486 : p300_disc6_8mer
+487 : GATA_known6_8mer
+488 : RXRA_known7_8mer
+489 : Myc_disc6_8mer
+490 : ZBTB33_disc1_8mer
+491 : Ets_disc3_8mer
+492 : CHD2_disc1_8mer
+493 : YY1_disc2_8mer
+494 : BDP1_disc2_8mer
+495 : GATA_known7_8mer
+496 : SRF_disc1_8mer
+497 : E2F_known5_8mer
+number of motif: 498
+[DEBUG]aggregate signal and conservation signals
+[DEBUG]average the aggregation
+[DEBUG]sort
+498 , 362839
+[DEBUG]output result
+[DEBUG]output direcotry:../tmp/test_mp_result2/GM12865
+[DEBUG] get motif instance for chr1
+[DEBUG] motif instance size for this chromosome..2700213
+[DEBUG] get fp for chr1, H7-hESC
+[DEBUG]fp size for this chromosome..167981
+[DEBUG]Total motif size that include fp: 73345
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+30000
+31000
+32000
+33000
+34000
+35000
+36000
+37000
+38000
+39000
+40000
+41000
+42000
+43000
+44000
+45000
+46000
+47000
+48000
+49000
+50000
+51000
+52000
+53000
+0 left overs...
+reach the end when reading signal: 0
+[DEBUG]reading conservation data for chr1
+before return: 53871
+[DEBUG] get motif instance for chr2
+[DEBUG] motif instance size for this chromosome..2971150
+[DEBUG] get fp for chr2, H7-hESC
+[DEBUG]fp size for this chromosome..95327
+[DEBUG]Total motif size that include fp: 40846
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+25000
+26000
+27000
+28000
+29000
+0 left overs...
+reach the end when reading signal: 53871
+[DEBUG]reading conservation data for chr2
+before return: 83513
+[DEBUG] get motif instance for chr3
+[DEBUG] motif instance size for this chromosome..2319133
+[DEBUG] get fp for chr3, H7-hESC
+[DEBUG]fp size for this chromosome..80793
+[DEBUG]Total motif size that include fp: 33658
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+24000
+0 left overs...
+reach the end when reading signal: 83513
+[DEBUG]reading conservation data for chr3
+before return: 108046
+[DEBUG] get motif instance for chr4
+[DEBUG] motif instance size for this chromosome..2205358
+[DEBUG] get fp for chr4, H7-hESC
+[DEBUG]fp size for this chromosome..62611
+[DEBUG]Total motif size that include fp: 23476
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+0 left overs...
+reach the end when reading signal: 108046
+[DEBUG]reading conservation data for chr4
+before return: 125134
+[DEBUG] get motif instance for chr5
+[DEBUG] motif instance size for this chromosome..2134142
+[DEBUG] get fp for chr5, H7-hESC
+[DEBUG]fp size for this chromosome..69849
+[DEBUG]Total motif size that include fp: 29238
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+0 left overs...
+reach the end when reading signal: 125134
+[DEBUG]reading conservation data for chr5
+before return: 146311
+[DEBUG] get motif instance for chr6
+[DEBUG] motif instance size for this chromosome..2052746
+[DEBUG] get fp for chr6, H7-hESC
+[DEBUG]fp size for this chromosome..75016
+[DEBUG]Total motif size that include fp: 31956
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+0 left overs...
+reach the end when reading signal: 146311
+[DEBUG]reading conservation data for chr6
+before return: 169412
+[DEBUG] get motif instance for chr7
+[DEBUG] motif instance size for this chromosome..1892975
+[DEBUG] get fp for chr7, H7-hESC
+[DEBUG]fp size for this chromosome..60868
+[DEBUG]Total motif size that include fp: 27408
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+0 left overs...
+reach the end when reading signal: 169412
+[DEBUG]reading conservation data for chr7
+before return: 189154
+[DEBUG] get motif instance for chr8
+[DEBUG] motif instance size for this chromosome..1756651
+[DEBUG] get fp for chr8, H7-hESC
+[DEBUG]fp size for this chromosome..56681
+[DEBUG]Total motif size that include fp: 25402
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+0 left overs...
+reach the end when reading signal: 189154
+[DEBUG]reading conservation data for chr8
+before return: 207392
+[DEBUG] get motif instance for chr9
+[DEBUG] motif instance size for this chromosome..1474941
+[DEBUG] get fp for chr9, H7-hESC
+[DEBUG]fp size for this chromosome..48807
+[DEBUG]Total motif size that include fp: 23222
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+0 left overs...
+reach the end when reading signal: 207392
+[DEBUG]reading conservation data for chr9
+before return: 224189
+[DEBUG] get motif instance for chr10
+[DEBUG] motif instance size for this chromosome..1666407
+[DEBUG] get fp for chr10, H7-hESC
+[DEBUG]fp size for this chromosome..56280
+[DEBUG]Total motif size that include fp: 26108
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+0 left overs...
+reach the end when reading signal: 224189
+[DEBUG]reading conservation data for chr10
+before return: 243131
+[DEBUG] get motif instance for chr11
+[DEBUG] motif instance size for this chromosome..1617883
+[DEBUG] get fp for chr11, H7-hESC
+[DEBUG]fp size for this chromosome..63959
+[DEBUG]Total motif size that include fp: 32836
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+23000
+0 left overs...
+reach the end when reading signal: 243131
+[DEBUG]reading conservation data for chr11
+before return: 266536
+[DEBUG] get motif instance for chr12
+[DEBUG] motif instance size for this chromosome..1559123
+[DEBUG] get fp for chr12, H7-hESC
+[DEBUG]fp size for this chromosome..60758
+[DEBUG]Total motif size that include fp: 29478
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+0 left overs...
+reach the end when reading signal: 266536
+[DEBUG]reading conservation data for chr12

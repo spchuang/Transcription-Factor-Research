@@ -1,0 +1,20 @@
+UGE job for method2_noOffset.o built Thu May  2 08:14:48 PDT 2013
+
+  method2_noOffset.o directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 878839, queue: eeskin_pod.q, sub: Thu May 2 08:14:50 2013
+  SCRATCH directory:
+    /work/878839.1.eeskin_pod.q
+
+method2_noOffset.o started on:   n7239
+method2_noOffset.o started at:   Thu May 2 11:11:38 PDT 2013
+
+method2_noOffset.o  >& method2_noOffset.o.output.878839
+
+124843.482u 833.773s 43:36:45.38 80.0%	0+0k 104+18312io 1pf+0w
+
+method2_noOffset.o finished at:  Sat May 4 06:48:23 PDT 2013
+
+Scratch files in /work/878839.1.eeskin_pod.q deleted:
+total 0

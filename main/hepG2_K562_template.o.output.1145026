@@ -1,0 +1,4168 @@
+[DEBUG}Total template size: 1477035
+[DEBUG]creating: 2
+[DEBUG]creating: 3
+[DEBUG]creating: 4
+[DEBUG]creating: 5
+[DEBUG]creating: 6
+[DEBUG]creating: 7
+[DEBUG]creating: 8
+[DEBUG]creating: 9
+[DEBUG]creating: 10
+[DEBUG]creating: 11
+[DEBUG]creating: 12
+[DEBUG]creating: 13
+[DEBUG]creating: 14
+[DEBUG]creating: 15
+[DEBUG]creating: 16
+[DEBUG]creating: 17
+[DEBUG]creating: 18
+[DEBUG]creating: 19
+[DEBUG]creating: 20
+[DEBUG]creating: 21
+[DEBUG]creating: 22
+[DEBUG]creating: 23
+[DEBUG]creating: 24
+[DEBUG]creating: 25
+[DEBUG]creating: 26
+[DEBUG]creating: 27
+[DEBUG]creating: 28
+[DEBUG]creating: 29
+[DEBUG]creating: 30
+[DEBUG]creating: 31
+[DEBUG]creating: 32
+[DEBUG]creating: 33
+[DEBUG]creating: 34
+[DEBUG]creating: 35
+[DEBUG]creating: 36
+[DEBUG]creating: 37
+[DEBUG]creating: 38
+[DEBUG]creating: 39
+[DEBUG]creating: 40
+[DEBUG]creating: 41
+[DEBUG]creating: 42
+[DEBUG]creating: 43
+[DEBUG]creating: 44
+[DEBUG]creating: 45
+[DEBUG]creating: 46
+[DEBUG]creating: 47
+[DEBUG]creating: 48
+[DEBUG]creating: 49
+[DEBUG]creating: 50
+[DEBUG]creating: 51
+[DEBUG]creating: 52
+[DEBUG]creating: 53
+[DEBUG]creating: 54
+[DEBUG]creating: 55
+[DEBUG]creating: 56
+[DEBUG]creating: 57
+[DEBUG]creating: 58
+[DEBUG]creating: 59
+[DEBUG]creating: 60
+[DEBUG]creating: 61
+[DEBUG]creating: 62
+[DEBUG]creating: 63
+[DEBUG]creating: 64
+[DEBUG]creating: 65
+[DEBUG]creating: 66
+[DEBUG]creating: 67
+[DEBUG]creating: 68
+[DEBUG]creating: 69
+[DEBUG]creating: 70
+[DEBUG]creating: 71
+[DEBUG]creating: 72
+[DEBUG]creating: 73
+[DEBUG]creating: 74
+[DEBUG]creating: 75
+[DEBUG]creating: 76
+[DEBUG]creating: 77
+[DEBUG]creating: 78
+[DEBUG]creating: 79
+[DEBUG]creating: 80
+[DEBUG]creating: 81
+[DEBUG]creating: 82
+[DEBUG]creating: 83
+[DEBUG]creating: 84
+[DEBUG]creating: 85
+[DEBUG]creating: 86
+[DEBUG]creating: 87
+[DEBUG]creating: 88
+[DEBUG]creating: 89
+[DEBUG]creating: 90
+[DEBUG]creating: 91
+[DEBUG]creating: 92
+[DEBUG]creating: 93
+[DEBUG]creating: 94
+[DEBUG]creating: 95
+[DEBUG]creating: 96
+[DEBUG]creating: 97
+[DEBUG]creating: 98
+[DEBUG]creating: 99
+[DEBUG]creating: 100
+[DEBUG] get motif instance for chr1
+[DEBUG] motif instance size for this chromosome..2700213
+[DEBUG] get fp for chr1, HepG2
+[DEBUG]fp size for this chromosome..41534
+[DEBUG]Total motif size that include fp: 31044
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+0 left overs...
+reach the end when reading signal: 0
+[DEBUG]reading conservation data for chr1
+before return: 22498
+[DEBUG] get motif instance for chr2
+[DEBUG] motif instance size for this chromosome..2971150
+[DEBUG] get fp for chr2, HepG2
+[DEBUG]fp size for this chromosome..38414
+[DEBUG]Total motif size that include fp: 25944
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+0 left overs...
+reach the end when reading signal: 22498
+[DEBUG]reading conservation data for chr2
+before return: 41634
+[DEBUG] get motif instance for chr3
+[DEBUG] motif instance size for this chromosome..2319133
+[DEBUG] get fp for chr3, HepG2
+[DEBUG]fp size for this chromosome..23662
+[DEBUG]Total motif size that include fp: 16640
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 41634
+[DEBUG]reading conservation data for chr3
+before return: 53682
+[DEBUG] get motif instance for chr4
+[DEBUG] motif instance size for this chromosome..2205358
+[DEBUG] get fp for chr4, HepG2
+[DEBUG]fp size for this chromosome..14106
+[DEBUG]Total motif size that include fp: 10302
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 53682
+[DEBUG]reading conservation data for chr4
+before return: 61168
+[DEBUG] get motif instance for chr5
+[DEBUG] motif instance size for this chromosome..2134142
+[DEBUG] get fp for chr5, HepG2
+[DEBUG]fp size for this chromosome..18503
+[DEBUG]Total motif size that include fp: 13615
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 61168
+[DEBUG]reading conservation data for chr5
+before return: 71059
+[DEBUG] get motif instance for chr6
+[DEBUG] motif instance size for this chromosome..2052746
+[DEBUG] get fp for chr6, HepG2
+[DEBUG]fp size for this chromosome..27837
+[DEBUG]Total motif size that include fp: 18840
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 71059
+[DEBUG]reading conservation data for chr6
+before return: 85009
+[DEBUG] get motif instance for chr7
+[DEBUG] motif instance size for this chromosome..1892975
+[DEBUG] get fp for chr7, HepG2
+[DEBUG]fp size for this chromosome..19700
+[DEBUG]Total motif size that include fp: 14938
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 85009
+[DEBUG]reading conservation data for chr7
+before return: 95803
+[DEBUG] get motif instance for chr8
+[DEBUG] motif instance size for this chromosome..1756651
+[DEBUG] get fp for chr8, HepG2
+[DEBUG]fp size for this chromosome..15130
+[DEBUG]Total motif size that include fp: 12550
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 95803
+[DEBUG]reading conservation data for chr8
+before return: 104994
+[DEBUG] get motif instance for chr9
+[DEBUG] motif instance size for this chromosome..1474941
+[DEBUG] get fp for chr9, HepG2
+[DEBUG]fp size for this chromosome..17828
+[DEBUG]Total motif size that include fp: 14013
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 104994
+[DEBUG]reading conservation data for chr9
+before return: 115130
+[DEBUG] get motif instance for chr10
+[DEBUG] motif instance size for this chromosome..1666407
+[DEBUG] get fp for chr10, HepG2
+[DEBUG]fp size for this chromosome..17352
+[DEBUG]Total motif size that include fp: 13165
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 115130
+[DEBUG]reading conservation data for chr10
+before return: 124702
+[DEBUG] get motif instance for chr11
+[DEBUG] motif instance size for this chromosome..1617883
+[DEBUG] get fp for chr11, HepG2
+[DEBUG]fp size for this chromosome..21617
+[DEBUG]Total motif size that include fp: 18989
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+0 left overs...
+reach the end when reading signal: 124702
+[DEBUG]reading conservation data for chr11
+before return: 138449
+[DEBUG] get motif instance for chr12
+[DEBUG] motif instance size for this chromosome..1559123
+[DEBUG] get fp for chr12, HepG2
+[DEBUG]fp size for this chromosome..20023
+[DEBUG]Total motif size that include fp: 17091
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 138449
+[DEBUG]reading conservation data for chr12
+before return: 150726
+[DEBUG] get motif instance for chr13
+[DEBUG] motif instance size for this chromosome..1206383
+[DEBUG] get fp for chr13, HepG2
+[DEBUG]fp size for this chromosome..8067
+[DEBUG]Total motif size that include fp: 5860
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 150726
+[DEBUG]reading conservation data for chr13
+before return: 155077
+[DEBUG] get motif instance for chr14
+[DEBUG] motif instance size for this chromosome..1106718
+[DEBUG] get fp for chr14, HepG2
+[DEBUG]fp size for this chromosome..17196
+[DEBUG]Total motif size that include fp: 13092
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 155077
+[DEBUG]reading conservation data for chr14
+before return: 164692
+[DEBUG] get motif instance for chr15
+[DEBUG] motif instance size for this chromosome..1039064
+[DEBUG] get fp for chr15, HepG2
+[DEBUG]fp size for this chromosome..12722
+[DEBUG]Total motif size that include fp: 10480
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 164692
+[DEBUG]reading conservation data for chr15
+before return: 172268
+[DEBUG] get motif instance for chr16
+[DEBUG] motif instance size for this chromosome..1017229
+[DEBUG] get fp for chr16, HepG2
+[DEBUG]fp size for this chromosome..24726
+[DEBUG]Total motif size that include fp: 19541
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+0 left overs...
+reach the end when reading signal: 172268
+[DEBUG]reading conservation data for chr16
+before return: 186695
+[DEBUG] get motif instance for chr17
+[DEBUG] motif instance size for this chromosome..1046432
+[DEBUG] get fp for chr17, HepG2
+[DEBUG]fp size for this chromosome..31617
+[DEBUG]Total motif size that include fp: 25539
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+0 left overs...
+reach the end when reading signal: 186695
+[DEBUG]reading conservation data for chr17
+before return: 205531
+[DEBUG] get motif instance for chr18
+[DEBUG] motif instance size for this chromosome..973761
+[DEBUG] get fp for chr18, HepG2
+[DEBUG]fp size for this chromosome..6830
+[DEBUG]Total motif size that include fp: 5482
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 205531
+[DEBUG]reading conservation data for chr18
+before return: 209594
+[DEBUG] get motif instance for chr19
+[DEBUG] motif instance size for this chromosome..676576
+[DEBUG] get fp for chr19, HepG2
+[DEBUG]fp size for this chromosome..29594
+[DEBUG]Total motif size that include fp: 28541
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+0 left overs...
+reach the end when reading signal: 209594
+[DEBUG]reading conservation data for chr19
+before return: 229806
+[DEBUG] get motif instance for chr20
+[DEBUG] motif instance size for this chromosome..748768
+[DEBUG] get fp for chr20, HepG2
+[DEBUG]fp size for this chromosome..18849
+[DEBUG]Total motif size that include fp: 12883
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+0 left overs...
+reach the end when reading signal: 229806
+[DEBUG]reading conservation data for chr20
+before return: 239432
+[DEBUG] get motif instance for chr21
+[DEBUG] motif instance size for this chromosome..450452
+[DEBUG] get fp for chr21, HepG2
+[DEBUG]fp size for this chromosome..5082
+[DEBUG]Total motif size that include fp: 3579
+1000
+2000
+0 left overs...
+reach the end when reading signal: 239432
+[DEBUG]reading conservation data for chr21
+before return: 241990
+[DEBUG] get motif instance for chr22
+[DEBUG] motif instance size for this chromosome..474090
+[DEBUG] get fp for chr22, HepG2
+[DEBUG]fp size for this chromosome..10281
+[DEBUG]Total motif size that include fp: 8281
+1000
+2000
+3000
+4000
+5000
+6000
+0 left overs...
+reach the end when reading signal: 241990
+[DEBUG]reading conservation data for chr22
+before return: 248005
+[DEBUG] get motif instance for chrX
+[DEBUG] motif instance size for this chromosome..1395896
+[DEBUG] get fp for chrX, HepG2
+[DEBUG]fp size for this chromosome..7613
+[DEBUG]Total motif size that include fp: 6491
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 248005
+[DEBUG]reading conservation data for chrX
+before return: 252579
+post read signal size: 252579
+TOTAL: 34486091
+real: 346900
+Percent: 0
+incoming size: 252579
+0 : BDP1_disc1_8mer
+1 : ATF3_disc2_8mer
+2 : NF-Y_known1_8mer
+3 : NF-Y_disc1_8mer
+4 : SP1_disc1_8mer
+5 : Irf_disc4_8mer
+6 : Myc_disc9_8mer
+7 : NRSF_disc9_8mer
+8 : Mef2_known6_8mer
+9 : Rad21_disc1_8mer
+10 : RXRA_disc2_8mer
+11 : CTCF_known1_8mer
+12 : SMC3_disc1_8mer
+13 : AP-2_known2_8mer
+14 : BHLHE40_disc2_8mer
+15 : Pax-5_disc1_8mer
+16 : Znf143_disc3_8mer
+17 : Ets_disc7_8mer
+18 : YY1_disc4_8mer
+19 : BCL_disc9_8mer
+20 : TATA_disc10_8mer
+21 : p300_disc8_8mer
+22 : E2F_disc8_8mer
+23 : Ets_disc9_8mer
+24 : CTCF_disc8_8mer
+25 : AP-2_known1_8mer
+26 : SP1_disc3_8mer
+27 : Pax-5_known3_8mer
+28 : HDAC2_disc4_8mer
+29 : SP1_known2_8mer
+30 : p300_disc9_8mer
+31 : HEY1_disc2_8mer
+32 : Egr-1_known2_8mer
+33 : Znf143_disc4_8mer
+34 : TCF12_disc5_8mer
+35 : BATF_disc1_8mer
+36 : GATA_disc2_8mer
+37 : AP-1_known1_8mer
+38 : CEBPB_known6_8mer
+39 : GR_disc6_8mer
+40 : AP-2_known3_8mer
+41 : CHD2_disc3_8mer
+42 : Egr-1_known5_8mer
+43 : Pbx3_disc2_8mer
+44 : Egr-1_disc6_8mer
+45 : ELF1_disc3_8mer
+46 : NRSF_disc3_8mer
+47 : BDP1_disc3_8mer
+48 : NF-kappaB_known4_8mer
+49 : NF-kappaB_known3_8mer
+50 : NF-kappaB_known2_8mer
+51 : NF-kappaB_known5_8mer
+52 : NF-kappaB_disc1_8mer
+53 : STAT_disc7_8mer
+54 : NRSF_disc4_8mer
+55 : Sin3Ak-20_disc6_8mer
+56 : Maf_known1_8mer
+57 : NF-E2_disc4_8mer
+58 : ZBTB7A_disc2_8mer
+59 : E2F_known3_8mer
+60 : Sin3Ak-20_disc7_8mer
+61 : SRF_disc2_8mer
+62 : ATF3_known6_8mer
+63 : ATF3_known4_8mer
+64 : Myc_disc2_8mer
+65 : Myc_known4_8mer
+66 : Myc_known7_8mer
+67 : RXRA_known4_8mer
+68 : BCL_disc8_8mer
+69 : ZBTB33_disc2_8mer
+70 : NRSF_known3_8mer
+71 : E2F_disc3_8mer
+72 : E2F_known1_8mer
+73 : BCL_disc6_8mer
+74 : Rad21_disc7_8mer
+75 : YY1_disc5_8mer
+76 : AP-2_known6_8mer
+77 : TCF12_disc1_8mer
+78 : ZNF263_disc1_8mer
+79 : Pou2f2_disc2_8mer
+80 : ATF3_known5_8mer
+81 : SETDB1_disc1_8mer
+82 : Ets_known1_8mer
+83 : RXRA_known1_8mer
+84 : HMGN3_disc1_8mer
+85 : Myc_disc3_8mer
+86 : AP-1_disc7_8mer
+87 : AP-1_disc3_8mer
+88 : TCF4_disc1_8mer
+89 : STAT_disc2_8mer
+90 : PRDM1_disc2_8mer
+91 : Mef2_disc3_8mer
+92 : Irf_known11_8mer
+93 : ZBTB7A_disc1_8mer
+94 : Irf_disc1_8mer
+95 : E2F_disc4_8mer
+96 : SP2_disc3_8mer
+97 : NRSF_disc5_8mer
+98 : Sin3Ak-20_disc5_8mer
+99 : ERalpha-a_disc4_8mer
+100 : TATA_disc7_8mer
+101 : Pou2f2_known1_8mer
+102 : Nanog_disc1_8mer
+103 : GR_disc5_8mer
+104 : HNF4_known4_8mer
+105 : HNF4_known1_8mer
+106 : Pax-5_known2_8mer
+107 : Nrf1_disc3_8mer
+108 : NF-kappaB_known6_8mer
+109 : AP-1_disc10_8mer
+110 : Mxi1_disc1_8mer
+111 : SREBP_disc1_8mer
+112 : RXRA_known6_8mer
+113 : Myc_known1_8mer
+114 : YY1_disc3_8mer
+115 : Nanog_disc3_8mer
+116 : CTCF_disc10_8mer
+117 : NRSF_known1_8mer
+118 : Foxa_disc2_8mer
+119 : Rad21_disc3_8mer
+120 : Sin3Ak-20_disc1_8mer
+121 : TCF4_known2_8mer
+122 : Rad21_disc8_8mer
+123 : GATA_known14_8mer
+124 : CCNT2_disc1_8mer
+125 : HDAC2_disc1_8mer
+126 : GATA_known13_8mer
+127 : Ets_known8_8mer
+128 : PU.1_disc1_8mer
+129 : HNF4_disc1_8mer
+130 : Nanog_disc2_8mer
+131 : CTCF_disc5_8mer
+132 : EBF_disc1_8mer
+133 : GR_known10_8mer
+134 : TCF4_known3_8mer
+135 : p300_known1_8mer
+136 : Ets_known3_8mer
+137 : YY1_disc1_8mer
+138 : THAP1_disc1_8mer
+139 : Myc_known5_8mer
+140 : Myc_known6_8mer
+141 : NF-E2_disc2_8mer
+142 : Mxi1_known1_8mer
+143 : NF-E2_disc3_8mer
+144 : NRSF_disc8_8mer
+145 : Nrf1_disc1_8mer
+146 : ELF1_disc2_8mer
+147 : PU.1_disc3_8mer
+148 : SIX5_known1_8mer
+149 : GR_disc2_8mer
+150 : Myc_disc10_8mer
+151 : Rad21_disc10_8mer
+152 : Ets_known7_8mer
+153 : TATA_disc3_8mer
+154 : HDAC2_disc3_8mer
+155 : BCL_disc1_8mer
+156 : Egr-1_disc2_8mer
+157 : Ets_known5_8mer
+158 : CEBPB_disc1_8mer
+159 : Hsf_disc1_8mer
+160 : Myc_disc8_8mer
+161 : BCL_disc10_8mer
+162 : Nrf1_known1_8mer
+163 : Myc_known8_8mer
+164 : Mxi1_disc2_8mer
+165 : TATA_disc6_8mer
+166 : SMC3_disc3_8mer
+167 : SP1_known4_8mer
+168 : E2F_disc7_8mer
+169 : ATF3_disc4_8mer
+170 : SMC3_disc4_8mer
+171 : TAL1_known1_8mer
+172 : NRSF_disc1_8mer
+173 : Pax-5_disc5_8mer
+174 : ATF3_known8_8mer
+175 : AP-1_disc1_8mer
+176 : YY1_known5_8mer
+177 : TAL1_known2_8mer
+178 : PRDM1_disc1_8mer
+179 : NRSF_known2_8mer
+180 : Ets_known9_8mer
+181 : CCNT2_disc2_8mer
+182 : Ets_known4_8mer
+183 : BCL_disc7_8mer
+184 : Ets_disc4_8mer
+185 : SIX5_disc3_8mer
+186 : Egr-1_disc4_8mer
+187 : Ets_disc2_8mer
+188 : TR4_disc1_8mer
+189 : SP2_disc2_8mer
+190 : ELF1_disc1_8mer
+191 : AP-1_disc9_8mer
+192 : NF-kappaB_disc2_8mer
+193 : SP1_known1_8mer
+194 : CHD2_disc2_8mer
+195 : E2F_disc5_8mer
+196 : TR4_disc2_8mer
+197 : Nrf1_known2_8mer
+198 : STAT_known7_8mer
+199 : STAT_disc1_8mer
+200 : Pax-5_known4_8mer
+201 : ZBTB33_disc3_8mer
+202 : GATA_disc5_8mer
+203 : ZEB1_disc1_8mer
+204 : STAT_disc6_8mer
+205 : EBF_known2_8mer
+206 : EBF_known1_8mer
+207 : CTCF_disc1_8mer
+208 : SMC3_disc2_8mer
+209 : ATF3_disc3_8mer
+210 : BRCA1_disc1_8mer
+211 : AP-1_disc5_8mer
+212 : Ets_disc6_8mer
+213 : E2F_disc2_8mer
+214 : SETDB1_disc2_8mer
+215 : Egr-1_disc3_8mer
+216 : AP-1_disc6_8mer
+217 : Znf143_known1_8mer
+218 : Znf143_disc2_8mer
+219 : BAF155_disc2_8mer
+220 : GATA_disc3_8mer
+221 : Pax-5_disc4_8mer
+222 : Pbx3_disc3_8mer
+223 : p300_disc3_8mer
+224 : Egr-1_disc1_8mer
+225 : CTCF_disc7_8mer
+226 : CTCF_disc2_8mer
+227 : Sin3Ak-20_disc2_8mer
+228 : Irf_known8_8mer
+229 : Foxa_known2_8mer
+230 : Foxa_known3_8mer
+231 : ERalpha-a_disc1_8mer
+232 : Egr-1_disc7_8mer
+233 : SP1_disc2_8mer
+234 : GR_known1_8mer
+235 : ERalpha-a_disc3_8mer
+236 : HNF4_disc4_8mer
+237 : HNF4_disc5_8mer
+238 : HNF4_known3_8mer
+239 : AP-1_known4_8mer
+240 : Pou5f1_disc1_8mer
+241 : RFX5_disc1_8mer
+242 : AP-1_disc2_8mer
+243 : TATA_disc4_8mer
+244 : YY1_known2_8mer
+245 : GR_disc4_8mer
+246 : Pou2f2_known3_8mer
+247 : ERalpha-a_known1_8mer
+248 : ERalpha-a_disc2_8mer
+249 : AP-1_disc8_8mer
+250 : SREBP_known1_8mer
+251 : HEY1_disc1_8mer
+252 : TATA_disc2_8mer
+253 : BCL_disc5_8mer
+254 : Pax-5_known1_8mer
+255 : KAP1_disc2_8mer
+256 : Mef2_known1_8mer
+257 : CEBPB_known3_8mer
+258 : p300_disc2_8mer
+259 : CEBPB_known1_8mer
+260 : GATA_disc6_8mer
+261 : NF-kappaB_disc4_8mer
+262 : Egr-1_known3_8mer
+263 : SP2_disc1_8mer
+264 : Ets_known6_8mer
+265 : TATA_disc5_8mer
+266 : Nrf1_disc2_8mer
+267 : ZBTB7A_known1_8mer
+268 : RFX5_disc3_8mer
+269 : Nanog_known1_8mer
+270 : TAL1_disc2_8mer
+271 : GR_disc1_8mer
+272 : STAT_known15_8mer
+273 : ATF3_known3_8mer
+274 : TAL1_disc1_8mer
+275 : RXRA_known3_8mer
+276 : SRF_known5_8mer
+277 : Egr-1_disc5_8mer
+278 : SRF_known6_8mer
+279 : Egr-1_known1_8mer
+280 : NRSF_disc6_8mer
+281 : Mef2_known4_8mer
+282 : HDAC2_disc6_8mer
+283 : GR_known4_8mer
+284 : Maf_known4_8mer
+285 : Maf_disc1_8mer
+286 : GR_known2_8mer
+287 : Foxa_disc3_8mer
+288 : GATA_known12_8mer
+289 : GATA_known10_8mer
+290 : Irf_known7_8mer
+291 : GR_known8_8mer
+292 : YY1_known6_8mer
+293 : AP-2_known4_8mer
+294 : GR_known5_8mer
+295 : TCF4_disc2_8mer
+296 : TATA_disc8_8mer
+297 : STAT_known10_8mer
+298 : HNF4_known5_8mer
+299 : ELF1_known1_8mer
+300 : RXRA_disc4_8mer
+301 : GATA_known9_8mer
+302 : Pou2f2_known8_8mer
+303 : Pou5f1_known1_8mer
+304 : GATA_known7_8mer
+305 : HNF4_known2_8mer
+306 : RFX5_known4_8mer
+307 : p300_disc5_8mer
+308 : NRSF_disc10_8mer
+309 : Ets_disc1_8mer
+310 : RXRA_known5_8mer
+311 : Rad21_disc4_8mer
+312 : SP1_known3_8mer
+313 : RFX5_disc2_8mer
+314 : CEBPB_disc2_8mer
+315 : Myc_disc1_8mer
+316 : ATF3_disc1_8mer
+317 : TATA_known5_8mer
+318 : TCF4_known1_8mer
+319 : Ets_disc8_8mer
+320 : BCL_disc4_8mer
+321 : Pax-5_disc3_8mer
+322 : SIX5_disc4_8mer
+323 : Pou2f2_known10_8mer
+324 : Ets_known2_8mer
+325 : GATA_known11_8mer
+326 : E2F_known6_8mer
+327 : TCF12_known1_8mer
+328 : CEBPB_known5_8mer
+329 : GATA_known8_8mer
+330 : PRDM1_known1_8mer
+331 : STAT_disc3_8mer
+332 : Irf_disc6_8mer
+333 : BATF_disc2_8mer
+334 : Irf_disc3_8mer
+335 : Irf_known9_8mer
+336 : STAT_known6_8mer
+337 : STAT_known12_8mer
+338 : CTCFL_disc1_8mer
+339 : HNF4_known8_8mer
+340 : AP-2_known5_8mer
+341 : RFX5_known3_8mer
+342 : ATF3_known7_8mer
+343 : CTCF_disc6_8mer
+344 : Irf_disc5_8mer
+345 : SRF_known3_8mer
+346 : Mef2_known2_8mer
+347 : TATA_known4_8mer
+348 : NF-E2_disc1_8mer
+349 : AP-2_disc1_8mer
+350 : BAF155_disc1_8mer
+351 : KAP1_disc1_8mer
+352 : Mef2_disc2_8mer
+353 : SRF_known2_8mer
+354 : SRF_known1_8mer
+355 : HNF4_disc2_8mer
+356 : STAT_disc5_8mer
+357 : ATF3_known9_8mer
+358 : HNF4_disc3_8mer
+359 : BATF_disc3_8mer
+360 : Mef2_known5_8mer
+361 : E2F_known9_8mer
+362 : Foxa_known4_8mer
+363 : Pou2f2_known2_8mer
+364 : YY1_disc2_8mer
+365 : Pou5f1_known2_8mer
+366 : Foxa_known1_8mer
+367 : p300_disc7_8mer
+368 : NF-kappaB_disc3_8mer
+369 : AP-1_known3_8mer
+370 : NF-E2_known1_8mer
+371 : E2F_disc1_8mer
+372 : ATF3_known1_8mer
+373 : HDAC2_disc5_8mer
+374 : RXRA_disc3_8mer
+375 : Maf_known2_8mer
+376 : CEBPB_known4_8mer
+377 : GATA_known1_8mer
+378 : Ets_disc5_8mer
+379 : p300_disc6_8mer
+380 : HDAC2_disc2_8mer
+381 : GR_known3_8mer
+382 : TCF12_disc2_8mer
+383 : Rad21_disc2_8mer
+384 : Rad21_disc5_8mer
+385 : CEBPB_known2_8mer
+386 : Pou2f2_known4_8mer
+387 : Hsf_known2_8mer
+388 : Pbx3_known1_8mer
+389 : Maf_disc2_8mer
+390 : Egr-1_known4_8mer
+391 : BHLHE40_disc1_8mer
+392 : Foxa_disc4_8mer
+393 : NRSF_disc2_8mer
+394 : Sin3Ak-20_disc3_8mer
+395 : NF-Y_known3_8mer
+396 : Pou2f2_known6_8mer
+397 : Rad21_disc9_8mer
+398 : RFX5_known5_8mer
+399 : BHLHE40_known2_8mer
+400 : p300_disc10_8mer
+401 : Irf_known10_8mer
+402 : TATA_disc1_8mer
+403 : YY1_known4_8mer
+404 : Mef2_known3_8mer
+405 : RFX5_known2_8mer
+406 : Myc_disc4_8mer
+407 : BHLHE40_known1_8mer
+408 : YY1_known3_8mer
+409 : NF-kappaB_known1_8mer
+410 : SIX5_disc1_8mer
+411 : STAT_disc4_8mer
+412 : NR4A_known1_8mer
+413 : E2F_known7_8mer
+414 : STAT_known14_8mer
+415 : SIX5_disc2_8mer
+416 : RXRA_disc5_8mer
+417 : THAP1_disc2_8mer
+418 : SIRT6_disc1_8mer
+419 : STAT_known11_8mer
+420 : TATA_disc9_8mer
+421 : PU.1_disc2_8mer
+422 : p300_disc1_8mer
+423 : Pou2f2_known7_8mer
+424 : Pax-5_disc2_8mer
+425 : Foxa_disc1_8mer
+426 : NRSF_disc7_8mer
+427 : NF-Y_known2_8mer
+428 : ZEB1_known3_8mer
+429 : BCL_disc2_8mer
+430 : Foxa_disc5_8mer
+431 : STAT_known13_8mer
+432 : ZBTB33_known1_8mer
+433 : TCF12_disc6_8mer
+434 : Hsf_known1_8mer
+435 : SREBP_known4_8mer
+436 : Mef2_disc1_8mer
+437 : Myc_known9_8mer
+438 : ZEB1_known4_8mer
+439 : Maf_known3_8mer
+440 : RXRA_disc1_8mer
+441 : TATA_known1_8mer
+442 : Irf_known6_8mer
+443 : Sin3Ak-20_disc4_8mer
+444 : GATA_known6_8mer
+445 : Irf_disc2_8mer
+446 : GATA_known2_8mer
+447 : TCF12_disc4_8mer
+448 : GATA_known4_8mer
+449 : Myc_disc5_8mer
+450 : Nanog_disc4_8mer
+451 : GATA_disc1_8mer
+452 : Pou2f2_known9_8mer
+453 : HMGN3_disc2_8mer
+454 : RXRA_known7_8mer
+455 : Pbx3_disc1_8mer
+456 : Znf143_disc1_8mer
+457 : E2F_known2_8mer
+458 : BDP1_disc2_8mer
+459 : Irf_known5_8mer
+460 : GATA_disc4_8mer
+461 : TCF12_disc3_8mer
+462 : AP-1_disc4_8mer
+463 : BCL_disc3_8mer
+464 : E2F_disc6_8mer
+465 : Myc_disc7_8mer
+466 : TR4_disc3_8mer
+467 : GR_known7_8mer
+468 : Irf_known1_8mer
+469 : ZEB1_known5_8mer
+470 : p300_disc4_8mer
+471 : BRCA1_known2_8mer
+472 : GR_known9_8mer
+473 : ZBTB33_disc4_8mer
+474 : ZBTB33_disc1_8mer
+475 : Ets_disc3_8mer
+476 : CHD2_disc1_8mer
+477 : GR_disc3_8mer
+478 : Hsf_known3_8mer
+479 : SIX5_known2_8mer
+480 : CTCF_disc3_8mer
+481 : GATA_known3_8mer
+482 : Irf_known3_8mer
+483 : Irf_known2_8mer
+484 : Myc_disc6_8mer
+485 : ZEB1_known2_8mer
+486 : RFX5_known1_8mer
+487 : Pou2f2_known5_8mer
+488 : Pou2f2_disc1_8mer
+489 : TATA_known3_8mer
+490 : GR_known6_8mer
+491 : E2F_known5_8mer
+492 : SRF_known4_8mer
+493 : ZBTB7A_known2_8mer
+494 : Pou2f2_known11_8mer
+495 : Pou5f1_disc2_8mer
+496 : SREBP_known3_8mer
+497 : SRF_disc1_8mer
+number of motif: 498
+[DEBUG]Total footprints 252579
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]output direcotry: ../tmp/test_mp2template/HepG2
+------------------------
+step 1:  For each template, how many percentage from each motif instance 
+[DEBUG]output direcotry:../tmp/test_mp2template/HepG2/mt_perc_in_temp
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_0.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_1.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_2.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_3.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_4.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_5.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_6.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_7.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_8.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_9.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_10.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_11.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_12.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_13.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_14.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_15.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_16.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_17.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_18.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_19.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_20.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_21.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_22.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_23.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_24.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_25.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_26.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_27.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_28.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_29.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_30.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_31.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_32.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_33.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_34.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_35.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_36.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_37.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_38.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_39.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_40.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_41.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_42.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_43.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_44.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_45.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_46.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_47.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_48.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_49.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_50.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_51.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_52.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_53.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_54.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_55.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_56.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_57.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_58.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_59.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_60.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_61.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_62.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_63.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_64.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_65.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_66.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_67.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_68.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_69.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_70.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_71.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_72.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_73.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_74.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_75.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_76.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_77.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_78.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_79.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_80.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_81.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_82.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_83.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_84.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_85.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_86.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_87.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_88.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_89.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_90.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_91.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_92.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_93.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_94.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_95.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_96.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_97.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_98.txt
+[DEBUG]out put file:../tmp/test_mp2template/HepG2/mt_perc_in_temp/template_99.txt
+------------------------
+step 2: for each motif instance, how many percentage is assigned to each template 
+[DEBUG]output direcotry:../tmp/test_mp2template/HepG2/tmp_perc_in_mt
+motif: 0
+6026 against  6026
+motif: 1
+5657 against  5657
+motif: 2
+5390 against  5390
+motif: 3
+5292 against  5292
+motif: 4
+5047 against  5047
+motif: 5
+5040 against  5040
+motif: 6
+4768 against  4768
+motif: 7
+3095 against  3095
+motif: 8
+2980 against  2980
+motif: 9
+2966 against  2966
+motif: 10
+2925 against  2925
+motif: 11
+2886 against  2886
+motif: 12
+2858 against  2858
+motif: 13
+2646 against  2646
+motif: 14
+2574 against  2574
+motif: 15
+2393 against  2393
+motif: 16
+2343 against  2343
+motif: 17
+2124 against  2124
+motif: 18
+2090 against  2090
+motif: 19
+1961 against  1961
+motif: 20
+1880 against  1880
+motif: 21
+1792 against  1792
+motif: 22
+1751 against  1751
+motif: 23
+1728 against  1728
+motif: 24
+1726 against  1726
+motif: 25
+1706 against  1706
+motif: 26
+1652 against  1652
+motif: 27
+1643 against  1643
+motif: 28
+1605 against  1605
+motif: 29
+1596 against  1596
+motif: 30
+1594 against  1594
+motif: 31
+1575 against  1575
+motif: 32
+1572 against  1572
+motif: 33
+1544 against  1544
+motif: 34
+1537 against  1537
+motif: 35
+1529 against  1529
+motif: 36
+1524 against  1524
+motif: 37
+1508 against  1508
+motif: 38
+1493 against  1493
+motif: 39
+1445 against  1445
+motif: 40
+1417 against  1417
+motif: 41
+1413 against  1413
+motif: 42
+1400 against  1400
+motif: 43
+1390 against  1390
+motif: 44
+1351 against  1351
+motif: 45
+1316 against  1316
+motif: 46
+1305 against  1305
+motif: 47
+1292 against  1292
+motif: 48
+1282 against  1282
+motif: 49
+1279 against  1279
+motif: 50
+1251 against  1251
+motif: 51
+1242 against  1242
+motif: 52
+1194 against  1194
+motif: 53
+1187 against  1187
+motif: 54
+1178 against  1178
+motif: 55
+1114 against  1114
+motif: 56
+1105 against  1105
+motif: 57
+1083 against  1083
+motif: 58
+1067 against  1067
+motif: 59
+1059 against  1059
+motif: 60
+1048 against  1048
+motif: 61
+1039 against  1039
+motif: 62
+1031 against  1031
+motif: 63
+1030 against  1030
+motif: 64
+1026 against  1026
+motif: 65
+1009 against  1009
+motif: 66
+980 against  980
+motif: 67
+979 against  979
+motif: 68
+944 against  944
+motif: 69
+862 against  862
+motif: 70
+855 against  855
+motif: 71
+852 against  852
+motif: 72
+850 against  850
+motif: 73
+821 against  821
+motif: 74
+808 against  808
+motif: 75
+806 against  806
+motif: 76
+801 against  801
+motif: 77
+788 against  788
+motif: 78
+768 against  768
+motif: 79
+759 against  759
+motif: 80
+756 against  756
+motif: 81
+741 against  741
+motif: 82
+733 against  733
+motif: 83
+723 against  723
+motif: 84
+716 against  716
+motif: 85
+715 against  715
+motif: 86
+713 against  713
+motif: 87
+711 against  711
+motif: 88
+683 against  683
+motif: 89
+681 against  681
+motif: 90
+679 against  679
+motif: 91
+679 against  679
+motif: 92
+640 against  640
+motif: 93
+638 against  638
+motif: 94
+632 against  632
+motif: 95
+621 against  621
+motif: 96
+616 against  616
+motif: 97
+601 against  601
+motif: 98
+601 against  601
+motif: 99
+598 against  598
+motif: 100
+593 against  593
+motif: 101
+580 against  580
+motif: 102
+559 against  559
+motif: 103
+552 against  552
+motif: 104
+546 against  546
+motif: 105
+538 against  538
+motif: 106
+537 against  537
+motif: 107
+536 against  536
+motif: 108
+532 against  532
+motif: 109
+520 against  520
+motif: 110
+501 against  501
+motif: 111
+496 against  496
+motif: 112
+494 against  494
+motif: 113
+493 against  493
+motif: 114
+492 against  492
+motif: 115
+490 against  490
+motif: 116
+488 against  488
+motif: 117
+487 against  487
+motif: 118
+481 against  481
+motif: 119
+480 against  480
+motif: 120
+477 against  477
+motif: 121
+469 against  469
+motif: 122
+457 against  457
+motif: 123
+454 against  454
+motif: 124
+448 against  448
+motif: 125
+445 against  445
+motif: 126
+441 against  441
+motif: 127
+441 against  441
+motif: 128
+437 against  437
+motif: 129
+437 against  437
+motif: 130
+435 against  435
+motif: 131
+431 against  431
+motif: 132
+431 against  431
+motif: 133
+428 against  428
+motif: 134
+427 against  427
+motif: 135
+427 against  427
+motif: 136
+426 against  426
+motif: 137
+426 against  426
+motif: 138
+419 against  419
+motif: 139
+419 against  419
+motif: 140
+416 against  416
+motif: 141
+415 against  415
+motif: 142
+411 against  411
+motif: 143
+409 against  409
+motif: 144
+404 against  404
+motif: 145
+404 against  404
+motif: 146
+402 against  402
+motif: 147
+399 against  399
+motif: 148
+399 against  399
+motif: 149
+399 against  399
+motif: 150
+398 against  398
+motif: 151
+394 against  394
+motif: 152
+392 against  392
+motif: 153
+391 against  391
+motif: 154
+391 against  391
+motif: 155
+386 against  386
+motif: 156
+382 against  382
+motif: 157
+377 against  377
+motif: 158
+374 against  374
+motif: 159
+373 against  373
+motif: 160
+373 against  373
+motif: 161
+373 against  373
+motif: 162
+372 against  372
+motif: 163
+369 against  369
+motif: 164
+368 against  368
+motif: 165
+368 against  368
+motif: 166
+366 against  366
+motif: 167
+363 against  363
+motif: 168
+362 against  362
+motif: 169
+362 against  362
+motif: 170
+362 against  362
+motif: 171
+361 against  361
+motif: 172
+360 against  360
+motif: 173
+360 against  360
+motif: 174
+351 against  351
+motif: 175
+350 against  350
+motif: 176
+349 against  349
+motif: 177
+349 against  349
+motif: 178
+349 against  349
+motif: 179
+348 against  348
+motif: 180
+345 against  345
+motif: 181
+344 against  344
+motif: 182
+344 against  344
+motif: 183
+343 against  343
+motif: 184
+338 against  338
+motif: 185
+335 against  335
+motif: 186
+332 against  332
+motif: 187
+332 against  332
+motif: 188
+331 against  331
+motif: 189
+329 against  329
+motif: 190
+328 against  328
+motif: 191
+326 against  326
+motif: 192
+325 against  325
+motif: 193
+324 against  324
+motif: 194
+324 against  324
+motif: 195
+323 against  323
+motif: 196
+323 against  323
+motif: 197
+323 against  323
+motif: 198
+312 against  312
+motif: 199
+311 against  311
+motif: 200
+311 against  311
+motif: 201
+310 against  310
+motif: 202
+308 against  308
+motif: 203
+306 against  306
+motif: 204
+305 against  305
+motif: 205
+304 against  304
+motif: 206
+303 against  303
+motif: 207
+301 against  301
+motif: 208
+300 against  300
+motif: 209
+299 against  299
+motif: 210
+295 against  295
+motif: 211
+295 against  295
+motif: 212
+294 against  294
+motif: 213
+293 against  293
+motif: 214
+293 against  293
+motif: 215
+292 against  292
+motif: 216
+292 against  292
+motif: 217
+292 against  292
+motif: 218
+292 against  292
+motif: 219
+290 against  290
+motif: 220
+288 against  288
+motif: 221
+286 against  286
+motif: 222
+285 against  285
+motif: 223
+285 against  285
+motif: 224
+284 against  284
+motif: 225
+284 against  284
+motif: 226
+280 against  280
+motif: 227
+279 against  279
+motif: 228
+278 against  278
+motif: 229
+278 against  278
+motif: 230
+277 against  277
+motif: 231
+276 against  276
+motif: 232
+276 against  276
+motif: 233
+275 against  275
+motif: 234
+273 against  273
+motif: 235
+271 against  271
+motif: 236
+270 against  270
+motif: 237
+267 against  267
+motif: 238
+267 against  267
+motif: 239
+265 against  265
+motif: 240
+259 against  259
+motif: 241
+257 against  257
+motif: 242
+257 against  257
+motif: 243
+254 against  254
+motif: 244
+254 against  254
+motif: 245
+253 against  253
+motif: 246
+253 against  253
+motif: 247
+252 against  252
+motif: 248
+252 against  252
+motif: 249
+252 against  252
+motif: 250
+251 against  251
+motif: 251
+251 against  251
+motif: 252
+249 against  249
+motif: 253
+249 against  249
+motif: 254
+249 against  249
+motif: 255
+248 against  248
+motif: 256
+248 against  248
+motif: 257
+247 against  247
+motif: 258
+244 against  244
+motif: 259
+243 against  243
+motif: 260
+242 against  242
+motif: 261
+240 against  240
+motif: 262
+238 against  238
+motif: 263
+237 against  237
+motif: 264
+236 against  236
+motif: 265
+236 against  236
+motif: 266
+234 against  234
+motif: 267
+234 against  234
+motif: 268
+233 against  233
+motif: 269
+232 against  232
+motif: 270
+232 against  232
+motif: 271
+231 against  231
+motif: 272
+230 against  230
+motif: 273
+230 against  230
+motif: 274
+229 against  229
+motif: 275
+228 against  228
+motif: 276
+227 against  227
+motif: 277
+227 against  227
+motif: 278
+226 against  226
+motif: 279
+226 against  226
+motif: 280
+225 against  225
+motif: 281
+225 against  225
+motif: 282
+225 against  225
+motif: 283
+225 against  225
+motif: 284
+223 against  223
+motif: 285
+223 against  223
+motif: 286
+221 against  221
+motif: 287
+221 against  221
+motif: 288
+221 against  221
+motif: 289
+220 against  220
+motif: 290
+220 against  220
+motif: 291
+219 against  219
+motif: 292
+217 against  217
+motif: 293
+216 against  216
+motif: 294
+215 against  215
+motif: 295
+214 against  214
+motif: 296
+211 against  211
+motif: 297
+211 against  211
+motif: 298
+211 against  211
+motif: 299
+210 against  210
+motif: 300
+210 against  210
+motif: 301
+209 against  209
+motif: 302
+209 against  209
+motif: 303
+207 against  207
+motif: 304
+206 against  206
+motif: 305
+206 against  206
+motif: 306
+205 against  205
+motif: 307
+203 against  203
+motif: 308
+203 against  203
+motif: 309
+202 against  202
+motif: 310
+202 against  202
+motif: 311
+202 against  202
+motif: 312
+201 against  201
+motif: 313
+201 against  201
+motif: 314
+200 against  200
+motif: 315
+199 against  199
+motif: 316
+198 against  198
+motif: 317
+195 against  195
+motif: 318
+195 against  195
+motif: 319
+195 against  195
+motif: 320
+194 against  194
+motif: 321
+192 against  192
+motif: 322
+190 against  190
+motif: 323
+190 against  190
+motif: 324
+189 against  189
+motif: 325
+189 against  189
+motif: 326
+187 against  187
+motif: 327
+187 against  187
+motif: 328
+187 against  187
+motif: 329
+186 against  186
+motif: 330
+185 against  185
+motif: 331
+185 against  185
+motif: 332
+185 against  185
+motif: 333
+184 against  184
+motif: 334
+184 against  184
+motif: 335
+182 against  182
+motif: 336
+181 against  181
+motif: 337
+181 against  181
+motif: 338
+181 against  181
+motif: 339
+181 against  181
+motif: 340
+179 against  179
+motif: 341
+178 against  178
+motif: 342
+178 against  178
+motif: 343
+177 against  177
+motif: 344
+177 against  177
+motif: 345
+175 against  175
+motif: 346
+175 against  175
+motif: 347
+174 against  174
+motif: 348
+174 against  174
+motif: 349
+173 against  173
+motif: 350
+173 against  173
+motif: 351
+171 against  171
+motif: 352
+171 against  171
+motif: 353
+170 against  170
+motif: 354
+169 against  169
+motif: 355
+169 against  169
+motif: 356
+167 against  167
+motif: 357
+166 against  166
+motif: 358
+165 against  165
+motif: 359
+164 against  164
+motif: 360
+162 against  162
+motif: 361
+161 against  161
+motif: 362
+160 against  160
+motif: 363
+160 against  160
+motif: 364
+159 against  159
+motif: 365
+159 against  159
+motif: 366
+158 against  158
+motif: 367
+157 against  157
+motif: 368
+156 against  156
+motif: 369
+155 against  155
+motif: 370
+155 against  155
+motif: 371
+154 against  154
+motif: 372
+154 against  154
+motif: 373
+154 against  154
+motif: 374
+154 against  154
+motif: 375
+152 against  152
+motif: 376
+152 against  152
+motif: 377
+152 against  152
+motif: 378
+148 against  148
+motif: 379
+148 against  148
+motif: 380
+147 against  147
+motif: 381
+147 against  147
+motif: 382
+146 against  146
+motif: 383
+145 against  145
+motif: 384
+145 against  145
+motif: 385
+145 against  145
+motif: 386
+145 against  145
+motif: 387
+144 against  144
+motif: 388
+144 against  144
+motif: 389
+144 against  144
+motif: 390
+143 against  143
+motif: 391
+142 against  142
+motif: 392
+142 against  142
+motif: 393
+142 against  142
+motif: 394
+141 against  141
+motif: 395
+140 against  140
+motif: 396
+139 against  139
+motif: 397
+138 against  138
+motif: 398
+137 against  137
+motif: 399
+136 against  136
+motif: 400
+136 against  136
+motif: 401
+136 against  136
+motif: 402
+136 against  136
+motif: 403
+136 against  136
+motif: 404
+135 against  135
+motif: 405
+135 against  135
+motif: 406
+134 against  134
+motif: 407
+134 against  134
+motif: 408
+133 against  133
+motif: 409
+133 against  133
+motif: 410
+133 against  133
+motif: 411
+133 against  133
+motif: 412
+131 against  131
+motif: 413
+131 against  131
+motif: 414
+131 against  131
+motif: 415
+129 against  129
+motif: 416
+128 against  128
+motif: 417
+128 against  128
+motif: 418
+127 against  127
+motif: 419
+126 against  126
+motif: 420
+125 against  125
+motif: 421
+123 against  123
+motif: 422
+122 against  122
+motif: 423
+121 against  121
+motif: 424
+120 against  120
+motif: 425
+120 against  120
+motif: 426
+118 against  118
+motif: 427
+117 against  117
+motif: 428
+117 against  117
+motif: 429
+116 against  116
+motif: 430
+114 against  114
+motif: 431
+113 against  113
+motif: 432
+113 against  113
+motif: 433
+112 against  112
+motif: 434
+112 against  112
+motif: 435
+111 against  111
+motif: 436
+110 against  110
+motif: 437
+108 against  108
+motif: 438
+107 against  107
+motif: 439
+106 against  106
+motif: 440
+105 against  105
+motif: 441
+104 against  104
+motif: 442
+99 against  99
+motif: 443
+99 against  99
+motif: 444
+97 against  97
+motif: 445
+97 against  97
+motif: 446
+96 against  96
+motif: 447
+95 against  95
+motif: 448
+95 against  95
+motif: 449
+94 against  94
+motif: 450
+93 against  93
+motif: 451
+92 against  92
+motif: 452
+90 against  90
+motif: 453
+90 against  90
+motif: 454
+89 against  89
+motif: 455
+85 against  85
+motif: 456
+85 against  85
+motif: 457
+84 against  84
+motif: 458
+83 against  83
+motif: 459
+82 against  82
+motif: 460
+80 against  80
+motif: 461
+79 against  79
+motif: 462
+78 against  78
+motif: 463
+76 against  76
+motif: 464
+74 against  74
+motif: 465
+74 against  74
+motif: 466
+73 against  73
+motif: 467
+71 against  71
+motif: 468
+71 against  71
+motif: 469
+71 against  71
+motif: 470
+70 against  70
+motif: 471
+70 against  70
+motif: 472
+69 against  69
+motif: 473
+67 against  67
+motif: 474
+65 against  65
+motif: 475
+63 against  63
+motif: 476
+63 against  63
+motif: 477
+63 against  63
+motif: 478
+62 against  62
+motif: 479
+59 against  59
+motif: 480
+59 against  59
+motif: 481
+58 against  58
+motif: 482
+57 against  57
+motif: 483
+57 against  57
+motif: 484
+55 against  55
+motif: 485
+55 against  55
+motif: 486
+55 against  55
+motif: 487
+54 against  54
+motif: 488
+51 against  51
+motif: 489
+45 against  45
+motif: 490
+44 against  44
+motif: 491
+43 against  43
+motif: 492
+40 against  40
+motif: 493
+39 against  39
+motif: 494
+36 against  36
+motif: 495
+31 against  31
+motif: 496
+25 against  25
+motif: 497
+24 against  24
+[DEBUG] get motif instance for chr1
+[DEBUG] motif instance size for this chromosome..2700213
+[DEBUG] get fp for chr1, K562
+[DEBUG]fp size for this chromosome..62901
+[DEBUG]Total motif size that include fp: 31857
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+17000
+18000
+19000
+20000
+21000
+22000
+0 left overs...
+reach the end when reading signal: 0
+[DEBUG]reading conservation data for chr1
+before return: 22897
+[DEBUG] get motif instance for chr2
+[DEBUG] motif instance size for this chromosome..2971150
+[DEBUG] get fp for chr2, K562
+[DEBUG]fp size for this chromosome..33460
+[DEBUG]Total motif size that include fp: 17763
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 22897
+[DEBUG]reading conservation data for chr2
+before return: 35604
+[DEBUG] get motif instance for chr3
+[DEBUG] motif instance size for this chromosome..2319133
+[DEBUG] get fp for chr3, K562
+[DEBUG]fp size for this chromosome..27705
+[DEBUG]Total motif size that include fp: 14402
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 35604
+[DEBUG]reading conservation data for chr3
+before return: 45743
+[DEBUG] get motif instance for chr4
+[DEBUG] motif instance size for this chromosome..2205358
+[DEBUG] get fp for chr4, K562
+[DEBUG]fp size for this chromosome..18013
+[DEBUG]Total motif size that include fp: 8820
+1000
+2000
+3000
+4000
+5000
+6000
+0 left overs...
+reach the end when reading signal: 45743
+[DEBUG]reading conservation data for chr4
+before return: 52041
+[DEBUG] get motif instance for chr5
+[DEBUG] motif instance size for this chromosome..2134142
+[DEBUG] get fp for chr5, K562
+[DEBUG]fp size for this chromosome..23296
+[DEBUG]Total motif size that include fp: 12103
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 52041
+[DEBUG]reading conservation data for chr5
+before return: 60811
+[DEBUG] get motif instance for chr6
+[DEBUG] motif instance size for this chromosome..2052746
+[DEBUG] get fp for chr6, K562
+[DEBUG]fp size for this chromosome..40747
+[DEBUG]Total motif size that include fp: 20060
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+0 left overs...
+reach the end when reading signal: 60811
+[DEBUG]reading conservation data for chr6
+before return: 75231
+[DEBUG] get motif instance for chr7
+[DEBUG] motif instance size for this chromosome..1892975
+[DEBUG] get fp for chr7, K562
+[DEBUG]fp size for this chromosome..29778
+[DEBUG]Total motif size that include fp: 14849
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 75231
+[DEBUG]reading conservation data for chr7
+before return: 85862
+[DEBUG] get motif instance for chr8
+[DEBUG] motif instance size for this chromosome..1756651
+[DEBUG] get fp for chr8, K562
+[DEBUG]fp size for this chromosome..17969
+[DEBUG]Total motif size that include fp: 10095
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 85862
+[DEBUG]reading conservation data for chr8
+before return: 93050
+[DEBUG] get motif instance for chr9
+[DEBUG] motif instance size for this chromosome..1474941
+[DEBUG] get fp for chr9, K562
+[DEBUG]fp size for this chromosome..18060
+[DEBUG]Total motif size that include fp: 10704
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+0 left overs...
+reach the end when reading signal: 93050
+[DEBUG]reading conservation data for chr9
+before return: 100633
+[DEBUG] get motif instance for chr10
+[DEBUG] motif instance size for this chromosome..1666407
+[DEBUG] get fp for chr10, K562
+[DEBUG]fp size for this chromosome..21415
+[DEBUG]Total motif size that include fp: 11497
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 100633
+[DEBUG]reading conservation data for chr10
+before return: 108905
+[DEBUG] get motif instance for chr11
+[DEBUG] motif instance size for this chromosome..1617883
+[DEBUG] get fp for chr11, K562
+[DEBUG]fp size for this chromosome..28419
+[DEBUG]Total motif size that include fp: 17323
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+0 left overs...
+reach the end when reading signal: 108905
+[DEBUG]reading conservation data for chr11
+before return: 121116
+[DEBUG] get motif instance for chr12
+[DEBUG] motif instance size for this chromosome..1559123
+[DEBUG] get fp for chr12, K562
+[DEBUG]fp size for this chromosome..24129
+[DEBUG]Total motif size that include fp: 14709
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+0 left overs...
+reach the end when reading signal: 121116
+[DEBUG]reading conservation data for chr12
+before return: 131522
+[DEBUG] get motif instance for chr13
+[DEBUG] motif instance size for this chromosome..1206383
+[DEBUG] get fp for chr13, K562
+[DEBUG]fp size for this chromosome..6056
+[DEBUG]Total motif size that include fp: 3299
+1000
+2000
+0 left overs...
+reach the end when reading signal: 131522
+[DEBUG]reading conservation data for chr13
+before return: 133813
+[DEBUG] get motif instance for chr14
+[DEBUG] motif instance size for this chromosome..1106718
+[DEBUG] get fp for chr14, K562
+[DEBUG]fp size for this chromosome..10850
+[DEBUG]Total motif size that include fp: 6756
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 133813
+[DEBUG]reading conservation data for chr14
+before return: 138552
+[DEBUG] get motif instance for chr15
+[DEBUG] motif instance size for this chromosome..1039064
+[DEBUG] get fp for chr15, K562
+[DEBUG]fp size for this chromosome..14566
+[DEBUG]Total motif size that include fp: 8514
+1000
+2000
+3000
+4000
+5000
+6000
+0 left overs...
+reach the end when reading signal: 138552
+[DEBUG]reading conservation data for chr15
+before return: 144595
+[DEBUG] get motif instance for chr16
+[DEBUG] motif instance size for this chromosome..1017229
+[DEBUG] get fp for chr16, K562
+[DEBUG]fp size for this chromosome..18302
+[DEBUG]Total motif size that include fp: 12527
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0 left overs...
+reach the end when reading signal: 144595
+[DEBUG]reading conservation data for chr16
+before return: 153383
+[DEBUG] get motif instance for chr17
+[DEBUG] motif instance size for this chromosome..1046432
+[DEBUG] get fp for chr17, K562
+[DEBUG]fp size for this chromosome..24982
+[DEBUG]Total motif size that include fp: 16357
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+0 left overs...
+reach the end when reading signal: 153383
+[DEBUG]reading conservation data for chr17
+before return: 164874
+[DEBUG] get motif instance for chr18
+[DEBUG] motif instance size for this chromosome..973761
+[DEBUG] get fp for chr18, K562
+[DEBUG]fp size for this chromosome..8216
+[DEBUG]Total motif size that include fp: 4363
+1000
+2000
+3000
+0 left overs...
+reach the end when reading signal: 164874
+[DEBUG]reading conservation data for chr18
+before return: 168048
+[DEBUG] get motif instance for chr19
+[DEBUG] motif instance size for this chromosome..676576
+[DEBUG] get fp for chr19, K562
+[DEBUG]fp size for this chromosome..30216
+[DEBUG]Total motif size that include fp: 23852
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+12000
+13000
+14000
+15000
+16000
+0 left overs...
+reach the end when reading signal: 168048
+[DEBUG]reading conservation data for chr19
+before return: 184482
+[DEBUG] get motif instance for chr20
+[DEBUG] motif instance size for this chromosome..748768
+[DEBUG] get fp for chr20, K562
+[DEBUG]fp size for this chromosome..11550
+[DEBUG]Total motif size that include fp: 7062
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 184482
+[DEBUG]reading conservation data for chr20
+before return: 189438
+[DEBUG] get motif instance for chr21
+[DEBUG] motif instance size for this chromosome..450452
+[DEBUG] get fp for chr21, K562
+[DEBUG]fp size for this chromosome..6113
+[DEBUG]Total motif size that include fp: 2981
+1000
+2000
+0 left overs...
+reach the end when reading signal: 189438
+[DEBUG]reading conservation data for chr21
+before return: 191522
+[DEBUG] get motif instance for chr22
+[DEBUG] motif instance size for this chromosome..474090
+[DEBUG] get fp for chr22, K562
+[DEBUG]fp size for this chromosome..11315
+[DEBUG]Total motif size that include fp: 6270
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 191522
+[DEBUG]reading conservation data for chr22
+before return: 195974
+[DEBUG] get motif instance for chrX
+[DEBUG] motif instance size for this chromosome..1395896
+[DEBUG] get fp for chrX, K562
+[DEBUG]fp size for this chromosome..10625
+[DEBUG]Total motif size that include fp: 6310
+1000
+2000
+3000
+4000
+0 left overs...
+reach the end when reading signal: 195974
+[DEBUG]reading conservation data for chrX
+before return: 200363
+post read signal size: 200363
+TOTAL: 68972182
+real: 629373
+Percent: 0
+incoming size: 200363
+0 : GR_known4_8mer
+1 : BDP1_disc1_8mer
+2 : ATF3_known7_8mer
+3 : ATF3_disc2_8mer
+4 : NF-Y_known1_8mer
+5 : NF-Y_disc1_8mer
+6 : SP1_disc1_8mer
+7 : BHLHE40_disc2_8mer
+8 : Egr-1_known3_8mer
+9 : ATF3_known6_8mer
+10 : Irf_disc4_8mer
+11 : NRSF_known2_8mer
+12 : NRSF_known3_8mer
+13 : NRSF_disc9_8mer
+14 : ATF3_known4_8mer
+15 : CCNT2_disc1_8mer
+16 : GR_known10_8mer
+17 : NRSF_disc4_8mer
+18 : p300_disc9_8mer
+19 : Mef2_known6_8mer
+20 : BCL_disc8_8mer
+21 : Pax-5_disc1_8mer
+22 : YY1_disc4_8mer
+23 : BCL_disc9_8mer
+24 : TATA_disc10_8mer
+25 : E2F_disc8_8mer
+26 : AP-2_known1_8mer
+27 : Egr-1_known1_8mer
+28 : Ets_disc9_8mer
+29 : NRSF_disc8_8mer
+30 : ELF1_disc3_8mer
+31 : HDAC2_disc4_8mer
+32 : Egr-1_known5_8mer
+33 : Pbx3_disc2_8mer
+34 : ATF3_disc4_8mer
+35 : Egr-1_disc6_8mer
+36 : AP-2_known2_8mer
+37 : Maf_known1_8mer
+38 : NF-E2_disc4_8mer
+39 : E2F_known3_8mer
+40 : Sin3Ak-20_disc7_8mer
+41 : SRF_disc2_8mer
+42 : RFX5_known1_8mer
+43 : Myc_known7_8mer
+44 : Pax-5_known2_8mer
+45 : SP1_disc3_8mer
+46 : PU.1_disc3_8mer
+47 : GR_disc6_8mer
+48 : GR_known2_8mer
+49 : GR_known9_8mer
+50 : GATA_known2_8mer
+51 : Ets_disc6_8mer
+52 : Irf_known2_8mer
+53 : Irf_disc3_8mer
+54 : Irf_known11_8mer
+55 : Irf_known7_8mer
+56 : Irf_known6_8mer
+57 : Irf_known1_8mer
+58 : Irf_known9_8mer
+59 : SRF_known6_8mer
+60 : CTCFL_disc1_8mer
+61 : Rad21_disc8_8mer
+62 : CTCF_disc5_8mer
+63 : Nanog_disc3_8mer
+64 : BCL_disc6_8mer
+65 : ZNF263_disc1_8mer
+66 : Pou2f2_disc2_8mer
+67 : SMC3_disc4_8mer
+68 : TATA_disc4_8mer
+69 : ATF3_known8_8mer
+70 : ATF3_known5_8mer
+71 : STAT_known10_8mer
+72 : STAT_known12_8mer
+73 : STAT_disc1_8mer
+74 : Pou2f2_disc1_8mer
+75 : Pou2f2_known1_8mer
+76 : Pou2f2_known10_8mer
+77 : Nanog_disc1_8mer
+78 : CHD2_disc3_8mer
+79 : GR_disc5_8mer
+80 : TATA_disc7_8mer
+81 : HNF4_known4_8mer
+82 : RXRA_known6_8mer
+83 : HNF4_known1_8mer
+84 : NF-kappaB_disc4_8mer
+85 : Znf143_disc3_8mer
+86 : Rad21_disc10_8mer
+87 : Myc_known1_8mer
+88 : Myc_disc2_8mer
+89 : Myc_known4_8mer
+90 : CTCF_disc10_8mer
+91 : SREBP_disc1_8mer
+92 : GATA_disc3_8mer
+93 : HEY1_disc2_8mer
+94 : YY1_disc1_8mer
+95 : THAP1_disc1_8mer
+96 : ELF1_disc2_8mer
+97 : ZBTB33_disc2_8mer
+98 : Myc_known5_8mer
+99 : Myc_known6_8mer
+100 : NF-E2_disc2_8mer
+101 : Mxi1_known1_8mer
+102 : NF-E2_disc3_8mer
+103 : E2F_disc4_8mer
+104 : AP-2_known3_8mer
+105 : Nrf1_disc1_8mer
+106 : p300_disc8_8mer
+107 : SP1_known1_8mer
+108 : Ets_disc7_8mer
+109 : EBF_disc1_8mer
+110 : Egr-1_known2_8mer
+111 : YY1_disc3_8mer
+112 : Myc_disc8_8mer
+113 : BCL_disc10_8mer
+114 : Ets_known4_8mer
+115 : Ets_known7_8mer
+116 : TATA_disc6_8mer
+117 : Irf_disc1_8mer
+118 : SP1_known2_8mer
+119 : AP-1_disc7_8mer
+120 : TATA_disc3_8mer
+121 : BCL_disc7_8mer
+122 : Sin3Ak-20_disc5_8mer
+123 : SMC3_disc3_8mer
+124 : Ets_disc4_8mer
+125 : SETDB1_disc1_8mer
+126 : Egr-1_disc4_8mer
+127 : Ets_disc2_8mer
+128 : BCL_disc1_8mer
+129 : TR4_disc1_8mer
+130 : HDAC2_disc6_8mer
+131 : STAT_disc7_8mer
+132 : SP2_disc2_8mer
+133 : Rad21_disc7_8mer
+134 : Ets_known3_8mer
+135 : Ets_known5_8mer
+136 : ELF1_disc1_8mer
+137 : TR4_disc2_8mer
+138 : TCF12_known1_8mer
+139 : ERalpha-a_disc4_8mer
+140 : STAT_known7_8mer
+141 : CTCF_disc8_8mer
+142 : GATA_disc5_8mer
+143 : SP1_known4_8mer
+144 : Myc_disc10_8mer
+145 : Znf143_disc4_8mer
+146 : Nrf1_disc3_8mer
+147 : E2F_disc3_8mer
+148 : Irf_disc5_8mer
+149 : TCF4_disc1_8mer
+150 : PRDM1_disc2_8mer
+151 : GR_known8_8mer
+152 : p300_disc5_8mer
+153 : AP-1_disc6_8mer
+154 : Znf143_known1_8mer
+155 : Znf143_disc2_8mer
+156 : BAF155_disc2_8mer
+157 : HDAC2_disc3_8mer
+158 : Maf_disc2_8mer
+159 : ELF1_known1_8mer
+160 : YY1_disc5_8mer
+161 : CTCF_disc7_8mer
+162 : SP1_known3_8mer
+163 : E2F_disc7_8mer
+164 : Myc_disc9_8mer
+165 : Irf_known8_8mer
+166 : Pou5f1_known1_8mer
+167 : Pou5f1_disc1_8mer
+168 : TATA_disc9_8mer
+169 : CEBPB_known1_8mer
+170 : CEBPB_known6_8mer
+171 : CEBPB_disc1_8mer
+172 : ERalpha-a_known1_8mer
+173 : GATA_known14_8mer
+174 : Pou5f1_known2_8mer
+175 : BRCA1_known2_8mer
+176 : Pax-5_disc5_8mer
+177 : Egr-1_disc7_8mer
+178 : SP1_disc2_8mer
+179 : Sin3Ak-20_disc6_8mer
+180 : GR_known1_8mer
+181 : ERalpha-a_disc3_8mer
+182 : GATA_disc4_8mer
+183 : RFX5_disc3_8mer
+184 : RXRA_disc2_8mer
+185 : NRSF_disc5_8mer
+186 : Ets_known6_8mer
+187 : GATA_known13_8mer
+188 : STAT_known15_8mer
+189 : TATA_disc5_8mer
+190 : Nrf1_disc2_8mer
+191 : CTCF_known1_8mer
+192 : BDP1_disc3_8mer
+193 : CTCF_disc1_8mer
+194 : SREBP_known1_8mer
+195 : STAT_known11_8mer
+196 : HDAC2_disc1_8mer
+197 : EBF_known1_8mer
+198 : AP-1_disc10_8mer
+199 : Egr-1_disc5_8mer
+200 : Ets_known1_8mer
+201 : Maf_known4_8mer
+202 : Hsf_known3_8mer
+203 : RXRA_known4_8mer
+204 : TATA_disc2_8mer
+205 : RXRA_disc5_8mer
+206 : NF-kappaB_known1_8mer
+207 : RFX5_known4_8mer
+208 : Foxa_known3_8mer
+209 : Ets_known8_8mer
+210 : Ets_known9_8mer
+211 : p300_known1_8mer
+212 : Ets_disc1_8mer
+213 : GATA_disc1_8mer
+214 : HMGN3_disc1_8mer
+215 : Pax-5_known3_8mer
+216 : PU.1_disc1_8mer
+217 : TCF12_disc1_8mer
+218 : Foxa_disc3_8mer
+219 : TATA_disc8_8mer
+220 : KAP1_disc2_8mer
+221 : NRSF_known1_8mer
+222 : RXRA_known5_8mer
+223 : Myc_disc1_8mer
+224 : ATF3_disc1_8mer
+225 : Mef2_disc2_8mer
+226 : Sin3Ak-20_disc1_8mer
+227 : TAL1_known2_8mer
+228 : TCF4_known1_8mer
+229 : TAL1_disc1_8mer
+230 : BATF_disc3_8mer
+231 : GATA_known1_8mer
+232 : GATA_known6_8mer
+233 : RFX5_disc2_8mer
+234 : Pbx3_disc1_8mer
+235 : CEBPB_disc2_8mer
+236 : Pbx3_disc3_8mer
+237 : AP-1_known1_8mer
+238 : AP-1_disc5_8mer
+239 : SIX5_disc3_8mer
+240 : RXRA_disc4_8mer
+241 : ZBTB7A_disc1_8mer
+242 : GATA_known11_8mer
+243 : TCF12_disc5_8mer
+244 : E2F_known6_8mer
+245 : Mef2_known5_8mer
+246 : Mef2_known2_8mer
+247 : Mef2_known3_8mer
+248 : Foxa_disc2_8mer
+249 : CCNT2_disc2_8mer
+250 : ERalpha-a_disc1_8mer
+251 : NRSF_disc1_8mer
+252 : BATF_disc1_8mer
+253 : AP-2_known4_8mer
+254 : AP-2_known5_8mer
+255 : CTCF_disc6_8mer
+256 : RFX5_known3_8mer
+257 : ATF3_known1_8mer
+258 : HEY1_disc1_8mer
+259 : SRF_known3_8mer
+260 : NF-E2_disc1_8mer
+261 : Maf_disc1_8mer
+262 : HNF4_disc3_8mer
+263 : RXRA_known1_8mer
+264 : TATA_disc1_8mer
+265 : E2F_known1_8mer
+266 : Pax-5_disc2_8mer
+267 : NF-kappaB_known2_8mer
+268 : NF-kappaB_known6_8mer
+269 : GATA_known12_8mer
+270 : GATA_known4_8mer
+271 : STAT_known13_8mer
+272 : SMC3_disc1_8mer
+273 : Mxi1_disc2_8mer
+274 : Sin3Ak-20_disc2_8mer
+275 : Mef2_known4_8mer
+276 : TATA_known1_8mer
+277 : KAP1_disc1_8mer
+278 : GR_disc2_8mer
+279 : AP-1_known4_8mer
+280 : NF-kappaB_known4_8mer
+281 : NF-kappaB_known3_8mer
+282 : NF-kappaB_disc3_8mer
+283 : EBF_known2_8mer
+284 : Pax-5_disc4_8mer
+285 : AP-1_disc8_8mer
+286 : Ets_disc5_8mer
+287 : Nrf1_known2_8mer
+288 : Foxa_known1_8mer
+289 : AP-1_disc3_8mer
+290 : STAT_disc2_8mer
+291 : BCL_disc2_8mer
+292 : Hsf_known2_8mer
+293 : Irf_known5_8mer
+294 : NF-Y_known2_8mer
+295 : p300_disc2_8mer
+296 : NF-E2_known1_8mer
+297 : p300_disc1_8mer
+298 : Myc_disc3_8mer
+299 : AP-2_disc1_8mer
+300 : TCF4_disc2_8mer
+301 : Myc_known9_8mer
+302 : Maf_known2_8mer
+303 : Foxa_known2_8mer
+304 : STAT_known6_8mer
+305 : ZEB1_disc1_8mer
+306 : Irf_disc6_8mer
+307 : ZEB1_known4_8mer
+308 : GATA_known9_8mer
+309 : HMGN3_disc2_8mer
+310 : CEBPB_known4_8mer
+311 : TCF4_known3_8mer
+312 : STAT_disc6_8mer
+313 : STAT_known14_8mer
+314 : GR_disc4_8mer
+315 : Mef2_known1_8mer
+316 : SIX5_disc2_8mer
+317 : Pou2f2_known8_8mer
+318 : SIX5_disc4_8mer
+319 : CEBPB_known2_8mer
+320 : Egr-1_known4_8mer
+321 : ZBTB7A_known1_8mer
+322 : GR_known3_8mer
+323 : Pou2f2_known2_8mer
+324 : YY1_known2_8mer
+325 : Myc_known8_8mer
+326 : Rad21_disc5_8mer
+327 : GATA_known8_8mer
+328 : ZBTB33_known1_8mer
+329 : NRSF_disc2_8mer
+330 : Sin3Ak-20_disc3_8mer
+331 : Rad21_disc4_8mer
+332 : Pou2f2_known6_8mer
+333 : Pou2f2_known9_8mer
+334 : Rad21_disc1_8mer
+335 : Mxi1_disc1_8mer
+336 : ATF3_known9_8mer
+337 : BHLHE40_known2_8mer
+338 : NF-kappaB_known5_8mer
+339 : Irf_known10_8mer
+340 : BCL_disc3_8mer
+341 : PRDM1_known1_8mer
+342 : HNF4_disc1_8mer
+343 : p300_disc10_8mer
+344 : GATA_known10_8mer
+345 : GR_disc1_8mer
+346 : TATA_known5_8mer
+347 : Pax-5_disc3_8mer
+348 : Egr-1_disc2_8mer
+349 : BHLHE40_known1_8mer
+350 : YY1_known3_8mer
+351 : YY1_known4_8mer
+352 : ZEB1_known2_8mer
+353 : NF-Y_known3_8mer
+354 : Rad21_disc3_8mer
+355 : RFX5_known2_8mer
+356 : Foxa_disc5_8mer
+357 : ZBTB33_disc4_8mer
+358 : AP-1_disc9_8mer
+359 : CTCF_disc2_8mer
+360 : Pax-5_known4_8mer
+361 : GATA_known3_8mer
+362 : Pax-5_known1_8mer
+363 : Foxa_disc4_8mer
+364 : STAT_disc5_8mer
+365 : NF-kappaB_disc2_8mer
+366 : Maf_known3_8mer
+367 : BAF155_disc1_8mer
+368 : Rad21_disc9_8mer
+369 : GR_known5_8mer
+370 : GR_known7_8mer
+371 : Myc_disc5_8mer
+372 : BCL_disc5_8mer
+373 : Pou2f2_known5_8mer
+374 : Ets_known2_8mer
+375 : YY1_known5_8mer
+376 : THAP1_disc2_8mer
+377 : SIRT6_disc1_8mer
+378 : AP-2_known6_8mer
+379 : PRDM1_disc1_8mer
+380 : HDAC2_disc2_8mer
+381 : HNF4_disc2_8mer
+382 : SRF_known2_8mer
+383 : SRF_known1_8mer
+384 : SRF_known5_8mer
+385 : Pou2f2_known7_8mer
+386 : ZBTB7A_disc2_8mer
+387 : BCL_disc4_8mer
+388 : AP-1_known3_8mer
+389 : Rad21_disc2_8mer
+390 : RXRA_disc3_8mer
+391 : ZEB1_known3_8mer
+392 : p300_disc3_8mer
+393 : GATA_disc2_8mer
+394 : Irf_known3_8mer
+395 : Irf_disc2_8mer
+396 : Mef2_disc1_8mer
+397 : HNF4_disc5_8mer
+398 : AP-1_disc4_8mer
+399 : TATA_known4_8mer
+400 : HNF4_disc4_8mer
+401 : TCF12_disc6_8mer
+402 : Nanog_known1_8mer
+403 : ZBTB7A_known2_8mer
+404 : NR4A_known1_8mer
+405 : TCF12_disc2_8mer
+406 : Mef2_disc3_8mer
+407 : ERalpha-a_disc2_8mer
+408 : RXRA_known3_8mer
+409 : E2F_known9_8mer
+410 : NF-kappaB_disc1_8mer
+411 : Ets_disc3_8mer
+412 : TAL1_disc2_8mer
+413 : Hsf_disc1_8mer
+414 : GATA_known7_8mer
+415 : CHD2_disc2_8mer
+416 : NRSF_disc6_8mer
+417 : Hsf_known1_8mer
+418 : NRSF_disc10_8mer
+419 : RXRA_disc1_8mer
+420 : Sin3Ak-20_disc4_8mer
+421 : Foxa_known4_8mer
+422 : HNF4_known5_8mer
+423 : TCF12_disc4_8mer
+424 : TATA_known3_8mer
+425 : Pou2f2_known3_8mer
+426 : BDP1_disc2_8mer
+427 : RFX5_known5_8mer
+428 : Foxa_disc1_8mer
+429 : ATF3_disc3_8mer
+430 : E2F_disc5_8mer
+431 : Nanog_disc2_8mer
+432 : NRSF_disc3_8mer
+433 : Nrf1_known1_8mer
+434 : PU.1_disc2_8mer
+435 : CEBPB_known3_8mer
+436 : SIX5_disc1_8mer
+437 : HDAC2_disc5_8mer
+438 : YY1_known6_8mer
+439 : STAT_disc4_8mer
+440 : TAL1_known1_8mer
+441 : SIX5_known2_8mer
+442 : Egr-1_disc1_8mer
+443 : Nanog_disc4_8mer
+444 : ZEB1_known5_8mer
+445 : Myc_disc7_8mer
+446 : SREBP_known4_8mer
+447 : SIX5_known1_8mer
+448 : SRF_known4_8mer
+449 : SETDB1_disc2_8mer
+450 : Egr-1_disc3_8mer
+451 : SMC3_disc2_8mer
+452 : ZBTB33_disc3_8mer
+453 : AP-1_disc1_8mer
+454 : Myc_disc4_8mer
+455 : SP2_disc1_8mer
+456 : RFX5_disc1_8mer
+457 : E2F_known7_8mer
+458 : HNF4_known2_8mer
+459 : GATA_disc6_8mer
+460 : YY1_disc2_8mer
+461 : STAT_disc3_8mer
+462 : TCF4_known2_8mer
+463 : E2F_disc2_8mer
+464 : p300_disc7_8mer
+465 : Znf143_disc1_8mer
+466 : Ets_disc8_8mer
+467 : BRCA1_disc1_8mer
+468 : CHD2_disc1_8mer
+469 : GR_disc3_8mer
+470 : TR4_disc3_8mer
+471 : Pou2f2_known4_8mer
+472 : HNF4_known3_8mer
+473 : E2F_disc6_8mer
+474 : p300_disc6_8mer
+475 : CTCF_disc3_8mer
+476 : AP-1_disc2_8mer
+477 : ATF3_known3_8mer
+478 : E2F_known2_8mer
+479 : p300_disc4_8mer
+480 : NRSF_disc7_8mer
+481 : RXRA_known7_8mer
+482 : SP2_disc3_8mer
+483 : HNF4_known8_8mer
+484 : ZBTB33_disc1_8mer
+485 : Pou2f2_known11_8mer
+486 : Pbx3_known1_8mer
+487 : Pou5f1_disc2_8mer
+488 : BHLHE40_disc1_8mer
+489 : GR_known6_8mer
+490 : BATF_disc2_8mer
+491 : SREBP_known3_8mer
+492 : Myc_disc6_8mer
+493 : CEBPB_known5_8mer
+494 : TCF12_disc3_8mer
+495 : E2F_disc1_8mer
+496 : SRF_disc1_8mer
+497 : E2F_known5_8mer
+number of motif: 498
+[DEBUG]Total footprints 200363
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]output direcotry: ../tmp/test_mp2template/K562
+------------------------
+step 1:  For each template, how many percentage from each motif instance 
+[DEBUG]output direcotry:../tmp/test_mp2template/K562/mt_perc_in_temp
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_0.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_1.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_2.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_3.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_4.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_5.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_6.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_7.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_8.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_9.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_10.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_11.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_12.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_13.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_14.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_15.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_16.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_17.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_18.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_19.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_20.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_21.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_22.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_23.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_24.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_25.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_26.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_27.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_28.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_29.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_30.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_31.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_32.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_33.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_34.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_35.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_36.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_37.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_38.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_39.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_40.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_41.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_42.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_43.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_44.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_45.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_46.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_47.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_48.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_49.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_50.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_51.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_52.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_53.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_54.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_55.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_56.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_57.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_58.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_59.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_60.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_61.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_62.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_63.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_64.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_65.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_66.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_67.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_68.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_69.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_70.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_71.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_72.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_73.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_74.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_75.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_76.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_77.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_78.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_79.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_80.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_81.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_82.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_83.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_84.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_85.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_86.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_87.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_88.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_89.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_90.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_91.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_92.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_93.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_94.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_95.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_96.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_97.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_98.txt
+[DEBUG]out put file:../tmp/test_mp2template/K562/mt_perc_in_temp/template_99.txt
+------------------------
+step 2: for each motif instance, how many percentage is assigned to each template 
+[DEBUG]output direcotry:../tmp/test_mp2template/K562/tmp_perc_in_mt
+motif: 0
+4575 against  4575
+motif: 1
+3440 against  3440
+motif: 2
+2851 against  2851
+motif: 3
+2584 against  2584
+motif: 4
+2296 against  2296
+motif: 5
+2281 against  2281
+motif: 6
+2276 against  2276
+motif: 7
+2186 against  2186
+motif: 8
+2078 against  2078
+motif: 9
+2062 against  2062
+motif: 10
+1992 against  1992
+motif: 11
+1956 against  1956
+motif: 12
+1944 against  1944
+motif: 13
+1833 against  1833
+motif: 14
+1828 against  1828
+motif: 15
+1729 against  1729
+motif: 16
+1667 against  1667
+motif: 17
+1622 against  1622
+motif: 18
+1607 against  1607
+motif: 19
+1585 against  1585
+motif: 20
+1579 against  1579
+motif: 21
+1556 against  1556
+motif: 22
+1467 against  1467
+motif: 23
+1459 against  1459
+motif: 24
+1428 against  1428
+motif: 25
+1329 against  1329
+motif: 26
+1257 against  1257
+motif: 27
+1229 against  1229
+motif: 28
+1174 against  1174
+motif: 29
+1171 against  1171
+motif: 30
+1154 against  1154
+motif: 31
+1109 against  1109
+motif: 32
+1104 against  1104
+motif: 33
+1097 against  1097
+motif: 34
+1094 against  1094
+motif: 35
+1034 against  1034
+motif: 36
+994 against  994
+motif: 37
+991 against  991
+motif: 38
+966 against  966
+motif: 39
+958 against  958
+motif: 40
+955 against  955
+motif: 41
+927 against  927
+motif: 42
+910 against  910
+motif: 43
+904 against  904
+motif: 44
+886 against  886
+motif: 45
+830 against  830
+motif: 46
+822 against  822
+motif: 47
+816 against  816
+motif: 48
+772 against  772
+motif: 49
+750 against  750
+motif: 50
+747 against  747
+motif: 51
+734 against  734
+motif: 52
+726 against  726
+motif: 53
+721 against  721
+motif: 54
+715 against  715
+motif: 55
+715 against  715
+motif: 56
+711 against  711
+motif: 57
+707 against  707
+motif: 58
+706 against  706
+motif: 59
+706 against  706
+motif: 60
+702 against  702
+motif: 61
+697 against  697
+motif: 62
+687 against  687
+motif: 63
+680 against  680
+motif: 64
+677 against  677
+motif: 65
+677 against  677
+motif: 66
+659 against  659
+motif: 67
+656 against  656
+motif: 68
+652 against  652
+motif: 69
+650 against  650
+motif: 70
+644 against  644
+motif: 71
+638 against  638
+motif: 72
+638 against  638
+motif: 73
+634 against  634
+motif: 74
+633 against  633
+motif: 75
+628 against  628
+motif: 76
+626 against  626
+motif: 77
+624 against  624
+motif: 78
+619 against  619
+motif: 79
+616 against  616
+motif: 80
+614 against  614
+motif: 81
+610 against  610
+motif: 82
+602 against  602
+motif: 83
+587 against  587
+motif: 84
+584 against  584
+motif: 85
+584 against  584
+motif: 86
+583 against  583
+motif: 87
+580 against  580
+motif: 88
+576 against  576
+motif: 89
+569 against  569
+motif: 90
+569 against  569
+motif: 91
+567 against  567
+motif: 92
+562 against  562
+motif: 93
+558 against  558
+motif: 94
+555 against  555
+motif: 95
+553 against  553
+motif: 96
+552 against  552
+motif: 97
+552 against  552
+motif: 98
+546 against  546
+motif: 99
+545 against  545
+motif: 100
+542 against  542
+motif: 101
+540 against  540
+motif: 102
+535 against  535
+motif: 103
+525 against  525
+motif: 104
+519 against  519
+motif: 105
+518 against  518
+motif: 106
+506 against  506
+motif: 107
+504 against  504
+motif: 108
+504 against  504
+motif: 109
+494 against  494
+motif: 110
+492 against  492
+motif: 111
+492 against  492
+motif: 112
+489 against  489
+motif: 113
+485 against  485
+motif: 114
+483 against  483
+motif: 115
+480 against  480
+motif: 116
+480 against  480
+motif: 117
+478 against  478
+motif: 118
+474 against  474
+motif: 119
+465 against  465
+motif: 120
+465 against  465
+motif: 121
+465 against  465
+motif: 122
+461 against  461
+motif: 123
+460 against  460
+motif: 124
+460 against  460
+motif: 125
+459 against  459
+motif: 126
+458 against  458
+motif: 127
+455 against  455
+motif: 128
+454 against  454
+motif: 129
+454 against  454
+motif: 130
+453 against  453
+motif: 131
+447 against  447
+motif: 132
+444 against  444
+motif: 133
+440 against  440
+motif: 134
+433 against  433
+motif: 135
+432 against  432
+motif: 136
+430 against  430
+motif: 137
+430 against  430
+motif: 138
+430 against  430
+motif: 139
+424 against  424
+motif: 140
+423 against  423
+motif: 141
+422 against  422
+motif: 142
+422 against  422
+motif: 143
+414 against  414
+motif: 144
+414 against  414
+motif: 145
+412 against  412
+motif: 146
+408 against  408
+motif: 147
+407 against  407
+motif: 148
+406 against  406
+motif: 149
+400 against  400
+motif: 150
+399 against  399
+motif: 151
+397 against  397
+motif: 152
+397 against  397
+motif: 153
+395 against  395
+motif: 154
+392 against  392
+motif: 155
+392 against  392
+motif: 156
+383 against  383
+motif: 157
+382 against  382
+motif: 158
+378 against  378
+motif: 159
+377 against  377
+motif: 160
+375 against  375
+motif: 161
+374 against  374
+motif: 162
+374 against  374
+motif: 163
+370 against  370
+motif: 164
+364 against  364
+motif: 165
+364 against  364
+motif: 166
+364 against  364
+motif: 167
+361 against  361
+motif: 168
+361 against  361
+motif: 169
+357 against  357
+motif: 170
+356 against  356
+motif: 171
+354 against  354
+motif: 172
+353 against  353
+motif: 173
+349 against  349
+motif: 174
+348 against  348
+motif: 175
+348 against  348
+motif: 176
+345 against  345
+motif: 177
+342 against  342
+motif: 178
+342 against  342
+motif: 179
+340 against  340
+motif: 180
+339 against  339
+motif: 181
+335 against  335
+motif: 182
+335 against  335
+motif: 183
+335 against  335
+motif: 184
+332 against  332
+motif: 185
+331 against  331
+motif: 186
+330 against  330
+motif: 187
+330 against  330
+motif: 188
+327 against  327
+motif: 189
+325 against  325
+motif: 190
+325 against  325
+motif: 191
+322 against  322
+motif: 192
+321 against  321
+motif: 193
+320 against  320
+motif: 194
+316 against  316
+motif: 195
+316 against  316
+motif: 196
+312 against  312
+motif: 197
+310 against  310
+motif: 198
+309 against  309
+motif: 199
+304 against  304
+motif: 200
+303 against  303
+motif: 201
+302 against  302
+motif: 202
+302 against  302
+motif: 203
+302 against  302
+motif: 204
+301 against  301
+motif: 205
+301 against  301
+motif: 206
+299 against  299
+motif: 207
+297 against  297
+motif: 208
+297 against  297
+motif: 209
+296 against  296
+motif: 210
+294 against  294
+motif: 211
+293 against  293
+motif: 212
+290 against  290
+motif: 213
+289 against  289
+motif: 214
+288 against  288
+motif: 215
+288 against  288
+motif: 216
+288 against  288
+motif: 217
+287 against  287
+motif: 218
+287 against  287
+motif: 219
+287 against  287
+motif: 220
+285 against  285
+motif: 221
+285 against  285
+motif: 222
+282 against  282
+motif: 223
+281 against  281
+motif: 224
+280 against  280
+motif: 225
+280 against  280
+motif: 226
+279 against  279
+motif: 227
+279 against  279
+motif: 228
+278 against  278
+motif: 229
+278 against  278
+motif: 230
+275 against  275
+motif: 231
+275 against  275
+motif: 232
+271 against  271
+motif: 233
+270 against  270
+motif: 234
+270 against  270
+motif: 235
+269 against  269
+motif: 236
+267 against  267
+motif: 237
+267 against  267
+motif: 238
+266 against  266
+motif: 239
+264 against  264
+motif: 240
+263 against  263
+motif: 241
+263 against  263
+motif: 242
+261 against  261
+motif: 243
+261 against  261
+motif: 244
+261 against  261
+motif: 245
+259 against  259
+motif: 246
+258 against  258
+motif: 247
+258 against  258
+motif: 248
+257 against  257
+motif: 249
+256 against  256
+motif: 250
+253 against  253
+motif: 251
+253 against  253
+motif: 252
+252 against  252
+motif: 253
+251 against  251
+motif: 254
+248 against  248
+motif: 255
+246 against  246
+motif: 256
+245 against  245
+motif: 257
+243 against  243
+motif: 258
+243 against  243
+motif: 259
+241 against  241
+motif: 260
+240 against  240
+motif: 261
+239 against  239
+motif: 262
+239 against  239
+motif: 263
+239 against  239
+motif: 264
+238 against  238
+motif: 265
+237 against  237
+motif: 266
+237 against  237
+motif: 267
+237 against  237
+motif: 268
+236 against  236
+motif: 269
+235 against  235
+motif: 270
+235 against  235
+motif: 271
+232 against  232
+motif: 272
+231 against  231
+motif: 273
+231 against  231
+motif: 274
+231 against  231
+motif: 275
+230 against  230
+motif: 276
+230 against  230
+motif: 277
+229 against  229
+motif: 278
+228 against  228
+motif: 279
+226 against  226
+motif: 280
+225 against  225
+motif: 281
+223 against  223
+motif: 282
+221 against  221
+motif: 283
+221 against  221
+motif: 284
+221 against  221
+motif: 285
+221 against  221
+motif: 286
+220 against  220
+motif: 287
+220 against  220
+motif: 288
+219 against  219
+motif: 289
+219 against  219
+motif: 290
+218 against  218
+motif: 291
+218 against  218
+motif: 292
+218 against  218
+motif: 293
+217 against  217
+motif: 294
+215 against  215
+motif: 295
+215 against  215
+motif: 296
+213 against  213
+motif: 297
+212 against  212
+motif: 298
+211 against  211
+motif: 299
+210 against  210
+motif: 300
+210 against  210
+motif: 301
+209 against  209
+motif: 302
+209 against  209
+motif: 303
+209 against  209
+motif: 304
+207 against  207
+motif: 305
+207 against  207
+motif: 306
+207 against  207
+motif: 307
+207 against  207
+motif: 308
+206 against  206
+motif: 309
+206 against  206
+motif: 310
+201 against  201
+motif: 311
+199 against  199
+motif: 312
+198 against  198
+motif: 313
+198 against  198
+motif: 314
+198 against  198
+motif: 315
+198 against  198
+motif: 316
+197 against  197
+motif: 317
+197 against  197
+motif: 318
+195 against  195
+motif: 319
+195 against  195
+motif: 320
+194 against  194
+motif: 321
+194 against  194
+motif: 322
+194 against  194
+motif: 323
+192 against  192
+motif: 324
+190 against  190
+motif: 325
+188 against  188
+motif: 326
+188 against  188
+motif: 327
+187 against  187
+motif: 328
+187 against  187
+motif: 329
+186 against  186
+motif: 330
+186 against  186
+motif: 331
+186 against  186
+motif: 332
+184 against  184
+motif: 333
+183 against  183
+motif: 334
+182 against  182
+motif: 335
+179 against  179
+motif: 336
+179 against  179
+motif: 337
+176 against  176
+motif: 338
+176 against  176
+motif: 339
+176 against  176
+motif: 340
+175 against  175
+motif: 341
+174 against  174
+motif: 342
+172 against  172
+motif: 343
+171 against  171
+motif: 344
+169 against  169
+motif: 345
+169 against  169
+motif: 346
+169 against  169
+motif: 347
+169 against  169
+motif: 348
+168 against  168
+motif: 349
+167 against  167
+motif: 350
+167 against  167
+motif: 351
+166 against  166
+motif: 352
+165 against  165
+motif: 353
+165 against  165
+motif: 354
+165 against  165
+motif: 355
+164 against  164
+motif: 356
+164 against  164
+motif: 357
+163 against  163
+motif: 358
+162 against  162
+motif: 359
+162 against  162
+motif: 360
+160 against  160
+motif: 361
+160 against  160
+motif: 362
+157 against  157
+motif: 363
+157 against  157
+motif: 364
+155 against  155
+motif: 365
+155 against  155
+motif: 366
+154 against  154
+motif: 367
+153 against  153
+motif: 368
+153 against  153
+motif: 369
+152 against  152
+motif: 370
+150 against  150
+motif: 371
+149 against  149
+motif: 372
+146 against  146
+motif: 373
+146 against  146
+motif: 374
+145 against  145
+motif: 375
+145 against  145
+motif: 376
+144 against  144
+motif: 377
+142 against  142
+motif: 378
+142 against  142
+motif: 379
+141 against  141
+motif: 380
+141 against  141
+motif: 381
+141 against  141
+motif: 382
+141 against  141
+motif: 383
+139 against  139
+motif: 384
+138 against  138
+motif: 385
+138 against  138
+motif: 386
+138 against  138
+motif: 387
+137 against  137
+motif: 388
+136 against  136
+motif: 389
+134 against  134
+motif: 390
+134 against  134
+motif: 391
+134 against  134
+motif: 392
+133 against  133
+motif: 393
+133 against  133
+motif: 394
+133 against  133
+motif: 395
+129 against  129
+motif: 396
+128 against  128
+motif: 397
+127 against  127
+motif: 398
+127 against  127
+motif: 399
+126 against  126
+motif: 400
+125 against  125
+motif: 401
+125 against  125
+motif: 402
+125 against  125
+motif: 403
+125 against  125
+motif: 404
+124 against  124
+motif: 405
+123 against  123
+motif: 406
+123 against  123
+motif: 407
+123 against  123
+motif: 408
+122 against  122
+motif: 409
+121 against  121
+motif: 410
+121 against  121
+motif: 411
+119 against  119
+motif: 412
+119 against  119
+motif: 413
+118 against  118
+motif: 414
+118 against  118
+motif: 415
+117 against  117
+motif: 416
+117 against  117
+motif: 417
+117 against  117
+motif: 418
+116 against  116
+motif: 419
+115 against  115
+motif: 420
+115 against  115
+motif: 421
+115 against  115
+motif: 422
+114 against  114
+motif: 423
+114 against  114
+motif: 424
+114 against  114
+motif: 425
+113 against  113
+motif: 426
+112 against  112
+motif: 427
+112 against  112
+motif: 428
+110 against  110
+motif: 429
+109 against  109
+motif: 430
+109 against  109
+motif: 431
+108 against  108
+motif: 432
+108 against  108
+motif: 433
+108 against  108
+motif: 434
+106 against  106
+motif: 435
+106 against  106
+motif: 436
+106 against  106
+motif: 437
+103 against  103
+motif: 438
+103 against  103
+motif: 439
+103 against  103
+motif: 440
+102 against  102
+motif: 441
+102 against  102
+motif: 442
+102 against  102
+motif: 443
+100 against  100
+motif: 444
+99 against  99
+motif: 445
+98 against  98
+motif: 446
+97 against  97
+motif: 447
+95 against  95
+motif: 448
+94 against  94
+motif: 449
+94 against  94
+motif: 450
+93 against  93
+motif: 451
+93 against  93
+motif: 452
+91 against  91
+motif: 453
+91 against  91
+motif: 454
+85 against  85
+motif: 455
+84 against  84
+motif: 456
+84 against  84
+motif: 457
+83 against  83
+motif: 458
+82 against  82
+motif: 459
+82 against  82
+motif: 460
+81 against  81
+motif: 461
+77 against  77
+motif: 462
+77 against  77
+motif: 463
+77 against  77
+motif: 464
+76 against  76
+motif: 465
+75 against  75
+motif: 466
+74 against  74
+motif: 467
+73 against  73
+motif: 468
+72 against  72
+motif: 469
+72 against  72
+motif: 470
+71 against  71
+motif: 471
+71 against  71
+motif: 472
+70 against  70
+motif: 473
+69 against  69
+motif: 474
+68 against  68
+motif: 475
+68 against  68
+motif: 476
+67 against  67
+motif: 477
+64 against  64
+motif: 478
+61 against  61
+motif: 479
+60 against  60
+motif: 480
+57 against  57
+motif: 481
+57 against  57
+motif: 482
+56 against  56
+motif: 483
+55 against  55
+motif: 484
+55 against  55
+motif: 485
+51 against  51
+motif: 486
+50 against  50
+motif: 487
+50 against  50
+motif: 488
+48 against  48
+motif: 489
+48 against  48
+motif: 490
+43 against  43
+motif: 491
+41 against  41
+motif: 492
+39 against  39
+motif: 493
+36 against  36
+motif: 494
+34 against  34
+motif: 495
+34 against  34
+motif: 496
+31 against  31
+motif: 497
+22 against  22

@@ -14,13 +14,13 @@
 #include "struct.h"
 using namespace std;
 
-void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f, double score, bool getCons);
-void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignalFrame> &f);
+void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f, double score, bool getCons, bool consOffset);
+void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignalFrame> &f, bool offset);
 void printFPsignals(fpSignalFrame *fp);
 
 
 //read the base level conservational energy data for each cluster points
-void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignalFrame> &f)
+void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignalFrame> &f, bool offset)
 {
    cout <<"[DEBUG]reading conservation data for " << chr <<endl;
    string cons_file = "../data/cons_data/"+chr+".phyloP46way.placental.wigFix";
@@ -32,7 +32,8 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
    //cout <<"test1"<<endl;
    cout << ss << endl;
    start = atoi(ss.substr(6).c_str());
-   start--;
+   if(offset)
+      start--;
    //cout << "cons start at " << start <<endl;
    string value;
 
@@ -48,7 +49,8 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
         Cinfile >> a >> ss >> a;
         //cout <<"test2"<<endl;
         int new_start = atoi(ss.substr(6).c_str());
-        new_start--;
+        if(offset)
+           new_start--;
         // <<"new start is ... " << new_start <<endl;
         while(start<new_start){
 
@@ -106,7 +108,7 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
 
 
 //read the footprint file for foorprint sequences
-void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f,double score, bool getCons)
+void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f,double score, bool getCons, bool consOffset)
 {
 	//current directory is "main"
    string FPfile = "../data/chr.footprints/"+chromosome+".footprints";
@@ -193,7 +195,8 @@ void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f,doubl
                            //if(temp_f.size() ==0 ){
                            if(remove >=size ){
                               //read in conservational level for each point
-                              getConsLevel(chromosome, temp_con_f, f);
+                         
+                              getConsLevel(chromosome, temp_con_f, f, consOffset);
                               return;
                            }
                         }else{
@@ -239,7 +242,7 @@ void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f,doubl
                      //if(temp_f.size() ==0 ){
                      if(remove >=size){
                         //read in conservational level for each point
-                        getConsLevel(chromosome, temp_con_f, f);
+                        getConsLevel(chromosome, temp_con_f, f, consOffset);
                         return;
                      }
                   }else{

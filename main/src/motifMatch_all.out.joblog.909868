@@ -1,0 +1,21 @@
+UGE job for motifMatch_all.out built Sun May  5 08:08:00 PDT 2013
+
+  motifMatch_all.out directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 909868, queue: eeskin_pod.q, sub: Sun May 5 08:08:02 2013
+  SCRATCH directory:
+    /work/909868.1.eeskin_pod.q
+
+motifMatch_all.out started on:   n6201
+motifMatch_all.out started at:   Mon May 6 09:02:36 PDT 2013
+
+motifMatch_all.out  >& motifMatch_all.out.output.909868
+
+Abort (core dumped)
+66828.415u 37.313s 18:35:25.67 99.9%	0+0k 1976+7990728io 8pf+0w
+
+motifMatch_all.out finished at:  Tue May 7 03:38:02 PDT 2013
+
+Scratch files in /work/909868.1.eeskin_pod.q deleted:
+total 0

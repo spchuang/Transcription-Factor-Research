@@ -1,0 +1,20 @@
+UGE job for test_offest_yes.out built Thu May  9 07:07:09 PDT 2013
+
+  test_offest_yes.out directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 985950, queue: eeskin_pod.q, sub: Thu May 9 07:07:11 2013
+  SCRATCH directory:
+    /work/985950.1.eeskin_pod.q
+
+test_offest_yes.out started on:   n6201
+test_offest_yes.out started at:   Thu May 9 07:08:02 PDT 2013
+
+test_offest_yes.out  >& test_offest_yes.out.output.985950
+
+13369.674u 79.296s 3:44:53.74 99.6%	0+0k 96+2240io 1pf+0w
+
+test_offest_yes.out finished at:  Thu May 9 10:52:56 PDT 2013
+
+Scratch files in /work/985950.1.eeskin_pod.q deleted:
+total 0

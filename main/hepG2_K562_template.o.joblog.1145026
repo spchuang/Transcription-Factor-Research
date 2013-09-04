@@ -1,0 +1,20 @@
+UGE job for hepG2_K562_template.o built Sun May 19 07:44:29 PDT 2013
+
+  hepG2_K562_template.o directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 1145026, queue: eeskin_pod.q, sub: Sun May 19 07:44:31 2013
+  SCRATCH directory:
+    /work/1145026.1.eeskin_pod.q
+
+hepG2_K562_template.o started on:   n6193
+hepG2_K562_template.o started at:   Sun May 19 07:45:56 PDT 2013
+
+hepG2_K562_template.o  >& hepG2_K562_template.o.output.1145026
+
+123613.389u 97.878s 34:29:29.87 99.6%	0+0k 1976+14456io 8pf+0w
+
+hepG2_K562_template.o finished at:  Mon May 20 18:15:26 PDT 2013
+
+Scratch files in /work/1145026.1.eeskin_pod.q deleted:
+total 0

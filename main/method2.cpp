@@ -24,9 +24,11 @@ void print_frame(float Sig[]);
 int main(){
 	struct stat st = {0};
 	
+	/*string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
 
-	string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
-  
+  */
+  string cellTypes[] = {"GM06990","HepG2","K562","SK-N-SH_RA","Th1"};
+
   
   string chromosomes[] = {"chr1","chr2","chr3","chr4","chr5","chr6","chr7","chr8","chr9",
                            "chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20",
@@ -34,24 +36,23 @@ int main(){
   //23
   int maxChr = 23;
   //33
-  int maxCellNum = 33;
+  int maxCellNum = 5;
   cout <<"\n------------------------------------------------------------\n\n" ;
 
   cout <<"[DEBUG]Create template signals"<<endl;                  
   vector<centroid> C;
   vector<fpSignalFrame>* fpF = new vector<fpSignalFrame>;
-  //generateTemplate(C, 1, 6, 21);
+  //generateTemplate(C, 1, 7, 19);
   generateTemplate(C, 1, 8, 15);
   //generateTemplate(C, 1, 9 , 13);
 
-  reduceVector(C,40);
+  reduceVector(C,100);
   //print the centroid
   /*for(int i=0; i<C.size(); i++){
      cout <<"\"[DEBUG]index " << i <<" centroid... \"\n";
      for(int j=0; j<WINDOW_SIZE; j++){
         cout <<j <<" "<<C[i].signal[j] << endl;
       }
-
    }*/
   	//creat tmp folder
   	if (stat("../tmp", &st) == -1) {
@@ -62,9 +63,8 @@ int main(){
 	}
   	//create directory if it doesn't exists
   	
-	if (stat("../tmp/template_assign4", &
-	st) == -1) {
-		if(mkdir("../tmp/template_assign4", 0700) == -1){
+	if (stat("../tmp/template_assign_TestOffset_yes", & st) == -1) {
+		if(mkdir("../tmp/template_assign_TestOffset_yes", 0700) == -1){
 			cout <<"[DEBUG]Error creating assignment folder" <<endl;
 		}
 		
@@ -72,13 +72,16 @@ int main(){
 	
   for(int i=0; i<maxCellNum; i++){
 	 cout <<"\n------------------------------------------------------------\n\n" ;
+	 cout <<"starting footprint size: "<<(*fpF).size()<<endl;
   	cout <<"[DEBUG]Analyzing cell type: " << cellTypes[i] <<endl;
   	for(int j=0; j<maxChr; j++){
-		getFootPrint(cellTypes[i], chromosomes[j], (*fpF), 0, true);
+		getFootPrint(cellTypes[i], chromosomes[j], (*fpF), 0, true, true);
 	
 	}
+	
 	fpMatch(C, fpF, cellTypes[i]);
-  
+  	(*fpF).clear();
+  	
   }
   
   /*for(int i=0; i<fpF->size(); i++){
@@ -101,8 +104,6 @@ void print_frame(float Sig[])
    }
    cout <<endl;
 }
-
-
 
 
 //predefine the fixed structure of the centroids
@@ -268,7 +269,7 @@ void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, string cellType){
   cout <<"[DEBUG]output result" <<endl;
   struct stat st = {0};
   //create directory if it doesn't exists
-  string dirname = "../tmp/template_assign4/"+cellType;
+  string dirname = "../tmp/template_assign_TestOffset_yes/"+cellType;
   if (stat(dirname.c_str(), &st) == -1) {
     mkdir(dirname.c_str(), 0700);
   }
@@ -296,16 +297,19 @@ void fpMatch(vector<centroid> &C, vector<fpSignalFrame>* f, string cellType){
   cout.precision(2);
   for(int i=0; i<ptCount.size(); i++){
   	
-    countFile <<i<<": " << 100.0*(float)ptCount[i]/(float)fpSize<<endl;
+    countFile  << 100.0*(float)ptCount[i]/(float)fpSize<<endl;
   }
-/*
+
   //calculate anticorrelation
-  ofstream anticFile("tmp/template_assign/anticorrelation_lv.txt", ios_base::trunc );
+  filename = dirname+"/cor-level.txt";
+  ofstream anticFile(filename.c_str(), ios_base::trunc );
+  
+  /*ofstream anticFile("tmp/template_assign/anticorrelation_lv.txt", ios_base::trunc );*/
   anticFile <<"correlation level (red against blue): " << endl;
   for(int i=0; i<temp_C.size(); i++){
     float d = correlation(temp_C[i].signal, 0, temp_C[i].cons_signal);
-    anticFile << i <<" : " << d << endl;
+    anticFile  << d << endl;
   } 
-       */
-   C = temp_C;
+       
+
 }

@@ -29,8 +29,8 @@ struct centroid{
   // float cons_CI[WINDOW_SIZE];
    
    //for motif clustering
-   //char* motifName;
-   //int count;
+   char* motifName;
+   int count;
 };
 
 const int MAX_WIDTH = 20;

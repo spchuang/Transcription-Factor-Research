@@ -1,0 +1,14 @@
+UGE job for readMotif_AllCell.o built Sat Apr 20 21:18:50 PDT 2013
+
+  readMotif_AllCell.o directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 512777, queue: eeskin_pod.q, sub: Sat Apr 20 21:18:52 2013
+  SCRATCH directory:
+    /work/512777.1.eeskin_pod.q
+
+readMotif_AllCell.o started on:   n6203
+readMotif_AllCell.o started at:   Sat Apr 20 21:19:13 PDT 2013
+
+readMotif_AllCell.o  >& readMotif_AllCell.o.output.512777
+

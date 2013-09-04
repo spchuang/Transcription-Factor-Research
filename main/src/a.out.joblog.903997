@@ -1,0 +1,20 @@
+UGE job for a.out built Sat May  4 01:10:13 PDT 2013
+
+  a.out directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 903997, queue: eeskin_pod.q, sub: Sat May 4 01:10:15 2013
+  SCRATCH directory:
+    /work/903997.1.eeskin_pod.q
+
+a.out started on:   n7235
+a.out started at:   Sat May 4 05:54:54 PDT 2013
+
+a.out  >& a.out.output.903997
+
+3723.208u 2.677s 1:02:17.71 99.6%	0+0k 232+568io 2pf+0w
+
+a.out finished at:  Sat May 4 06:57:12 PDT 2013
+
+Scratch files in /work/903997.1.eeskin_pod.q deleted:
+total 0

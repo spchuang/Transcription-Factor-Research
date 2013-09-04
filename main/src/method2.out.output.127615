@@ -1,0 +1,1529 @@
+
+------------------------------------------------------------
+
+[DEBUG]Create template signals
+[DEBUG}Total template size: 1477035
+[DEBUG]creating: 2
+[DEBUG]creating: 3
+[DEBUG]creating: 4
+[DEBUG]creating: 5
+[DEBUG]creating: 6
+[DEBUG]creating: 7
+[DEBUG]creating: 8
+[DEBUG]creating: 9
+[DEBUG]creating: 10
+[DEBUG]creating: 11
+[DEBUG]creating: 12
+[DEBUG]creating: 13
+[DEBUG]creating: 14
+[DEBUG]creating: 15
+[DEBUG]creating: 16
+[DEBUG]creating: 17
+[DEBUG]creating: 18
+[DEBUG]creating: 19
+[DEBUG]creating: 20
+[DEBUG]creating: 21
+[DEBUG]creating: 22
+[DEBUG]creating: 23
+[DEBUG]creating: 24
+[DEBUG]creating: 25
+[DEBUG]creating: 26
+[DEBUG]creating: 27
+[DEBUG]creating: 28
+[DEBUG]creating: 29
+[DEBUG]creating: 30
+[DEBUG]creating: 31
+[DEBUG]creating: 32
+[DEBUG]creating: 33
+[DEBUG]creating: 34
+[DEBUG]creating: 35
+[DEBUG]creating: 36
+[DEBUG]creating: 37
+[DEBUG]creating: 38
+[DEBUG]creating: 39
+[DEBUG]creating: 40
+[DEBUG]creating: 41
+[DEBUG]creating: 42
+[DEBUG]creating: 43
+[DEBUG]creating: 44
+[DEBUG]creating: 45
+[DEBUG]creating: 46
+[DEBUG]creating: 47
+[DEBUG]creating: 48
+[DEBUG]creating: 49
+[DEBUG]creating: 50
+[DEBUG]creating: 51
+[DEBUG]creating: 52
+[DEBUG]creating: 53
+[DEBUG]creating: 54
+[DEBUG]creating: 55
+[DEBUG]creating: 56
+[DEBUG]creating: 57
+[DEBUG]creating: 58
+[DEBUG]creating: 59
+[DEBUG]creating: 60
+[DEBUG]creating: 61
+[DEBUG]creating: 62
+[DEBUG]creating: 63
+[DEBUG]creating: 64
+[DEBUG]creating: 65
+[DEBUG]creating: 66
+[DEBUG]creating: 67
+[DEBUG]creating: 68
+[DEBUG]creating: 69
+[DEBUG]creating: 70
+[DEBUG]creating: 71
+[DEBUG]creating: 72
+[DEBUG]creating: 73
+[DEBUG]creating: 74
+[DEBUG]creating: 75
+[DEBUG]creating: 76
+[DEBUG]creating: 77
+[DEBUG]creating: 78
+[DEBUG]creating: 79
+[DEBUG]creating: 80
+[DEBUG]creating: 81
+[DEBUG]creating: 82
+[DEBUG]creating: 83
+[DEBUG]creating: 84
+[DEBUG]creating: 85
+[DEBUG]creating: 86
+[DEBUG]creating: 87
+[DEBUG]creating: 88
+[DEBUG]creating: 89
+[DEBUG]creating: 90
+[DEBUG]creating: 91
+[DEBUG]creating: 92
+[DEBUG]creating: 93
+[DEBUG]creating: 94
+[DEBUG]creating: 95
+[DEBUG]creating: 96
+[DEBUG]creating: 97
+[DEBUG]creating: 98
+[DEBUG]creating: 99
+[DEBUG]creating: 100
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: AG10803
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..105284
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..94729
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..75031
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..50566
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..65426
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..70756
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..53974
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..53691
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..48944
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..56018
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..56105
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..56555
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..28185
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..33671
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..39480
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..32075
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..47441
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..23433
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..34206
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..26997
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..13783
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..17849
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..20941
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 1105138
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: AoAF
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..150299
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..135906
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..108488
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..78932
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..92818
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..101079
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..76385
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..76456
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..70745
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..79486
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..79020
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..83280
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..39010
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..46350
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..54425
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..42437
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..61363
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..33973
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..45659
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..34542
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..19876
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..23631
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..32010
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 2592368
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: CD20+
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..59813
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..40587
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..31829
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..20169
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..26567
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..37073
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..27116
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..21904
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..23945
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..25033
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..32157
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..31426
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..10958
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..20768
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..18850
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..26229
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..38683
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..8999
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..48824
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..16295
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..7089
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..15520
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..13356
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 3126557
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: GM06990
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..42139
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..30078
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..24303
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..15578
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..20604
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..26855
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..19966
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..15931
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..16660
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..18011
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..21800
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..22127
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..8392
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..14845
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..13956
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..19356
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..26566
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..6580
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..34389
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..11431
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..5001
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..10473
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..9520
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 3561118
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: GM12865
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..78657
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..58509
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..48657
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..31663
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..41247
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..53532
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..37688
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..31668
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..31396
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..36004
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..39710
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..42538
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..17748
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..29116
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..28591
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..32040
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..44825
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..14516
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..47331
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..21229
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..9685
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..18003
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..17021
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 4372484
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: H7-hESC
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..167981
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..95327
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..80793
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..62611
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..69849
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..75016
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..60868
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..56681
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..48807
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..56280
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..63959
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..60758
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..32477
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..38849
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..36615
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..39467
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..48490
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..28394
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..42662
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..31558
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..12824
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..18974
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..50050
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 5651762
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HAEpiC
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..142353
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..126691
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..100566
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..81990
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..88670
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..95181
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..73568
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..74828
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..66809
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..72602
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..76439
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..77105
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..46119
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..47575
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..49409
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..40629
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..62317
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..32774
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..41585
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..35080
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..18511
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..23524
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..31094
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 7157173
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HA-h
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..93527
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..78515
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..64448
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..44568
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..54877
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..58320
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..47839
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..42779
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..42312
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..45922
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..51209
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..46804
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..24809
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..31095
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..31731
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..32791
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..45563
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..20377
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..38838
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..23052
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..11293
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..18304
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..17215
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 8078780
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HCF
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..103263
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..85605
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..68548
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..47620
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..58127
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..65352
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..50128
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..48599
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..47102
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..52181
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..56488
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..53635
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..26430
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..33378
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..36094
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..31708
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..48880
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..21316
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..42715
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..26383
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..12927
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..18725
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..21688
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 9135661
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HCM
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..109239
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..91625
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..73085
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..51802
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..62483
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..70545
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..53861
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..52100
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..50519
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..55496
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..59590
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..57120
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..28579
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..35533
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..37872
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..34060
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..51798
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..23794
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..45062
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..28331
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..13432
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..19810
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..23698
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 10265087
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HCPEpiC
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..117606
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..109178
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..90701
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..65554
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..76738
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..84581
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..63734
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..61708
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..55898
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..62218
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..65799
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..66374
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..39775
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..40723
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..42356
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..37342
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..52601
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..28384
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..42268
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..30705
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..16299
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..20357
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..24747
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 11385992
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HEEpiC
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..124537
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..103258
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..85237
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..66738
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..72420
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..80974
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..60777
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..59011
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..53114
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..57556
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..63392
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..65142
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..33383
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..39390
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..41203
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..37658
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..52664
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..29096
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..41571
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..32629
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..15213
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..21020
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..25763
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 12647728
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HepG2
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..41534
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..38414
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..23662
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..14106
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..18503
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..27837
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..19700
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..15130
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..17828
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..17352
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..21617
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..20023
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..8067
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..17196
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..12722
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..24726
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..31617
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..6830
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..29594
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..18849
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..5082
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..10281
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..7613
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 13096010
+[DEBUG]Assigning footprints...
+[DEBUG]calculating centroid average 
+[DEBUG]average centroids
+[DEBUG]pre size: 100
+[DEUBG]after size: 100
+[DEBUG]output result
+
+------------------------------------------------------------
+
+[DEBUG]Analyzing cell type: HFF
+[DEBUG]reading in chr1
+[DEBUG]fp size for this chromosome..58758
+[DEBUG]reading conservation data for chr1
+start=10918
+[DEBUG]reading in chr2
+[DEBUG]fp size for this chromosome..47212
+[DEBUG]reading conservation data for chr2
+start=11517
+[DEBUG]reading in chr3
+[DEBUG]fp size for this chromosome..37377
+[DEBUG]reading conservation data for chr3
+start=60001
+[DEBUG]reading in chr4
+[DEBUG]fp size for this chromosome..23890
+[DEBUG]reading conservation data for chr4
+start=16385
+[DEBUG]reading in chr5
+[DEBUG]fp size for this chromosome..31701
+[DEBUG]reading conservation data for chr5
+start=13940
+[DEBUG]reading in chr6
+[DEBUG]fp size for this chromosome..35643
+[DEBUG]reading conservation data for chr6
+start=60001
+[DEBUG]reading in chr7
+[DEBUG]fp size for this chromosome..27602
+[DEBUG]reading conservation data for chr7
+start=10239
+[DEBUG]reading in chr8
+[DEBUG]fp size for this chromosome..26103
+[DEBUG]reading conservation data for chr8
+start=10005
+[DEBUG]reading in chr9
+[DEBUG]fp size for this chromosome..25431
+[DEBUG]reading conservation data for chr9
+start=10474
+[DEBUG]reading in chr10
+[DEBUG]fp size for this chromosome..27826
+[DEBUG]reading conservation data for chr10
+start=60001
+[DEBUG]reading in chr11
+[DEBUG]fp size for this chromosome..31586
+[DEBUG]reading conservation data for chr11
+start=60001
+[DEBUG]reading in chr12
+[DEBUG]fp size for this chromosome..30724
+[DEBUG]reading conservation data for chr12
+start=60085
+[DEBUG]reading in chr13
+[DEBUG]fp size for this chromosome..13078
+[DEBUG]reading conservation data for chr13
+start=19020001
+[DEBUG]reading in chr14
+[DEBUG]fp size for this chromosome..18678
+[DEBUG]reading conservation data for chr14
+start=19050792
+[DEBUG]reading in chr15
+[DEBUG]fp size for this chromosome..20545
+[DEBUG]reading conservation data for chr15
+start=20035789
+[DEBUG]reading in chr16
+[DEBUG]fp size for this chromosome..21139
+[DEBUG]reading conservation data for chr16
+start=60046
+[DEBUG]reading in chr17
+[DEBUG]fp size for this chromosome..30102
+[DEBUG]reading conservation data for chr17
+start=1
+[DEBUG]reading in chr18
+[DEBUG]fp size for this chromosome..11303
+[DEBUG]reading conservation data for chr18
+start=10149
+[DEBUG]reading in chr19
+[DEBUG]fp size for this chromosome..27818
+[DEBUG]reading conservation data for chr19
+start=60001
+[DEBUG]reading in chr20
+[DEBUG]fp size for this chromosome..15540
+[DEBUG]reading conservation data for chr20
+start=60001
+[DEBUG]reading in chr21
+[DEBUG]fp size for this chromosome..6897
+[DEBUG]reading conservation data for chr21
+start=9411194
+[DEBUG]reading in chr22
+[DEBUG]fp size for this chromosome..11386
+[DEBUG]reading conservation data for chr22
+start=16050001
+[DEBUG]reading in chrX
+[DEBUG]fp size for this chromosome..10058
+[DEBUG]reading conservation data for chrX
+start=60546
+[DEBUG]Total footprints 13686400
+[DEBUG]Assigning footprints...

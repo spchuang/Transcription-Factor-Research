@@ -1,0 +1,14 @@
+UGE job for a.out built Wed May  8 06:59:20 PDT 2013
+
+  a.out directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 965605, queue: eeskin_idre.q, sub: Wed May 8 06:59:22 2013
+  SCRATCH directory:
+    /work/965605.1.eeskin_idre.q
+
+a.out started on:   n195
+a.out started at:   Wed May 8 06:59:52 PDT 2013
+
+a.out  >& a.out.output.965605
+

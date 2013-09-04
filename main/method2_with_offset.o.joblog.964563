@@ -1,0 +1,21 @@
+UGE job for method2_with_offset.o built Wed May  8 05:36:46 PDT 2013
+
+  method2_with_offset.o directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 964563, queue: eeskin_pod.q, sub: Wed May 8 05:36:48 2013
+  SCRATCH directory:
+    /work/964563.1.eeskin_pod.q
+
+method2_with_offset.o started on:   n6230
+method2_with_offset.o started at:   Wed May 8 05:37:21 PDT 2013
+
+method2_with_offset.o  >& method2_with_offset.o.output.964563
+
+Segmentation fault (core dumped)
+9499.234u 51.224s 2:40:04.42 99.4%	0+0k 80+3841256io 1pf+0w
+
+method2_with_offset.o finished at:  Wed May 8 08:17:25 PDT 2013
+
+Scratch files in /work/964563.1.eeskin_pod.q deleted:
+total 0

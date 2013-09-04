@@ -1,0 +1,14 @@
+UGE job for method2.out built Sat Apr  6 04:28:47 PDT 2013
+
+  method2.out directory:
+    /u/home/eeskin/spchuang/Transcription-Factor-Research/main
+  Submitted to UGE:
+    Job 127615, queue: eeskin_pod.q, sub: Sat Apr 6 04:28:48 2013
+  SCRATCH directory:
+    /work/127615.1.eeskin_pod.q
+
+method2.out started on:   n7224
+method2.out started at:   Sat Apr 6 04:30:08 PDT 2013
+
+method2.out  >& method2.out.output.127615
+

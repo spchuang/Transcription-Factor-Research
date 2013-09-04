@@ -13,10 +13,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <assert.h>
-#include <sstream>
 #include "readfp.cpp"
-
 #include "template_generate.cpp"
 /******************************************************/
 using namespace std;
@@ -35,9 +32,8 @@ struct MotifSignalFrame{
    char* motifName;              //name of the motif
    int mtLength;                 //length of the motif (from the fp data)
    int mtStartIndex;             //the offset for the fixed window in the frame
-   int clusterAssigned;          //the cluster this point is assigned to
+    int clusterAssigned;          //the cluster this point is assigned to
    bool flip;
-   int motifIndex;
    
    //also contain fp information that it contains?  actualy, no it doesn't matter
 };
@@ -48,34 +44,32 @@ void getMotifGraph(vector<MotifSignalFrame>* m, string cellType);
 
 
 bool sortByCount (centroid i,centroid j) { return (i.count>j.count); }
-void mtMatch(vector<centroid> C, vector<MotifSignalFrame> *f, string cellType);
+
 int main(){
-	vector<centroid> C;
 	generateTemplate(C, 1, 8, 15);
   //generateTemplate(C, 1, 9 , 13);
-	
+
   reduceVector(C,100);
   
     vector<MotifSignalFrame>* mt = new vector<MotifSignalFrame>;
   string chromosomes[] = {"chr1","chr2","chr3","chr4","chr5","chr6","chr7","chr8","chr9",
                            "chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20",
                            "chr21", "chr22","chrX"};
-  //string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
-  string cellTypes[] = {"HepG2","K562"};
+  string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
   int max = 23;
   int maxCellNum = 33;
   
   //create directory folder
-	struct stat st = {0};
+struct stat st = {0};
 
-  if (stat("../tmp/test_mp2template", & st) == -1) {
-		if(mkdir("../tmp/test_mp2template", 0700) == -1){
+  if (stat("../tmp/test_mp_result2", & st) == -1) {
+		if(mkdir("../tmp/test_mp_result2", 0700) == -1){
 			cout <<"[DEBUG]Error creating assignment folder" <<endl;
 		}
 		
 	}
 	
-  for(int x=0; x<2; x++){
+  for(int x=1; x<maxCellNum; x++){
 	  for(int i=0; i<max; i++){
 	     getMotifSignal(cellTypes[x], chromosomes[i], (*mt), 0);
 	
@@ -102,7 +96,6 @@ int main(){
 	  cout <<"real: " <<real_motif<<endl;
 	  cout <<"Percent: " << real_motif/total_motif<<endl;
       
-      mtMatch(C, mt, cellTypes[x]);
 	  ///method 2: average the signal for the same motif instance
 	  //getMotifGraph(mt, cellTypes[x]);
 	  mt->clear();
@@ -124,66 +117,8 @@ int main(){
 */
 
 }
-void mtMatch(vector<centroid> C, vector<MotifSignalFrame> *f, string cellType){
+void mtMatch(vector<centroid> &C, vector<MotifSignalFrame> *f, string cellType){
  
-  //get list of motif namespace
-  cout<<"incoming size: " <<(*f).size()<<endl;
-  //char *motifs[500];
-  vector<centroid> mt_list;
-  int size=0;
-  for(int i=0; i<(*f).size(); i++){
-    //cout <<(*mt)[i].motifName<<endl;
-    bool exists = false;
-    for(int j=0; j<size; j++){
-      if(strcmp((*f)[i].motifName, mt_list[j].motifName) == 0){
-        exists = true;
-      }
-    }
-    
-    //create this many centroids
-    if(!exists){
-      cout << size <<" : " << (*f)[i].motifName <<endl;
-      size_t c=0;
-      while((*f)[i].motifName[c] != 0)
-        c++;
-      centroid s;
-      for(int j=0; j< WINDOW_SIZE; j++){
-        s.signal[j] = 0;
-        s.cons_signal[j] = 0;
-      }
-      s.motifName = new char [c];
-      s.count = 0;
-      strcpy(s.motifName, (*f)[i].motifName);
-      mt_list.push_back(s);
-      size++;
-    }
-  }
-  
-  cout <<"number of motif: " << mt_list.size() <<endl;
-  
-  //increment count for the motifs
-  for(int i=0; i<mt_list.size(); i++){
-    for(int k=0; k<(*f).size(); k++){
-      if(strcmp((*f)[k].motifName, mt_list[i].motifName) == 0){
-        mt_list[i].count++;
-      }
-    }
-    
-  }
-  //sort the motifs
-  sort (mt_list.begin(), mt_list.end(), sortByCount); 
-  
-  
-  //assign motif numbers to each motif
-  for(int i=0; i<(*f).size(); i++){
-  	for(int j=0; j<(mt_list.size()); j++){
-  		if(strcmp((*f)[i].motifName, mt_list[j].motifName)==0){
-  			(*f)[i].motifIndex = j;
-  			break;
-  		}
-  	}
-  }
-  
   int fpSize = f->size();
   //match each footprint to a template structure
 
@@ -191,15 +126,18 @@ void mtMatch(vector<centroid> C, vector<MotifSignalFrame> *f, string cellType){
   cout <<"[DEBUG]Assigning footprints..." <<endl;
   for(int i=0; i<fpSize; i++){
     //cout << "counting for " << i << " / "<< fpSize <<endl;
-    int shiftTo = (*f)[i].mtStartIndex;
+    int shiftTo = (*f)[i].fpStartIndex;
+    bool doFlip = (*f)[i].flip;
     float max = FLT_MIN;
     for(int j=0; j< C.size(); j++){
+      //flip
+      bool testFlip = false;    
     
       //OFFSET range
-      int si = (*f)[i].mtStartIndex - MAX_OFFSET;
+      int si = (*f)[i].fpStartIndex - MAX_OFFSET;
       if(si<0) 
         si=0;
-      int ei = (*f)[i].mtStartIndex + MAX_OFFSET;
+      int ei = (*f)[i].fpStartIndex + MAX_OFFSET;
       if(ei>= (FRAME_SIZE-WINDOW_SIZE))
         ei = FRAME_SIZE-WINDOW_SIZE-1;
 
@@ -213,14 +151,54 @@ void mtMatch(vector<centroid> C, vector<MotifSignalFrame> *f, string cellType){
           shiftTo = offset;
           //assign this point to the centroid
           (*f)[i].clusterAssigned = j;
+          doFlip = testFlip;
         }
       }
+      
+      //try flip?
+      if(allowFlip){
+      
+       testFlip = true;
+        //OFFSET range
+      
+       int flipped_signal[FRAME_SIZE];       //holding the signal level for each basepair in the frame
+       //get flipped signal from (*f)[i]
+       int zz=FRAME_SIZE-1;
+         for(int z=0; z<FRAME_SIZE; z++){
+          flipped_signal[z] = (*f)[i].signal[zz];
+          zz--;
+        }
+       si = (FRAME_SIZE - (*f)[i].fpStartIndex - (*f)[i].fpLength) - MAX_OFFSET;
+       if(si<0) 
+          si=0; 
+        ei = (FRAME_SIZE - (*f)[i].fpStartIndex - (*f)[i].fpLength) + MAX_OFFSET;
+        if(ei>= (FRAME_SIZE-WINDOW_SIZE))
+          ei = FRAME_SIZE-WINDOW_SIZE-1;
+    
+       for(int offset= si ; offset <= ei; offset++){
+          float d = correlation(flipped_signal, offset, C[j].signal);
+
+          //if distance is smaller than prev min
+          if(d > max){
+           max = d;
+           //change the offset
+           shiftTo = offset;
+           //assign this point to the centroid
+            (*f)[i].clusterAssigned = j;
+           doFlip = testFlip;
+         }
+        }
+      }
+           
+  
+  
     }
     if(max <=0){
       (*f)[i].clusterAssigned = -1;
-      
+    
     }
-    (*f)[i].mtStartIndex = shiftTo;
+    (*f)[i].fpStartIndex = shiftTo;
+    (*f)[i].flip         = doFlip;
   }
   cout <<"[DEBUG]calculating centroid average " <<endl;
   //make a empty copy of temporary centroids
@@ -243,128 +221,33 @@ void mtMatch(vector<centroid> C, vector<MotifSignalFrame> *f, string cellType){
     int clusterIndex = (*f)[i].clusterAssigned;
     if(clusterIndex == -1)
       continue;
-    int fpIndex      = (*f)[i].mtStartIndex;
+    int fpIndex      = (*f)[i].fpStartIndex;
     ptCount[clusterIndex] = ptCount[clusterIndex]+1;
-        
+    int flip_fpsignal[FRAME_SIZE];
+    float flip_consSignal[FRAME_SIZE];
+    
+    if((*f)[i].flip){
+      //get flipped signal from (*f)[i]
+      int zz=FRAME_SIZE-1;
+      for(int z=0; z<FRAME_SIZE; z++){
+        flip_fpsignal[z] = (*f)[i].signal[zz];
+        flip_consSignal[z] = (*f)[i].con_level[zz];
+        zz--;
+      }
+    }
+    
     for(int j=0; j<WINDOW_SIZE; j++){
+      if((*f)[i].flip){
+        temp_C[clusterIndex].signal[j] += flip_fpsignal[j+fpIndex];
+        temp_C[clusterIndex].cons_signal[j] += flip_consSignal[j+fpIndex];
+      }else{
         temp_C[clusterIndex].signal[j] += (*f)[i].signal[j+fpIndex];
         temp_C[clusterIndex].cons_signal[j] += (*f)[i].con_level[j+fpIndex];
+      }
     }
+  
   }
-  
-  struct stat st = {0};
-  
-  //create directory if it doesn't exists
-  string dirname = "../tmp/test_mp2template/"+cellType;
-  cout <<"[DEBUG]output direcotry: " << dirname <<endl;
-  if (stat(dirname.c_str(), &st) == -1) {
-    mkdir(dirname.c_str(), 0700);
-  }
-  
-  string motifFileName = dirname+"/motifOrder.txt";
-  ofstream motifFile(motifFileName.c_str(), ios_base::trunc );
-  
-  for(int i=0; i<mt_list.size(); i++){
-    motifFile << mt_list[i].motifName << "\t" << mt_list[i].count <<endl;
-  } 
-  
-  //two output
-  //1. For each template, how many percentage from each motif instance
-  //template -> Motif
-  //create a folder for template,
-  cout <<"------------------------"<<endl;
-  cout <<"step 1:  For each template, how many percentage from each motif instance " <<endl;
-  vector< vector<int> > template_mt;
-  vector<int> t_total;
-  
-  for(int i=0; i<C.size();i++){
-  	vector<int> m;
-  	for(int j=0; j<mt_list.size(); j++){
-  		m.push_back(0);
-  	}
-  	template_mt.push_back(m);
-  	t_total.push_back(0);
-  }
-  for(int i=0; i<(*f).size(); i++)
-  {
-  	(template_mt[(*f)[i].clusterAssigned])[(*f)[i].motifIndex]++;
-  	t_total[(*f)[i].clusterAssigned]++;
-  }
-  string dirname1 = dirname+"/mt_perc_in_temp";
-  cout <<"[DEBUG]output direcotry:" + dirname1 <<endl;
-  if (stat(dirname1.c_str(), &st) == -1) {
-    mkdir(dirname1.c_str(), 0700);
-  }
-  
-  //output
-  for(int i=0; i<C.size();i++){
-  
-     assert( t_total[i] == ptCount[i]);
-     ostringstream convert;   // stream used for the conversion
 
-	convert << i;      // insert the textual representation of 'Number' in the characters in the stream
-
-     string filename = dirname1 + "/" + string("template_")+ convert.str()+ string(".txt");
-     cout <<"[DEBUG]out put file:" + filename <<endl;
-     ofstream outputFile(filename.c_str(), ios_base::trunc );
-  	 
-     cout.precision(2);
-  	 assert(template_mt[i].size() == mt_list.size());
-  	 for(int j=0; j<template_mt[i].size(); j++){
-  	 	outputFile << 100.0*(float)template_mt[i][j]/(float)t_total[i]<<endl;
-  	 }
-  }
-  
- 
-  //2. for each motif instance, how many percentage is assigned to each template
-  //motif -> template
-  cout <<"------------------------"<<endl;
-  cout <<"step 2: for each motif instance, how many percentage is assigned to each template " <<endl;
-  
-  vector< vector<int> >mt_template;
-  vector<int> mt_total;
-  
-  for(int i=0; i<mt_list.size();i++){
-     vector<int> t;
-     for(int j=0; j<C.size(); j++){
-     	t.push_back(0);
-     }
-     mt_template.push_back(t);
-     mt_total.push_back(0);
-  }
-  
-  for(int i=0; i<(*f).size(); i++)
-  {
-  	(mt_template[(*f)[i].motifIndex])[(*f)[i].clusterAssigned]++;
-  	mt_total[(*f)[i].motifIndex]++;
-  }
-  
-  
-  string dirname2 = dirname+"/tmp_perc_in_mt";
-  cout <<"[DEBUG]output direcotry:" + dirname2 <<endl;
-  if (stat(dirname2.c_str(), &st) == -1) {
-    mkdir(dirname2.c_str(), 0700);
-  }
-  
-  //output
-  for(int i=0; i<mt_list.size();i++){
-     cout <<"motif: "<<i <<endl;
-     cout << mt_total[i] << " against  " << mt_list[i].count<<endl;
-//     assert( mt_total[i] == mt_list[i].count);
-	ostringstream convert;   // stream used for the conversion
-
-	convert << i;      // insert the textual representation of 'Number' in the characters in the stream
-
-     string filename = dirname2 + string("/") + convert.str() +"-"+string(mt_list[i].motifName)+string(".txt");
-     ofstream outputFile(filename.c_str(), ios_base::trunc );
-  	 
-     cout.precision(2);
-  	 assert(mt_template[i].size() == C.size());
-  	 for(int j=0; j<mt_template[i].size(); j++){
-  	 	outputFile << 100.0*(float)mt_template[i][j]/(float)mt_list[i].count<<endl;
-  	 }
-  }
-  
 }
 
 
@@ -454,7 +337,6 @@ void getMotifConsLevel(string chr, vector<MotifSignalFrame> &temp_con_f, vector<
    cout <<"reach the end: " <<f.size()<<endl;
    return;
 }
-
 //read the footprint file for foorprint sequences
 void getMotifSignal(string cell, string chromosome, vector<MotifSignalFrame> &f,double score)
 {
@@ -475,7 +357,6 @@ void getMotifSignal(string cell, string chromosome, vector<MotifSignalFrame> &f,
            MotifSignalFrame mtt;
            mtt.startSeq = s - (FRAME_SIZE-(e-s))/2;
            mtt.length   = 0;
-           mtt.motifIndex = -1;
            mtt.mtStart  = s;
            mtt.chr      = new char [chromosome.size()+1];
            mtt.mtLength = e-s;
@@ -686,7 +567,7 @@ void getMotifSignal(string cell, string chromosome, vector<MotifSignalFrame> &f,
    cout << k  << " left overs..."<<endl;
    cout <<"reach the end when reading signal: " <<f.size()<<endl;
    getMotifConsLevel(chromosome, temp_con_f, f);
-   singalinfile.close();
+  singalinfile.close();
 }
 void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
 
@@ -759,7 +640,7 @@ void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
   
   //create directory if it doesn't exists
   //create directory if it doesn't exists
-  string dirname = "../tmp/test_mp2template/"+cellType;
+  string dirname = "../tmp/test_mp_result2/"+cellType;
   cout <<"[DEBUG]output direcotry:" + dirname <<endl;
   if (stat(dirname.c_str(), &st) == -1) {
     mkdir(dirname.c_str(), 0700);
