@@ -17,7 +17,11 @@
 *.h~
 *.ps~
 <<<<<<< HEAD
-
+#job files
+*.joblog.*
+*.output.*
+*.out
+core.*
 #large datafile
 data/*
 tmp/*

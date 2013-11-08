@@ -51,31 +51,41 @@ bool sortByCount (centroid i,centroid j) { return (i.count>j.count); }
 void mtMatch(vector<centroid> C, vector<MotifSignalFrame> *f, string cellType);
 int main(){
 	vector<centroid> C;
-	generateTemplate(C, 1, 8, 15);
+	
+	string templateFile = "templateSignal";
+	ifstream readTemplateFile(templateFile.c_str());
+	readTemplateFromFile(C, readTemplateFile);
+	
+	//generateTemplate(C, 1, 8, 15);
   //generateTemplate(C, 1, 9 , 13);
 	
-  reduceVector(C,100);
+  //reduceVector(C,100);
   
     vector<MotifSignalFrame>* mt = new vector<MotifSignalFrame>;
   string chromosomes[] = {"chr1","chr2","chr3","chr4","chr5","chr6","chr7","chr8","chr9",
                            "chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20",
                            "chr21", "chr22","chrX"};
   //string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
-  string cellTypes[] = {"HepG2","K562"};
+//we have AG10803, AoAF, CD20+, GM12865, HCF, HCM, HMVEC, HPAF, NG-A, NHDF-Ad
+
+//the 5 special ones: K562, HepG2, GM06990, Sknshra, TH1
+  /*string cellTypes[] = {"AG10803", "AoAF", "CD20+", "K562","HepG2","GM06990", "GM12865", "H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};*/
+  string cellTypes[] = {"H7-hESC","HAEpiC","HA-h","HCPEpiC","HEEpiC","HFF","HIPEpiC","HMF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","NB4","NHDF-neo","NHLF","SAEC","SKMC"};
+  
   int max = 23;
-  int maxCellNum = 33;
+  int maxCellNum = 28;
   
   //create directory folder
 	struct stat st = {0};
 
-  if (stat("../tmp/test_mp2template", & st) == -1) {
-		if(mkdir("../tmp/test_mp2template", 0700) == -1){
+  if (stat("../tmp/test_motif_pattern", & st) == -1) {
+		if(mkdir("../tmp/test_motif_pattern", 0700) == -1){
 			cout <<"[DEBUG]Error creating assignment folder" <<endl;
 		}
 		
 	}
 	
-  for(int x=0; x<2; x++){
+  for(int x=16; x<18; x++){
 	  for(int i=0; i<max; i++){
 	     getMotifSignal(cellTypes[x], chromosomes[i], (*mt), 0);
 	
@@ -102,9 +112,9 @@ int main(){
 	  cout <<"real: " <<real_motif<<endl;
 	  cout <<"Percent: " << real_motif/total_motif<<endl;
       
-      mtMatch(C, mt, cellTypes[x]);
+      //mtMatch(C, mt, cellTypes[x]);
 	  ///method 2: average the signal for the same motif instance
-	  //getMotifGraph(mt, cellTypes[x]);
+	  getMotifGraph(mt, cellTypes[x]);
 	  mt->clear();
 
 
@@ -255,7 +265,7 @@ void mtMatch(vector<centroid> C, vector<MotifSignalFrame> *f, string cellType){
   struct stat st = {0};
   
   //create directory if it doesn't exists
-  string dirname = "../tmp/test_mp2template/"+cellType;
+  string dirname = "../tmp/test_motif_pattern/"+cellType;
   cout <<"[DEBUG]output direcotry: " << dirname <<endl;
   if (stat(dirname.c_str(), &st) == -1) {
     mkdir(dirname.c_str(), 0700);
@@ -759,7 +769,7 @@ void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
   
   //create directory if it doesn't exists
   //create directory if it doesn't exists
-  string dirname = "../tmp/test_mp2template/"+cellType;
+  string dirname = "../tmp/test_motif_pattern"+cellType;
   cout <<"[DEBUG]output direcotry:" + dirname <<endl;
   if (stat(dirname.c_str(), &st) == -1) {
     mkdir(dirname.c_str(), 0700);
@@ -768,7 +778,7 @@ void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
   ofstream outputFile(filename.c_str(), ios_base::trunc );
   filename = dirname+"/consSig";
   ofstream consFile(filename.c_str(), ios_base::trunc );
-  filename = dirname+"/motifOrder.txt";
+  filename = dirname+"/motifOrder";
   ofstream motifFile(filename.c_str(), ios_base::trunc );
   motifFile << "Total" << (*mt).size() <<endl;
   for(int i=0; i<C.size(); i++){
@@ -783,7 +793,7 @@ void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
   } 
 
     //calculate anticorrelation
-  filename = dirname+"/cor-level.txt";
+  filename = dirname+"/cor-level";
   ofstream anticFile(filename.c_str(), ios_base::trunc );
   
   /*ofstream anticFile("tmp/template_assign/anticorrelation_lv.txt", ios_base::trunc );*/

@@ -1,0 +1,9 @@
+job.q -t 60 -d 4000 -n 1 motif_0_2.out
+job.q -t 60 -d 4000 -n 1 motif_2_4.out
+job.q -t 60 -d 4000 -n 1 motif_4_6.out
+job.q -t 60 -d 4000 -n 1 motif_6_8.out
+job.q -t 60 -d 4000 -n 1 motif_8_10.out
+job.q -t 60 -d 4000 -n 1 motif_10_12.out
+job.q -t 60 -d 4000 -n 1 motif_12_14.out
+job.q -t 60 -d 4000 -n 1 motif_14_16.out
+job.q -t 60 -d 4000 -n 1 motif_16_18.out

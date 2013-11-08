@@ -61,6 +61,42 @@ void reduceVector(vector<centroid> &S, int n){
   
 }
 
+void readTemplateFromFile(vector<centroid> &S ,ifstream& centroidFile)
+{
+	S.clear();
+	int i=0;
+	centroid s;
+	while(!centroidFile.eof()){
+		string a;
+		getline(centroidFile,a);
+		
+		if(a[0]!='"'){
+			stringstream stream(a);
+			
+			int junk, val;
+			stream >> junk >> val;
+		
+
+			s.signal[i]=(int)val;
+			stream.get();
+			
+			i++;
+			
+			if(i==30){
+				i=0;
+
+				S.push_back(s);	
+			} 
+		}
+			
+		
+		
+	}
+	
+	
+
+}
+
 void generateTemplate(vector<centroid> &S, int n, int start, int length){
   S.clear();
   //n degree of movement

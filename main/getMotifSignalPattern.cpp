@@ -14,7 +14,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include "readfp.cpp"
-#include "template_generate.cpp"
+//#include "template_generate.cpp"
 /******************************************************/
 using namespace std;
 int total_motif=0;
@@ -32,7 +32,7 @@ struct MotifSignalFrame{
    char* motifName;              //name of the motif
    int mtLength;                 //length of the motif (from the fp data)
    int mtStartIndex;             //the offset for the fixed window in the frame
-    int clusterAssigned;          //the cluster this point is assigned to
+   int clusterAssigned;          //the cluster this point is assigned to
    bool flip;
    
    //also contain fp information that it contains?  actualy, no it doesn't matter
@@ -46,30 +46,31 @@ void getMotifGraph(vector<MotifSignalFrame>* m, string cellType);
 bool sortByCount (centroid i,centroid j) { return (i.count>j.count); }
 
 int main(){
-	generateTemplate(C, 1, 8, 15);
+	//generateTemplate(C, 1, 8, 15);
   //generateTemplate(C, 1, 9 , 13);
 
-  reduceVector(C,100);
+  //reduceVector(C,100);
   
-    vector<MotifSignalFrame>* mt = new vector<MotifSignalFrame>;
+  vector<MotifSignalFrame>* mt = new vector<MotifSignalFrame>;
   string chromosomes[] = {"chr1","chr2","chr3","chr4","chr5","chr6","chr7","chr8","chr9",
                            "chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20",
                            "chr21", "chr22","chrX"};
-  string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
+  string cellTypes[] = {/*"AG10803", "AoAF", "CD20+", "GM06990", "GM12865",*/"K562","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
   int max = 23;
-  int maxCellNum = 33;
+  int maxCellNum = 14;
   
   //create directory folder
 struct stat st = {0};
 
-  if (stat("../tmp/test_mp_result2", & st) == -1) {
-		if(mkdir("../tmp/test_mp_result2", 0700) == -1){
+  if (stat("../tmp/test_mp_result2/", & st) == -1) {
+		if(mkdir("../tmp/test_mp_result2/", 0700) == -1){
 			cout <<"[DEBUG]Error creating assignment folder" <<endl;
 		}
 		
 	}
 	
-  for(int x=1; x<maxCellNum; x++){
+  for(int x=7; x<maxCellNum; x++){
+  	 cout <<"Process cell " <<cellTypes[x]<<endl;
 	  for(int i=0; i<max; i++){
 	     getMotifSignal(cellTypes[x], chromosomes[i], (*mt), 0);
 	
@@ -117,6 +118,8 @@ struct stat st = {0};
 */
 
 }
+
+/*
 void mtMatch(vector<centroid> &C, vector<MotifSignalFrame> *f, string cellType){
  
   int fpSize = f->size();
@@ -450,10 +453,9 @@ void getMotifSignal(string cell, string chromosome, vector<MotifSignalFrame> &f,
    string sFile = "../data/signals/"+cell+"_split/"+chromosome+"."+cell;
    ifstream singalinfile(sFile.c_str());
    
-   /*for(int i=0; i<real_m.size();i++){
-      cout << real_m[i].startSeq <<endl;
+
    
-   }*/
+   
   int remove =0;
    vector<MotifSignalFrame>::iterator it;
    vector<MotifSignalFrame>::iterator it_start;
@@ -559,16 +561,13 @@ void getMotifSignal(string cell, string chromosome, vector<MotifSignalFrame> &f,
       
    }
    int k=0;
-  /* for(it=it_start; it<real_m.end(); it++){
-    //print the real_m 
-    cout << it_start->mtStart << " , " << it_start->startSeq <<endl;  
-    k++;
-   }*/
+
    cout << k  << " left overs..."<<endl;
    cout <<"reach the end when reading signal: " <<f.size()<<endl;
    getMotifConsLevel(chromosome, temp_con_f, f);
   singalinfile.close();
 }
+*/
 void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
 
   cout<<"incoming size: " <<(*mt).size()<<endl;
@@ -645,11 +644,12 @@ void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
   if (stat(dirname.c_str(), &st) == -1) {
     mkdir(dirname.c_str(), 0700);
   }
+  
   string filename = dirname+"/fpsig";
   ofstream outputFile(filename.c_str(), ios_base::trunc );
   filename = dirname+"/consSig";
   ofstream consFile(filename.c_str(), ios_base::trunc );
-  filename = dirname+"/motifOrder.txt";
+  filename = dirname+"/motifOrder";
   ofstream motifFile(filename.c_str(), ios_base::trunc );
   motifFile << "Total" << (*mt).size() <<endl;
   for(int i=0; i<C.size(); i++){
@@ -664,7 +664,7 @@ void getMotifGraph(vector<MotifSignalFrame>* mt, string cellType){
   } 
 
     //calculate anticorrelation
-  filename = dirname+"/cor-level.txt";
+  filename = dirname+"/cor-level";
   ofstream anticFile(filename.c_str(), ios_base::trunc );
   
   /*ofstream anticFile("tmp/template_assign/anticorrelation_lv.txt", ios_base::trunc );*/
