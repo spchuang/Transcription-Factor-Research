@@ -265,6 +265,7 @@ void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f,doubl
    
   singalinfile.close();
 }
+
 void printFPsignals(fpSignalFrame *fp){
   if(DEBUG){
       cout <<"---------------------" <<endl;       
