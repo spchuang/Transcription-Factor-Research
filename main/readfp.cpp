@@ -111,7 +111,7 @@ void getConsLevel(string chr, vector<fpSignalFrame> &temp_con_f, vector<fpSignal
 void getFootPrint(string cell, string chromosome, vector<fpSignalFrame> &f,double score, bool getCons, bool consOffset)
 {
 	//current directory is "main"
-   string FPfile = "../data/chr.footprints/"+chromosome+".footprints";
+   string FPfile = "../data/chr.footprints/"+chromosome".footprints";
    //temporarily holding the fp data
    vector<fpSignalFrame> temp_f;
    vector<fpSignalFrame> temp_con_f;

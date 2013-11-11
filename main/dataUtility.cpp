@@ -7,6 +7,7 @@
 #include <vector>
 #include <list>
 #include <limits.h>
+#include <cstdlib>
 #include <cstring>
 #include <cmath>
 #include <float.h>
@@ -17,7 +18,7 @@ const int WINDOW_SIZE = 30;
 const int FRAME_SIZE  = 60;
       
 struct segment{
-   float con_data[FRAME_SIZE];
+   float con_level[FRAME_SIZE];
    int 	 signal[FRAME_SIZE];       //holding the signal level for each basepair in the frame
    int   segStart;
    int   frameStart;                 //the start DNA location for the frame (including the actual footprint sequence)
@@ -50,7 +51,7 @@ class FootprintMaster
  private:         
  	int readFootprints(string cell, string chr);
  	void readSignalData(string cell, string chr, int startIndex);
- 	void readConsData(string cell, string chr, int startIndex);         
+ 	void readConsData(string chr, int startIndex);         
   	
   	bool readSignal;
   	bool readCons;
@@ -128,12 +129,19 @@ void FootprintMaster::startReadingData(){
 				readSignalData(cells[i], chromosomes[j], startIndex);
 			} 
 			if(readCons){
-				readConsData(cells[i], chromosomes[j], startIndex);
+				readConsData(chromosomes[j], startIndex);
 			}
 			
 			count+=chr_count;
 		}
 		cout <<"[DEBUG]Read " << count << " footprints for " << cells[i] << endl;
+	}
+	
+	for(int i=fps.size()-10; i<fps.size()-5; i++){
+		cout <<"Signals for footprint " << i<<endl;
+		for(int f=0; f<FRAME_SIZE; f++){
+			cout <<f<<":"<<fps[i].signal[f]<<" , "<<fps[i].con_level[f]<<endl;
+		}
 	}
 
 	
@@ -216,11 +224,11 @@ void FootprintMaster::readSignalData(string cell, string chr, int startIndex){
 	int totalToBeProcessed = size - startIndex;
 	//read through the signal data, if the window contains footprint sequence
 	//first iteration, find the start of sequence
-	string sFile = "../data/signals/"+cell+"_split/"+chr+"."+cell;
+	string sFile = dataDir+"/signals/"+cell+"_split/"+chr+"."+cell;
 	ifstream singalinfile(sFile.c_str());
-
+	
 	while(singalinfile >> c >> s >> e >> signal){
-		
+		//cout <<"SIGNAL DATA: "<< c << " " << s << "  " <<signal;
 		if(!first){
             first = true;
             START = s+1;
@@ -234,25 +242,30 @@ void FootprintMaster::readSignalData(string cell, string chr, int startIndex){
             }
             //insert zero signal
             while(START < s){
+            	
                //iterate through the temp footprint vector and insert the signalFile  
-               //it = temp_f.begin()
+               //cout << endl<<"Zero DATA: "<<c << " " << START << "  0" ;
+               if( (it_start->frameStart + it_start->length) >s)
+               	break;
                for(it=it_start; it<fps.end(); it++){
-               		
+               	  //cout<<endl<<(it->frameStart+it->length);
                   //break if the seq is bigger
                   if( (it->frameStart+it->length) > START)
                      break; 
-
+					
                   //if it's the sequence to enter
                   if( (it->frameStart+ it->length) == START){
-                 // cout<<it->frameStart << " : " <<it->length<<" : " <<0<<endl;
+                  	
+                     //cout<<endl<<it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): 0";
                      it->signal[it->length] = 0; //ADD THE EMPTY SIGNAL
                      it->length++;
                      //if the point is full, push it to vector f 
                      if(it->length >= FRAME_SIZE){
+                     	//cout<<endl<<"break!"<<endl;
                         it->length = 0;
                         totalToBeProcessed--;
                         //cout << totalToBeProcessed<<endl;
-                        it++;
+                        it_start++;
 						if(totalToBeProcessed == 0)
 							return;
                      }
@@ -263,25 +276,26 @@ void FootprintMaster::readSignalData(string cell, string chr, int startIndex){
             }
             START = s+1;
          }
+         
          //iterate through the temp footprint vector and insert the signalFile  
          //for(it=temp_f.begin(); it<temp_f.end(); it++){
          for(it=it_start; it<fps.end(); it++){
             //break if the seq is bigger
             if( (it->frameStart+it->length) > s)
                break; 
-            
             //if it's the sequence to enter
             if( (it->frameStart+ it->length) == s){
             
-              	// cout<<it->frameStart << " : " <<it->length<<" : " <<signal<<endl;
+               //cout<<endl<<it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): " <<signal;
                it->signal[it->length] = signal;
                it->length++;
                //if the point is full, push it to vector f 
                if(it->length >= FRAME_SIZE){
+               //cout<<endl<<"break!"<<endl;
                  it->length = 0;
                  totalToBeProcessed--;
                  //cout << totalToBeProcessed<<endl;
-                 it++;
+                 it_start++;
                  if(totalToBeProcessed == 0)
                  	return;
           
@@ -289,13 +303,110 @@ void FootprintMaster::readSignalData(string cell, string chr, int startIndex){
             }
             
          }     
-   
+		 //cin.get(); 
 	}
 	
 }
 
-void FootprintMaster::readConsData(string cell, string chr, int startIndex){
+void FootprintMaster::readConsData(string chr, int startIndex){
+	/*
+		*conservation data is not cell specific
+		conservation data folder structure:
+		cons_data/
+			/chr1.phyloP46way.placental
+			/chr2.phyloP46way.placental
+			...
+			...
 	
+		conservation data format:
+			fixedStep chrom=chr1 start=10918 step=1
+			0.064
+			0.056
+			0.064
+			...
+			so the data is (10918:0.064), (10919:0.056)...
+		TODO: add offset for the 5 special cell types?
+	*/
+	string junk, start_text, value;
+    int start;
+    int size = fps.size();
+	int totalToBeProcessed = size - startIndex;
+
+    
+	string cons_file = dataDir+"/cons_data/"+chr+".phyloP46way.placental.wigFix";
+	ifstream Cinfile(cons_file.c_str());
+	
+    Cinfile >> junk>> junk >> start_text >> junk;
+    start = atoi(start_text.substr(6).c_str());
+    vector<segment>::iterator it;
+    vector<segment>::iterator it_start;
+    it_start = fps.begin()+startIndex;
+    
+    while(Cinfile >> value){
+      //cout <<"start: " << start << ", cons: " << value <<endl;
+      if(value == "fixedStep"){
+        //cout <<"hit new start: " << start << endl;
+        
+        Cinfile >> junk >> start_text >> junk;
+        //cout <<"test2"<<endl;
+        int new_start = atoi(start_text.substr(6).c_str());
+
+        // <<"new start is ... " << new_start <<endl;
+        while(start<new_start){
+        	//don't waste time
+		  if(it_start->frameStart+it_start->length > new_start)
+              break;
+              
+          for(it=it_start; it<fps.end(); it++){
+            if(it->frameStart+it->length > start)
+              break;
+            if(it->frameStart+it->length == start){
+              //add 0 for non specified conservation level
+              it->con_level[it->length] = 0;
+              //cout << "start seq: " << it->startSeq << " , length: " << it->length << ", cons: " << it->con_level[it->length]<<endl;
+              it->length++;
+              if(it->length >= FRAME_SIZE){
+				  it->length = 0;
+                  it_start++;
+                  totalToBeProcessed--;
+                   //cout <<totalToBeProcessed<<endl;
+                  if(totalToBeProcessed == 0)
+                 	return;
+               }
+            }
+           
+          }
+          start++;
+       } 
+        //cout <<"new start: " << start <<endl;
+        continue;
+      }
+      for(it=it_start; it<fps.end(); it++){
+         if(it->frameStart+it->length > start)
+            break;
+         if(it->frameStart+it->length == start){
+             
+            it->con_level[it->length] = atof(value.c_str());
+            //cout << "start seq: " << it->startSeq << " , length: " << it->length << ", cons: " << it->con_level[it->length]<<endl;
+            it->length++;
+            if(it->length >= FRAME_SIZE){
+   
+	              it->length = 0;
+	              it_start++;
+	              totalToBeProcessed--;
+	              //cout <<totalToBeProcessed<<endl;
+	              if(totalToBeProcessed == 0)
+	             	return;
+            }
+         }
+      }
+      start++;
+      //cin.get();
+   }
+   Cinfile.close();
+   return;
+
+
 	
 }
 
@@ -307,6 +418,7 @@ int main(){
                            "chr21", "chr22","chrX"};
 	FootprintMaster test;
 	test.setReadSignal(true);
+	test.setReadCons(true);
 	test.setReadCells(cellTypes, 1);
 	test.setReadChromosomes(chromosomes, 1);
 	test.printProperties();
