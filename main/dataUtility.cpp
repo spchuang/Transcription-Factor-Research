@@ -2,6 +2,7 @@
 #define DATA_UTILITY_CPP 
 
 #include <iostream>
+#include <algorithm>    // std::sort
 #include <string>
 #include <fstream>
 #include <vector>
@@ -15,7 +16,7 @@
 using namespace std;
 
 const int WINDOW_SIZE = 30;
-const int FRAME_SIZE  = 60;
+const int FRAME_SIZE  = 30;
       
 struct segment{
    float con_level[FRAME_SIZE];
@@ -43,16 +44,21 @@ class BaseDataMaster
 	void setReadSignal(bool read);
 	void setReadCons(bool read);
 	void setReadCells(string* cs, int n);
-	void setReadChromosomes(string* chrs, int n);
+	void setReadChromosomes(string* chrs, int start, int end);
 	void setDataDir(string dir);
 	void printProperties();
 	virtual void startReadingData() = 0; 	//all children classes have to define this
-
-
+	vector<segment>* getSegment();
+	void clearSegments();
+	int getSegSize();
+	void sortSegmentsByStart();
+	void readSignalData(string cell, string chr, int startIndex);
+	void readConsData(string chr, int startIndex);   
+	void saveSegs(string dir);
  protected:         
  	
- 	void readSignalData(string cell, string chr, int startIndex);
- 	void readConsData(string chr, int startIndex);         
+ 	
+ 	      
   	
   	bool readSignal;
   	bool readCons;
@@ -91,8 +97,8 @@ void BaseDataMaster::setReadCells(string* cs, int n){
 	}
 	
 }
-void BaseDataMaster::setReadChromosomes(string* chrs, int n){
-	for(int i=0; i<n; i++){
+void BaseDataMaster::setReadChromosomes(string* chrs, int start, int end){
+	for(int i=start; i<end; i++){
 		chromosomes.push_back(chrs[i]);
 	}
 }
@@ -117,8 +123,29 @@ void BaseDataMaster::printProperties(){
 	cout << endl;
 }
 
+vector<segment>* BaseDataMaster::getSegment(){
+	return &segs;
+	
+}
 
+void BaseDataMaster::clearSegments(){
+	segs.clear();
+}
 
+int BaseDataMaster::getSegSize(){
+	return segs.size();
+}
+
+//sorting function
+bool compareBySegStart(const segment &a, const segment &b)
+{
+    return a.segStart < b.segStart;
+}
+
+void BaseDataMaster::sortSegmentsByStart(){
+	
+	sort(segs.begin(), segs.end(), compareBySegStart);
+}
 
 void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
 	/*
@@ -148,37 +175,39 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
 	//first iteration, find the start of sequence
 	string sFile = dataDir+"/signals/"+cell+"_split/"+chr+"."+cell;
 	ifstream singalinfile(sFile.c_str());
-	
+	int cccc = 0;
 	while(singalinfile >> c >> s >> e >> signal){
-		//cout <<"SIGNAL DATA: "<< c << " " << s << "  " <<signal;
+				//cout <<"SIGNAL DATA: "<< c << " " << s << "  " <<signal <<endl;
 		if(!first){
             first = true;
             START = s+1;
          }else{
-            //skip useless zero signals...
-            int firstsegseq = (it_start->frameStart)+(it_start->length);
-            if(START < firstsegseq && firstsegseq < s){
-               START = firstsegseq;
-            }else if(START<firstsegseq && s < firstsegseq){
-               START = s+1;
-            }
+            
             //insert zero signal
             while(START < s){
             	
-               //iterate through the temp footprint vector and insert the signalFile  
-               //cout << endl<<"Zero DATA: "<<c << " " << START << "  0" ;
-               if( (it_start->frameStart + it_start->length) >s)
-               	break;
+               
+               //skip useless zero signals...
+	            int firstsegseq = (it_start->frameStart)+(it_start->length);
+	            if(START < firstsegseq && firstsegseq < s){
+	               START = firstsegseq;
+	            }else if(s < firstsegseq){
+	               break;
+	               
+	            }
+               	
                for(it=it_start; it<segs.end(); it++){
+               //cccc++;
+               	int current = (it->frameStart+it->length);
                	  //cout<<endl<<(it->frameStart+it->length);
                   //break if the seq is bigger
-                  if( (it->frameStart+it->length) > START)
+                  if( current > START)
                      break; 
 					
                   //if it's the sequence to enter
-                  if( (it->frameStart+ it->length) == START){
-                  	
-                     //cout<<endl<<it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): 0";
+                  if( current == START){
+                  	//cout << cccc <<endl;
+                    // cout<<endl<<it->name << it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): 0";
                      it->signal[it->length] = 0; //ADD THE EMPTY SIGNAL
                      it->length++;
                      //if the point is full, push it to vector f 
@@ -186,15 +215,20 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
                      	//cout<<endl<<"break!"<<endl;
                         it->length = 0;
                         totalToBeProcessed--;
+                        if(totalToBeProcessed % 1000 ==0) cout << totalToBeProcessed <<endl;
+
                         //cout << totalToBeProcessed<<endl;
-                        it_start++;
-						if(totalToBeProcessed == 0)
+                        ++it_start;
+						if(totalToBeProcessed == 0){
 							return;
+						}
                      }
+                    // cin.get(); 
                   }
                   
                }
-               START++;            
+               START++;   
+                        
             }
             START = s+1;
          }
@@ -202,11 +236,13 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
          //iterate through the temp footprint vector and insert the signalFile  
          //for(it=temp_f.begin(); it<temp_f.end(); it++){
          for(it=it_start; it<segs.end(); it++){
+        // cccc++;
+        	int current = (it->frameStart+it->length);
             //break if the seq is bigger
-            if( (it->frameStart+it->length) > s)
+            if( current > s)
                break; 
             //if it's the sequence to enter
-            if( (it->frameStart+ it->length) == s){
+            if( current == s){
             
                //cout<<endl<<it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): " <<signal;
                it->signal[it->length] = signal;
@@ -217,16 +253,21 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
                  it->length = 0;
                  totalToBeProcessed--;
                  //cout << totalToBeProcessed<<endl;
-                 it_start++;
-                 if(totalToBeProcessed == 0)
+                 if(totalToBeProcessed % 1000 ==0) cout << totalToBeProcessed <<endl;
+
+                 ++it_start;
+                 if(totalToBeProcessed == 0){
                  	return;
+                 }
           
                }
+     
             }
             
          }     
-		 //cin.get(); 
+		 
 	}
+	
 	
 }
 
@@ -285,7 +326,7 @@ void BaseDataMaster::readConsData(string chr, int startIndex){
             if(it->frameStart+it->length == start){
               //add 0 for non specified conservation level
               it->con_level[it->length] = 0;
-              //cout << "start seq: " << it->startSeq << " , length: " << it->length << ", cons: " << it->con_level[it->length]<<endl;
+              cout << "start seq: " << it->frameStart << " , length: " << it->length << ", cons: " << it->con_level[it->length]<<endl;
               it->length++;
               if(it->length >= FRAME_SIZE){
 				  it->length = 0;
@@ -309,7 +350,7 @@ void BaseDataMaster::readConsData(string chr, int startIndex){
          if(it->frameStart+it->length == start){
              
             it->con_level[it->length] = atof(value.c_str());
-            //cout << "start seq: " << it->startSeq << " , length: " << it->length << ", cons: " << it->con_level[it->length]<<endl;
+            cout << "start seq: " << it->frameStart << " , length: " << it->length << ", cons: " << it->con_level[it->length]<<endl;
             it->length++;
             if(it->length >= FRAME_SIZE){
    
@@ -323,11 +364,18 @@ void BaseDataMaster::readConsData(string chr, int startIndex){
          }
       }
       start++;
-      //cin.get();
+      cin.get();
    }
    Cinfile.close();
    return;
 
+
+	
+}
+
+void BaseDataMaster::saveSegs(string dir ){
+	
+	
 
 	
 }
@@ -356,30 +404,32 @@ void FootprintMaster::startReadingData(){
 		int count=0;
 		
 		for(int j=0; j<chromosomes.size(); j++){
-			cout <<"[DEBUG]reading " << chromosomes[j] <<endl;
+			//cout <<"[DEBUG]reading " << chromosomes[j] <<endl;
 			int startIndex = segs.size();
 			int chr_count=readFootprints(cells[i], chromosomes[j]);
 			cout <<"[DEBUG]"<<chromosomes[j] << " has " << chr_count << " footprints" << endl;
 			if(readSignal){
 				readSignalData(cells[i], chromosomes[j], startIndex);
+				cout <<"[DEBUG]Done reading signals" << endl;
+
 			} 
-			cout <<"[DEBUG]Done reading signals" << endl;
 			if(readCons){
 				readConsData(chromosomes[j], startIndex);
+				cout <<"[DEBUG]Done reading cons" << endl;
 			}
-			cout <<"[DEBUG]Done reading cons" << endl;
+			
 			
 			count+=chr_count;
 		}
 		cout <<"[DEBUG]Read " << count << " footprints for " << cells[i] << endl;
 	}
-	
+	/*
 	for(int i=segs.size()-10; i<segs.size()-5; i++){
 		cout <<"Signals for footprint " << i<<endl;
 		for(int f=0; f<FRAME_SIZE; f++){
 			cout <<f<<":"<<segs[i].signal[f]<<" , "<<segs[i].con_level[f]<<endl;
 		}
-	}
+	}*/
 
 	
 	cout << "Total number of footprints: " << segs.size() <<endl;
@@ -423,11 +473,18 @@ int FootprintMaster::readFootprints(string cell, string chr){
 			fpp.chr      = new char [chr.size()+1];
 			fpp.segLength = e-s;
 			fpp.flip = false;
-			fpp.startIndex = 15; //window size of 30bp aligned in the center
+			fpp.startIndex = (FRAME_SIZE-WINDOW_SIZE)/2; //window size of 30bp aligned in the center
 			strcpy(fpp.chr, chr.c_str());
+			for(int i=0; i<FRAME_SIZE; i++){
+				fpp.signal[i] = 0;
+				fpp.con_level[i] = 0;
+		    }
+			
+			
 			segs.push_back(fpp);
 			count ++;
 			//cout << count << ": " << s << " " << e<<endl;
+			
 		}
 	}
 	FPinfile.close();
@@ -445,13 +502,17 @@ class MotifMaster: public BaseDataMaster
    public:
    	  MotifMaster();
       void startReadingData();
+      
    private: 
    	  int readMotifData(string chromosome);
+   	  void writeMotifData(string cell, string chromosome);
    	  double score;
+   	  
 };
 
 
 MotifMaster::MotifMaster(){
+
 	
 }
 
@@ -463,7 +524,14 @@ void MotifMaster::startReadingData(){
 		int startIndex = segs.size();
 		
 		int chr_count = readMotifData(chromosomes[j]);
+		cout <<"[DEBUG]"<<chromosomes[j] << " has " << chr_count << " motifs" << endl;
+		//Filter with footprints
 		
+		if(readSignal){
+			readSignalData(cells[0], chromosomes[j], startIndex);
+			cout <<"[DEBUG]Done reading signals" << endl;
+
+		} 
 		
 		count+=chr_count;
 	}
@@ -492,6 +560,7 @@ int MotifMaster::readMotifData(string chromosome){
 		for more: http://www.broadinstitute.org/~pouyak/motif-disc/human/
 		returns the number of motifs read for this cell/chr
 		Quesiton: what does 1-indexed exactly mean...
+		NOTE: The same motifs have the same segment length (HOLDS TRUE TO ALL MOTIF INSTANCES)
 	*/
    string motifFIle = dataDir+"/motif_non_consbased/"+chromosome+".motif";
 
@@ -504,7 +573,8 @@ int MotifMaster::readMotifData(string chromosome){
    int count=0;
    while(MTinFile >> motif_name >> chr >> s >> e >> strand >> useless1 >>useless2){
 
-       e=e+1;
+       e=e-1;
+       s=s-1;
        segment mtt;
        mtt.frameStart = s - (FRAME_SIZE-(e-s))/2;
        mtt.length    = 0;
@@ -517,42 +587,151 @@ int MotifMaster::readMotifData(string chromosome){
        else
           mtt.flip = true;
       
-       mtt.startIndex = 15; //window size of 30bp aligned in the center
+       mtt.startIndex = (FRAME_SIZE-WINDOW_SIZE)/2; //window size of 30bp aligned in the center
        strcpy(mtt.chr, chromosome.c_str());
        mtt.name= new char [motif_name.size()+1];
        strcpy(mtt.name, motif_name.c_str());
+       for(int i=0; i<FRAME_SIZE; i++){
+	      mtt.signal[i] = 0;
+	      mtt.con_level[i] = 0;
+      }
+       
+       
        segs.push_back(mtt);
+       
        count++;
-      // cout << mtt.fpStart << " , " <<mtt.motifName<< " , " <<mtt.fpLength<< " , " <<mtt.chr<< " , " <<strand<<endl;
-  
+      // cout << mtt.segStart << " , " <<mtt.motifName<< " , " <<mtt.fpLength<< " , " <<mtt.chr<< " , " <<strand<<endl;
+      
+      //initialize 
+      
    }
-   cout <<"[DEBUG] motif instance size for this chromosome.." << segs.size()<<endl;
    
    MTinFile.close();
    return count;
 }
 
+/*
+	Question: given a list of motifs (start,end), a list of fp of any celltype(start,end), filter otu the motifs that don't overlap with any fp
+	step 1. aggregate all the motifs first lol 
+		-> celltype/motif1,motif2,motif3... (non aggregated)
+	if say, we can't hold all the motif instances and their signals of one cell in one run, then get the data for each chromosome then append each motif signal in the file. So open 456 file descriptors?
+*/
 
 int main(){
-	cout << "okay" <<endl;
+	
 	string cellTypes[] = {"AG10803", "AoAF", "CD20+", "GM06990", "GM12865","H7-hESC","HAEpiC","HA-h","HCF","HCM","HCPEpiC","HEEpiC","HepG2","HFF","HIPEpiC","HMF","HMVEC-dBl-Ad","HPAF","HPdLF","HPF","HRCEpiC","HSMM","HVMF","K562","NB4","NH-A","NHDF-Ad","NHDF-neo","NHLF","SAEC","SKMC","Th1"};
 	string chromosomes[] = {"chr1","chr2","chr3","chr4","chr5","chr6","chr7","chr8","chr9",
                            "chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20",
                            "chr21", "chr22","chrX"};
-	/*FootprintMaster test;
-	test.setReadSignal(true);
-	test.setReadCons(true);
-	test.setReadCells(cellTypes, 1);
-	test.setReadChromosomes(chromosomes, 1);
-	test.printProperties();
-	test.startReadingData();*/
-	MotifMaster test2;
-	test2.setReadSignal(true);
-	test2.setReadCons(true);
-	test2.setReadCells(cellTypes, 1);
-	test2.setReadChromosomes(chromosomes, 1);
-	test2.printProperties();
-	test2.startReadingData();
+                           
+	MotifMaster motif_master;
+	//motif_master.setReadSignal(true);
+	FootprintMaster fp_master;
+	//fp_master.setReadSignal(true);
+	motif_master.setReadCells(cellTypes, 1);
+	//foot print reads each chr for ALL cell types
+	fp_master.setReadCells(cellTypes, 31);
+	
+	
+	cout << "LETS START THIS SHIT" <<endl;
+	for(int chr=0; chr<1; chr++){
+		cout <<"for motif chr " << chr<<endl;
+		motif_master.printProperties();
+		motif_master.setReadChromosomes(chromosomes, chr, chr+1);
+		motif_master.startReadingData();
+		
+		cout <<"for fp chr " << chr<<endl;
+		fp_master.setReadChromosomes(chromosomes,chr, chr+1);
+		fp_master.startReadingData();
+		
+		
+		//cout <<"sort"<<endl;
+		fp_master.sortSegmentsByStart();
+		//filter out motifs that are not included in any footprint
+		vector<segment>* fp_segs = fp_master.getSegment();
+		vector<segment>* mt_segs = motif_master.getSegment();
+		int mt_size = mt_segs->size();
+		int fp_size = fp_segs->size();
+		int j=0;
+		vector<segment> new_mt;
+		for(int i=0; i<mt_size; i++){
+			bool containsFootprint = false;
+			while(j<fp_size){
+				int fp_start = (*fp_segs)[j].segStart;
+				int fp_end   = fp_start + (*fp_segs)[j].segLength;
+				int mt_start = (*mt_segs)[i].segStart;
+				int mt_end   = mt_start + (*mt_segs)[i].segLength;
+				
+				if(fp_start > mt_end && fp_end >mt_end){
+					break;
+				}
+
+				if(
+		          ((fp_end >= mt_start+1) && (fp_end<=mt_end)) || 
+		           ((fp_start >= mt_start) && (fp_start < mt_end))
+		        ){
+		        	//cout << fp_start<< " : " <<fp_end << " ,  "<< mt_start <<" : " <<mt_end<<endl;
+					//includes
+					containsFootprint = true;
+					break;
+		        }
+		        j++;
+			}
+			
+			if(containsFootprint){
+				new_mt.push_back((*mt_segs)[i]);
+			}
+			
+			
+		}
+		
+		motif_master.clearSegments();
+		for(int i=0; i<new_mt.size(); i++){	
+			mt_segs->push_back(new_mt[i]);
+		}
+		new_mt.clear();
+		int new_mt_size = motif_master.getSegSize();
+		
+		//cout <<"new size: " <<new_mt.size() <<endl;
+		//cout <<"fp size: "<<fp_segs->size()<<endl;
+		cout <<"new motif size: "<<motif_master.getSegSize()<< " / " <<mt_size<<endl;
+		
+		for(int cell = 0; cell<31; cell++){
+			cout <<"start reading signal for motif at chr " << chromosomes[chr]<< " , " <<cellTypes[cell]<<endl;
+			motif_master.readSignalData(cellTypes[cell], chromosomes[chr], 0);
+			/*
+			string dirname = "TEST/motif_signals/"+cellTypes[cell];
+			cout <<dirname<<endl;
+			cout <<"[DEBUG]output direcotry:" + dirname <<endl;
+			if (stat(dirname.c_str(), &st) == -1) {
+				mkdir(dirname.c_str(), 0700);
+			}
+			string filename = dirname+"/"+chromosomes[chr];
+			cout <<filename<<endl;
+			ofstream outputFile(filename.c_str(), ios_base::trunc );
+			*/
+			for(int i=0; i< new_mt_size; i++){
+			    //outputFile <<"[DEBUG]index " << i <<" centroid... \n";
+			    cout << (*mt_segs)[i].name << " : (" <<(*mt_segs)[i].segStart << " , " <<(*mt_segs)[i].segStart+(*mt_segs)[i].segLength<<endl;
+			             
+			    for(int j=0; j<WINDOW_SIZE; j++){
+			      cout <<(*mt_segs)[i].signal[j] << endl;
+			    }
+		
+			} 
+			
+		}
+		
+		
+		
+		
+		fp_master.clearSegments();
+		
+	}
+	
+	
+	
+	return 0;
 }
 
 #endif 
