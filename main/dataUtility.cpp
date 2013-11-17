@@ -51,7 +51,8 @@ class BaseDataMaster
 	vector<segment>* getSegment();
 	void clearSegments();
 	int getSegSize();
-	void sortSegmentsByStart();
+	void sortSegmentsBySegStart();
+	void sortSegmentsByFrameStart();
 	void readSignalData(string cell, string chr, int startIndex);
 	void readConsData(string chr, int startIndex);   
 	void saveSegs(string dir);
@@ -141,10 +142,19 @@ bool compareBySegStart(const segment &a, const segment &b)
 {
     return a.segStart < b.segStart;
 }
+bool compareByFrameStart(const segment &a, const segment &b)
+{
+    return a.frameStart < b.frameStart;
+}
 
-void BaseDataMaster::sortSegmentsByStart(){
+void BaseDataMaster::sortSegmentsBySegStart(){
 	
 	sort(segs.begin(), segs.end(), compareBySegStart);
+}
+
+void BaseDataMaster::sortSegmentsByFrameStart(){
+	
+	sort(segs.begin(), segs.end(), compareByFrameStart);
 }
 
 void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
@@ -177,7 +187,8 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
 	ifstream singalinfile(sFile.c_str());
 	int cccc = 0;
 	while(singalinfile >> c >> s >> e >> signal){
-				//cout <<"SIGNAL DATA: "<< c << " " << s << "  " <<signal <<endl;
+		cout <<endl<<endl<<"SIGNAL DATA: "<< c << " " << s << "  " <<signal << " and START = " <<START<<endl;
+		cout <<"START SIGNAL "<< it_start->name<<" AT: " <<  (it_start->frameStart)+(it_start->length)<<endl;
 		if(!first){
             first = true;
             START = s+1;
@@ -186,9 +197,10 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
             //insert zero signal
             while(START < s){
             	
-               
+               cout <<START <<endl;
                //skip useless zero signals...
 	            int firstsegseq = (it_start->frameStart)+(it_start->length);
+	            cout <<it_start ->name<<" Firstseq: " << it_start->frameStart<<endl;
 	            if(START < firstsegseq && firstsegseq < s){
 	               START = firstsegseq;
 	            }else if(s < firstsegseq){
@@ -207,18 +219,24 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
                   //if it's the sequence to enter
                   if( current == START){
                   	//cout << cccc <<endl;
-                    // cout<<endl<<it->name << it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): 0";
-                     it->signal[it->length] = 0; //ADD THE EMPTY SIGNAL
+               
+                     cout<<endl<<it->name <<" " <<it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): 0 (ZERO)";
+               
+                     //it->signal[it->length] = 0; //ADD THE EMPTY SIGNAL
                      it->length++;
                      //if the point is full, push it to vector f 
                      if(it->length >= FRAME_SIZE){
                      	//cout<<endl<<"break!"<<endl;
                         it->length = 0;
                         totalToBeProcessed--;
-                        if(totalToBeProcessed % 1000 ==0) cout << totalToBeProcessed <<endl;
+                        if(totalToBeProcessed % 1000 ==0){
+                        	cout << totalToBeProcessed <<endl;
+                        	cin.get();
+                        }
 
                         //cout << totalToBeProcessed<<endl;
                         ++it_start;
+                        cout<<endl<<"DAMN GIRL YOU'URE OUT. New girl: "<< it_start->name << " : " <<it_start->frameStart;
 						if(totalToBeProcessed == 0){
 							return;
 						}
@@ -244,18 +262,23 @@ void BaseDataMaster::readSignalData(string cell, string chr, int startIndex){
             //if it's the sequence to enter
             if( current == s){
             
-               //cout<<endl<<it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): " <<signal;
+               cout<<endl<<it->name <<" " <<it->frameStart << " : " <<it->length<<" ("<<(it->frameStart+it->length)<<"): " <<signal;
                it->signal[it->length] = signal;
                it->length++;
                //if the point is full, push it to vector f 
                if(it->length >= FRAME_SIZE){
+               
                //cout<<endl<<"break!"<<endl;
                  it->length = 0;
                  totalToBeProcessed--;
                  //cout << totalToBeProcessed<<endl;
-                 if(totalToBeProcessed % 1000 ==0) cout << totalToBeProcessed <<endl;
+                 if(totalToBeProcessed % 1000 ==0){
+                 	cout << totalToBeProcessed <<endl;
+                 	cin.get();
+                 }
 
                  ++it_start;
+                 cout<<endl<<"DAMN GIRL YOU'URE OUT. New girl: "<< it_start->name<< " : " <<it_start->frameStart;
                  if(totalToBeProcessed == 0){
                  	return;
                  }
@@ -646,7 +669,7 @@ int main(){
 		
 		
 		//cout <<"sort"<<endl;
-		fp_master.sortSegmentsByStart();
+		fp_master.sortSegmentsBySegStart();
 		//filter out motifs that are not included in any footprint
 		vector<segment>* fp_segs = fp_master.getSegment();
 		vector<segment>* mt_segs = motif_master.getSegment();
@@ -657,6 +680,7 @@ int main(){
 		for(int i=0; i<mt_size; i++){
 			bool containsFootprint = false;
 			while(j<fp_size){
+				//using segStart cuz we're matching the actual segment coverage and not the frame (which is user defined)
 				int fp_start = (*fp_segs)[j].segStart;
 				int fp_end   = fp_start + (*fp_segs)[j].segLength;
 				int mt_start = (*mt_segs)[i].segStart;
@@ -665,13 +689,11 @@ int main(){
 				if(fp_start > mt_end && fp_end >mt_end){
 					break;
 				}
-
 				if(
 		          ((fp_end >= mt_start+1) && (fp_end<=mt_end)) || 
 		           ((fp_start >= mt_start) && (fp_start < mt_end))
 		        ){
-		        	//cout << fp_start<< " : " <<fp_end << " ,  "<< mt_start <<" : " <<mt_end<<endl;
-					//includes
+		        	//includes
 					containsFootprint = true;
 					break;
 		        }
@@ -690,15 +712,22 @@ int main(){
 			mt_segs->push_back(new_mt[i]);
 		}
 		new_mt.clear();
+		motif_master.sortSegmentsByFrameStart();
+
 		int new_mt_size = motif_master.getSegSize();
 		
 		//cout <<"new size: " <<new_mt.size() <<endl;
 		//cout <<"fp size: "<<fp_segs->size()<<endl;
 		cout <<"new motif size: "<<motif_master.getSegSize()<< " / " <<mt_size<<endl;
+		ofstream outputFile("FILTERED_MOTIF_CHR1", ios_base::trunc );
+		for(int i=0;i<mt_segs->size(); i++){
+			outputFile<< (*mt_segs)[i].name << " : " <<(*mt_segs)[i].frameStart <<endl;
+		}
 		
 		for(int cell = 0; cell<31; cell++){
 			cout <<"start reading signal for motif at chr " << chromosomes[chr]<< " , " <<cellTypes[cell]<<endl;
 			motif_master.readSignalData(cellTypes[cell], chromosomes[chr], 0);
+			
 			/*
 			string dirname = "TEST/motif_signals/"+cellTypes[cell];
 			cout <<dirname<<endl;
