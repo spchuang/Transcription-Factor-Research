@@ -158,7 +158,7 @@ void BaseDataMaster::sortSegmentsByFrameStart(){
 	sort(segs.begin(), segs.end(), compareByFrameStart);
 }
 
-void BaseDataMaster:flipNegativeSegments(){
+void BaseDataMaster::flipNegativeSegments(){
 	cout <<"[DEBUG]Flip Negative Signals man"<<endl;
 	for(int i=0; i< segs.size(); i++){
 		if(segs[i].flip){
