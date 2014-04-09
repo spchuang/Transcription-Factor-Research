@@ -13,8 +13,8 @@ int main(){
                            "chr10","chr11","chr12","chr13","chr14","chr15","chr16","chr17","chr18","chr19","chr20",
                            "chr21", "chr22","chrX"};
     int totalChr = 23;    
-    int totalCell = 31;       
-    string rootDir = "TEST";            
+    int totalCell = 31;  //31     
+    string rootDir = "noFilterMotif";            
     
 	MotifMaster motif_master;
 	motif_master.setReadCells(cellTypes, 1);
@@ -28,8 +28,8 @@ int main(){
 	for(int chr=0; chr<totalChr; chr++){
 		cout <<"[DEBUG]for motif chr " << chr<<endl;
 		motif_master.clearSegments();
-		motif_master.printProperties();
 		motif_master.setReadChromosomes(chromosomes, chr, chr+1);
+		motif_master.printProperties();
 		motif_master.startReadingData();
 		
 		cout <<"[DEBUG]for fp chr " << chr<<endl;
@@ -39,12 +39,15 @@ int main(){
 		
 		
 		//filter out motifs that are not included in any footprint
+		
 		cout <<"[DEBUG]Filter motif instances to those that includes at least one fp"<<endl;
 		vector<segment>* fp_segs = fp_master.getSegment();
 		vector<segment>* mt_segs = motif_master.getSegment();
+		
 		int mt_size = mt_segs->size();
 		int fp_size = fp_segs->size();
 		int j=0;
+		/*
 		vector<segment> new_mt;
 		for(int i=0; i<mt_size; i++){
 			bool containsFootprint = false;
@@ -78,7 +81,7 @@ int main(){
 		for(int i=0; i<new_mt.size(); i++){	
 			mt_segs->push_back(new_mt[i]);
 		}
-		new_mt.clear();
+		new_mt.clear();*/
 		motif_master.sortSegmentsByFrameStart();
 
 		int new_mt_size = motif_master.getSegSize();
@@ -95,30 +98,34 @@ int main(){
 			motifListFile<< (*mt_segs)[i].name << " : " <<(*mt_segs)[i].frameStart << ". seg at "<<(*mt_segs)[i].segStart<<endl;
 		}
 		
-		for(int cell = 0; cell<31; cell++){
+		for(int cell = 0; cell<totalCell; cell++){
 			cout <<"[DEBUG]start reading signal for motif at chr " << chromosomes[chr]<< " , " <<cellTypes[cell]<<endl;
 			motif_master.readSignalData(cellTypes[cell], chromosomes[chr], 0);
-			motif_master.flipNegativeSegments();
-			cout <<"NEW SIZE:? " <<motif_master.getSegSize()<<endl;
-			
+			motif_master.flipNegativeSegments();	
 			
 			string dirname = rootDir+"/motif_signals/"+cellTypes[cell];
 			cout <<"[DEBUG]output direcotry:" + dirname <<endl;
 			struct stat st = {0};
 			if (stat(dirname.c_str(), &st) == -1) {
-				mkdir(dirname.c_str(), 0700);
+				if (mkdir(dirname.c_str(), 0700) != 0){
+					cout <<"PROBLEM FUCK.."<<endl;
+				}
+	            
+				
+			}else{
+				//cout <<"PROBLEM AND SHIT?"<<endl;
 			}
 			
 			string filename = dirname+"/"+chromosomes[chr];
 			ofstream outputFile(filename.c_str(), ios_base::trunc );
 			
 			for(int i=0; i< new_mt_size; i++){
-		
-			    outputFile << (*mt_segs)[i].name << " : ";
-			    outputFile << (*mt_segs)[i].segStart << " , " <<(*mt_segs)[i].segStart+(*mt_segs)[i].segLength<<endl;
+
+			    outputFile << (*mt_segs)[i].name << "  ";
+			    outputFile << (*mt_segs)[i].segStart << " " <<(*mt_segs)[i].segStart+(*mt_segs)[i].segLength<<endl;
 			             
 			    for(int j=0; j<WINDOW_SIZE; j++){
-			      outputFile <<(*mt_segs)[i].signal[j] << endl;
+			      outputFile <<(*mt_segs)[i].signal[j] << " " << (*mt_segs)[i].con_level[j] <<endl;
 			    }
 			} 
 		}

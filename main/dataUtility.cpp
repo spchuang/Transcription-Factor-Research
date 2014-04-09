@@ -13,26 +13,11 @@
 #include <cmath>
 #include <float.h>
 #include <sys/stat.h>
+#include "config.h"
 
 using namespace std;
 
-const int WINDOW_SIZE = 30;
-const int FRAME_SIZE  = 30;
-      
-struct segment{
-   float con_level[FRAME_SIZE];
-   int 	 signal[FRAME_SIZE];       //holding the signal level for each basepair in the frame
-   int   segStart;
-   int   frameStart;                 //the start DNA location for the frame (including the actual footprint sequence)
-   int   length;                   //used for grabbing signal data
-   char* chr;                    //the chromosome
-   char* cell;
-   char* name;
-   int   segLength;                 //length of the footprint (from the fp data)
-   int   startIndex;             //the offset for the fixed window in the frame
-   bool flip;
-   int segIndex;
-};
+
 
 /*
 	Data Master aka the base (abstract) class to handle reading of Dnase signals and conservation data
@@ -92,12 +77,14 @@ void BaseDataMaster::setReadCons(bool read){
 	
 }
 void BaseDataMaster::setReadCells(string* cs, int n){
+	cells.clear();
 	for(int i=0; i<n; i++){
 		cells.push_back(cs[i]);
 	}
 	
 }
 void BaseDataMaster::setReadChromosomes(string* chrs, int start, int end){
+	chromosomes.clear();
 	for(int i=start; i<end; i++){
 		chromosomes.push_back(chrs[i]);
 	}

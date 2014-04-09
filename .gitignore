@@ -1,3 +1,7 @@
+*.out
+*.joblog.*
+*.output.*
+
 # Compiled Object files
 *.slo
 *.lo

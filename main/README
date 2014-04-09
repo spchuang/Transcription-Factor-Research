@@ -161,4 +161,8 @@ Th1SIG    ->  Th1
 NHASIG    ->  NH-A
 
 
+----------------------------------------
+The 5 celltypes with offse problems:
+K562, HepG2, GM06990, Sknshra and Th1
+
 
