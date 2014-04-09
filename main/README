@@ -1,3 +1,43 @@
+Introduction
+-----------------------
+Identifying transcription factor binding footprints is critical to understand gene regulation. When the DNA sequence is binded by the transcription protein, the underlying basepair sequence is protected from cleavage by DnaseI. As a result, transcription factor binding regions have a unique stereotyped signal pattern, which contains a central region flanked symmetrically on each side to peaks of DnaseI cleave signal (see figure 1). This is because transcriptional proteins binded to regulatory DNA region result in nuclease hypersensitivity, leaving different levels of Dnase signal
+
+------------------------
+Method 1: k-mean clustering (not successful)
+Since this pattern is unique to transcription binding sites, here we apply clustering techniques on all instance of footprint events on K562 to identify the general patterns for these footprint sites. We then aggregate with base pair level conservation data to observe whether the inverse relationship exists for those clustered footprint results. 
+
+------------------------
+Method 2: 
+the results from clustering are not obvious enough. Therefore, we experiment with another method, which works in the opposite direction: instead of grouping the footprint signals, we first create a finite set of distinct signals templates then see if the generated profiles could capture the characteristics of transcription f actors to some degree of statistical accuracy. The research for this method is not completed yet. So far, we have assigned each footprint segments to the most correlated profiles. Any significant difference in the ratio of each template assignment across different cell types may be show the significance of the particular template profile to the cell type. Next, we assigned signals of known motif instances and see if the motif instances that are known to be active in certain cells show a significant different ratio to any particular template profiles. This could confirm our hypothesis of using this method to identify new transcription factors.
+
+1/21/2014 Note:
+I'm back to research and now I need to calculate the percentage of of how much TF is assigned to each generated-profiles for each cell. We want to make a table as followed:
+
+For each TF:
+   p1 p2 p3 p4...
+c1 %  %  %  %
+c2
+c3
+
+Right now, I have the folder "noFilterMotif," which contains all the motifs that overlap with at least one fp. The data is stored in each individual chromosome files: chr1, chr2, etc, all of which has motif data for each TF.
+
+To generate the result we want as shown above, 
+   1)generate the 100 profiles (done: templatesUtility.cpp)
+   2)read in all the motifs for the cell type
+   3)find out all the unique motifs
+   4)pick a motif from the list of unique motifs
+   5)for each motif, assign it to a profile (add the signals and increment the count)
+   6)average the signals for that motif for each profile
+   7)start over at step 5 for the next motif'
+Data output format
+TF/Cell/fpsig -> p1...p100
+
+
+templateUtility.cpp: generate profiles or read profiles from file.
+
+
+
+------------------------------------------------------------------------------------------------
 BACKGROUND (from jason):
 Here are some background papers on the mouse ENCODE data:
 http://www.nature.com/nature/journal/v488/n7409/full/nature11243.html
